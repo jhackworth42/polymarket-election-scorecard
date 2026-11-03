@@ -25,11 +25,13 @@ The event search uses Polymarket's U.S. election tag (`1101`) and the date windo
 ## Scoring
 
 - Unit: one election-winner event, not one candidate contract.
-- Cutoffs: 15:00 UTC, 30/7/1/0 days before each race's election day. The `0` cutoff is election-day morning in U.S. Eastern time.
+- Cutoffs: 15:00 UTC, 30/21/14/7/3/1/0 days before each race's election day. The `0` cutoff is election-day morning in U.S. Eastern time. No post-poll-close prices enter forecast scoring.
 - Candidate probabilities: historical `Yes` prices for named, traded candidates, normalized within each event to sum to one. The raw sum and each response's observation timestamp are retained.
 - Staleness: a price older than 24 hours at the cutoff is excluded. A race is not scored at a horizon if its eventual winner has no usable price.
 - Favorite hit rate: share of races where the highest priced candidate at the cutoff won.
 - Multiclass Brier score: `0.5 * Σ(candidate_probability - outcome)^2`. The winner's outcome is 1; all others are 0. A lower mean is better.
+- Contest segments: the highest candidate probability at the seven-day cutoff is fixed for the whole analysis. A race is **contested** if that value is below 80%; otherwise it is **clearer**. This uses pre-election prices, not the eventual vote margin.
+- Time chart: uses only races with usable 30-day and one-day forecasts, so endpoint comparisons refer to the same races. Intermediate points retain those same races when prices are available.
 - Winner: Gamma's settled outcome is checked against Polymarket's resolution endpoint. No election result is inferred from the pre-election price.
 
 The [Data API documentation](https://data-api.polymarket.com/v2/docs) covers price history and resolutions. The historical price endpoint does not identify the returned number as an executable bid or ask, so this project labels it a historical price. The scorecard is descriptive; markets share political information and therefore do not form independent trials.

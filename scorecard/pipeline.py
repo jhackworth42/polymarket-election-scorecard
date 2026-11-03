@@ -21,7 +21,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 GAMMA = "https://gamma-api.polymarket.com"
 DATA = "https://data-api.polymarket.com/v2"
-HORIZON_LABELS = {30: "30 days", 7: "7 days", 1: "1 day", 0: "Election day"}
+HORIZON_LABELS = {30: "30 days", 21: "21 days", 14: "14 days", 7: "7 days", 3: "3 days", 1: "1 day", 0: "Election morning"}
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "election-scorecard/0.1 (research; public data)"})
 
@@ -277,20 +277,55 @@ def main() -> None:
             "resolution": resolution, "outcome_status": "pending" if winner is None else "provisional" if provisional else "settled",
             "candidates": candidates, "forecasts": forecasts})
     races.sort(key=lambda r: r["title"])
+    for race in races:
+        week = race["forecasts"].get("7", {})
+        probabilities = week.get("probabilities") or []
+        top = max((p for p in probabilities if p is not None), default=None)
+        race["segment"] = "contested" if top is not None and top < 0.8 else "clear" if top is not None else "unclassified"
     summary = {}
+    summary_by_segment = {}
     for horizon in config["horizons_days"]:
         scored = [r["forecasts"][str(horizon)] for r in races if r["forecasts"][str(horizon)]["status"] == "scored"]
         summary[str(horizon)] = {"label": HORIZON_LABELS[horizon], "n": len(scored),
             "provisional_n": sum(r["outcome_status"] == "provisional" for r in races if r["forecasts"][str(horizon)]["status"] == "scored"),
             "hit_rate": round(sum(f["hit"] for f in scored) / len(scored), 4) if scored else None,
             "brier": round(statistics.mean(f["brier"] for f in scored), 4) if scored else None}
+        summary_by_segment[str(horizon)] = {}
+        for segment in ("contested", "clear", "unclassified"):
+            segment_scored = [r["forecasts"][str(horizon)] for r in races
+                              if r["segment"] == segment and r["forecasts"][str(horizon)]["status"] == "scored"]
+            summary_by_segment[str(horizon)][segment] = {
+                "n": len(segment_scored),
+                "hits": sum(f["hit"] for f in segment_scored),
+                "brier": round(statistics.mean(f["brier"] for f in segment_scored), 4) if segment_scored else None,
+            }
+    paired = [r for r in races if r["forecasts"].get("30", {}).get("status") == "scored"
+              and r["forecasts"].get("1", {}).get("status") == "scored"]
+    paired_30 = statistics.mean(r["forecasts"]["30"]["brier"] for r in paired) if paired else None
+    paired_1 = statistics.mean(r["forecasts"]["1"]["brier"] for r in paired) if paired else None
+    favorite_flips = sum(r["forecasts"]["30"]["leader_index"] != r["forecasts"]["1"]["leader_index"] for r in paired)
+    timeline = {}
+    for horizon in config["horizons_days"]:
+        timeline[str(horizon)] = {}
+        for segment in ("contested", "clear"):
+            group = [r["forecasts"][str(horizon)] for r in paired if r["segment"] == segment
+                     and r["forecasts"][str(horizon)]["status"] == "scored"]
+            timeline[str(horizon)][segment] = {"n": len(group),
+                "brier": round(statistics.mean(f["brier"] for f in group), 4) if group else None}
     result = {"edition": config["edition"], "label": config["label"], "generated_at": datetime.now(timezone.utc).isoformat(),
         "method": {"unit": "one election-winner event", "probabilities": "named, traded candidate Yes prices normalized to sum to one; missing prices treated as zero for scoring",
                    "brier": "0.5 × sum((probability - outcome)^2) across candidates", "cutoff_hour_utc": config["cutoff_hour_utc"],
                    "stale_hours_max": config["stale_hours_max"], "horizons_days": config["horizons_days"]},
         "discovered_events": len(events), "included_races": len(races), "fetch_failures": len(failures),
         "category_counts": {name: sum(r["category"] == name for r in races) for name in sorted({r["category"] for r in races})},
-        "summary": summary, "races": races}
+        "segmentation": {"basis": "highest candidate probability seven days before each race", "contested_if_below": 0.8},
+        "summary": summary, "summary_by_segment": summary_by_segment,
+        "paired_30_to_1": {"n": len(paired), "brier_30": round(paired_30, 4) if paired_30 is not None else None,
+                            "brier_1": round(paired_1, 4) if paired_1 is not None else None,
+                            "improvement_fraction": round((paired_30 - paired_1) / paired_30, 4) if paired_30 else None,
+                            "favorite_flips": favorite_flips},
+        "timeline": timeline,
+        "races": races}
     save_json(outdir / "scorecard.json", result)
     if args.edition == "2025" or args.publish_site:
         save_json(ROOT / "site" / "scorecard.json", result)
