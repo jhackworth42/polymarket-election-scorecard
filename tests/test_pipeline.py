@@ -1,7 +1,7 @@
 import unittest
 from datetime import timezone
 
-from scorecard.pipeline import brier, candidate_market, cutoff_time, event_decision, winner_market
+from scorecard.pipeline import brier, candidate_market, cutoff_time, event_decision, race_category, winner_market
 
 
 class PipelineTests(unittest.TestCase):
@@ -20,6 +20,8 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(candidate_market(valid))
         self.assertFalse(candidate_market({**valid, "question": "Will Candidate A win the Governor Election in 2025?"}))
         self.assertFalse(candidate_market({**valid, "volume": "0"}))
+        self.assertTrue(candidate_market({**valid, "question": "Will the Democratic Party win the CA-22 House seat?"}))
+        self.assertTrue(candidate_market({**valid, "question": "Will the Democrats win the Texas Senate race in 2026?"}))
 
     def test_winner_requires_unique_settled_yes(self):
         a = {"closed": True, "outcomePrices": '["1", "0"]'}
@@ -31,6 +33,10 @@ class PipelineTests(unittest.TestCase):
         config = {"exclude_slugs": [], "include_title_patterns": [r"Mayoral Election$"]}
         self.assertEqual(event_decision({"slug": "nyc", "title": "New York City Mayoral Election"}, config), "candidate")
         self.assertIn("excluded", event_decision({"slug": "margin", "title": "Mayoral Election Margin"}, config))
+
+    def test_categories_keep_house_separate(self):
+        self.assertEqual(race_category("CA-22 House Election Winner"), "house")
+        self.assertEqual(race_category("Texas Senate Election Winner"), "senate")
 
 
 if __name__ == "__main__":

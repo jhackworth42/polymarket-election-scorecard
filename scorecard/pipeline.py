@@ -115,6 +115,19 @@ def cutoff_time(day: str, horizon: int, hour: int) -> datetime:
     return base - timedelta(days=horizon)
 
 
+def race_category(title: str) -> str:
+    lowered = title.lower()
+    if "senate election winner" in lowered:
+        return "senate"
+    if "governor election winner" in lowered:
+        return "governor"
+    if "house election winner" in lowered:
+        return "house"
+    if "mayoral election" in lowered:
+        return "mayor"
+    return "other"
+
+
 def brier(probabilities: list[float], winner_index: int) -> float:
     """Half the multiclass squared error, matching binary Brier's 0–1 scale."""
     return sum((p - int(i == winner_index)) ** 2 for i, p in enumerate(probabilities)) / 2
@@ -133,9 +146,10 @@ def snapshot(token_id: str, as_of: datetime, cache_path: Path) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=["build"])
+    parser.add_argument("command", choices=["build", "inventory"])
     parser.add_argument("--edition", default="2025")
     parser.add_argument("--refresh-discovery", action="store_true")
+    parser.add_argument("--refresh-results", action="store_true", help="Refetch current event settlement state without changing the frozen event list")
     parser.add_argument("--publish-site", action="store_true", help="Copy this edition into the static site")
     args = parser.parse_args()
     config = json.loads((ROOT / "config" / f"{args.edition}.json").read_text())
@@ -144,13 +158,34 @@ def main() -> None:
     discovery_path = raw / "events.json"
     events = json.loads(discovery_path.read_text()) if discovery_path.exists() and not args.refresh_discovery else discover(config)
     save_json(discovery_path, events)
+    if args.command == "inventory":
+        print(f"Frozen {len(events)} tagged events in {discovery_path}")
+        return
 
     ledger = []
     included = []
+    calls_path = outdir / "calls.json"
+    calls = json.loads(calls_path.read_text()) if calls_path.exists() else {}
+    refresh_dir = raw / "result_refresh" / datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     for event in events:
         reason = event_decision(event, config)
         markets = [m for m in event.get("markets", []) if candidate_market(m)] if reason == "candidate" else []
+        if reason == "candidate" and args.refresh_results:
+            current = get_json(f"{GAMMA}/events", {"slug": event["slug"]})
+            if current:
+                save_json(refresh_dir / f"{event['slug']}.json", current[0])
+                current_markets = {m["id"]: m for m in current[0].get("markets", [])}
+                markets = [current_markets.get(m["id"], m) for m in markets]
         winner = winner_market(markets) if markets else None
+        provisional = False
+        if winner is None and event["slug"] in calls:
+            call = calls[event["slug"]]
+            if not call.get("source_url") or not call.get("called_at"):
+                raise ValueError(f"Provisional call requires source_url and called_at: {event['slug']}")
+            winner = next((m for m in markets if m["conditionId"] == call.get("condition_id")), None)
+            if winner is None:
+                raise ValueError(f"Call condition_id not found in frozen cohort: {event['slug']}")
+            provisional = True
         if reason == "candidate" and len(markets) < 2:
             reason = "excluded: fewer than two named, traded candidates"
         elif reason == "candidate" and winner is None and args.edition == "2025":
@@ -159,17 +194,17 @@ def main() -> None:
             "event_id": event["id"], "slug": event["slug"], "title": event["title"].strip(),
             "url": f"https://polymarket.com/event/{event['slug']}",
             "market_count": len(event.get("markets", [])), "candidate_count": len(markets),
-            "decision": ("included: pending" if winner is None else "included") if reason == "candidate" else reason,
+            "decision": ("included: pending" if winner is None else "included: provisional" if provisional else "included") if reason == "candidate" else reason,
         })
         if reason == "candidate":
-            included.append((event, markets, winner))
+            included.append((event, markets, winner, provisional))
     save_json(outdir / "coverage.json", ledger)
     if args.edition == "2025" or args.publish_site:
         save_json(ROOT / "site" / "coverage.json", ledger)
 
     jobs = {}
     with ThreadPoolExecutor(max_workers=8) as pool:
-        for event, markets, _ in included:
+        for event, markets, _, _ in included:
             day = config["election_day_overrides"].get(event["slug"], config["default_election_day"])
             for horizon in config["horizons_days"]:
                 cutoff = cutoff_time(day, horizon, config["cutoff_hour_utc"])
@@ -193,10 +228,14 @@ def main() -> None:
     save_json(outdir / "fetch_failures.json", failures)
 
     races = []
-    for event, markets, winner in included:
-        resolution = verify_resolution(winner["conditionId"], raw / "resolutions" / f"{winner['conditionId']}.json") if winner else None
+    for event, markets, winner, provisional in included:
+        resolution = (verify_resolution(winner["conditionId"], raw / "resolutions" / f"{winner['conditionId']}.json")
+                      if winner and not provisional else None)
         if resolution is not None and not resolution["verified"]:
             raise ValueError(f"Winner settlement was not verified for {event['slug']}")
+        if provisional:
+            call = calls[event["slug"]]
+            resolution = {"verified": False, "provisional": True, "source": call["source_url"], "called_at": call["called_at"]}
         day = config["election_day_overrides"].get(event["slug"], config["default_election_day"])
         candidates = [{"id": m["id"], "name": re.match(r"(?i)^Will (.+?) win ", m["question"]).group(1).strip(),
                        "question": m["question"], "condition_id": m["conditionId"],
@@ -233,14 +272,16 @@ def main() -> None:
                 "winner_probability": round(normalized[winner_index], 6) if winner_index is not None else None}
         races.append({"id": event["id"], "title": event["title"].strip(), "slug": event["slug"],
             "url": f"https://polymarket.com/event/{event['slug']}", "election_day": day,
+            "category": race_category(event["title"]),
             "winner_index": winner_index, "winner": candidates[winner_index]["name"] if winner_index is not None else None,
-            "resolution": resolution,
+            "resolution": resolution, "outcome_status": "pending" if winner is None else "provisional" if provisional else "settled",
             "candidates": candidates, "forecasts": forecasts})
     races.sort(key=lambda r: r["title"])
     summary = {}
     for horizon in config["horizons_days"]:
         scored = [r["forecasts"][str(horizon)] for r in races if r["forecasts"][str(horizon)]["status"] == "scored"]
         summary[str(horizon)] = {"label": HORIZON_LABELS[horizon], "n": len(scored),
+            "provisional_n": sum(r["outcome_status"] == "provisional" for r in races if r["forecasts"][str(horizon)]["status"] == "scored"),
             "hit_rate": round(sum(f["hit"] for f in scored) / len(scored), 4) if scored else None,
             "brier": round(statistics.mean(f["brier"] for f in scored), 4) if scored else None}
     result = {"edition": config["edition"], "label": config["label"], "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -248,6 +289,7 @@ def main() -> None:
                    "brier": "0.5 × sum((probability - outcome)^2) across candidates", "cutoff_hour_utc": config["cutoff_hour_utc"],
                    "stale_hours_max": config["stale_hours_max"], "horizons_days": config["horizons_days"]},
         "discovered_events": len(events), "included_races": len(races), "fetch_failures": len(failures),
+        "category_counts": {name: sum(r["category"] == name for r in races) for name in sorted({r["category"] for r in races})},
         "summary": summary, "races": races}
     save_json(outdir / "scorecard.json", result)
     if args.edition == "2025" or args.publish_site:

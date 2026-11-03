@@ -1,7 +1,7 @@
 {
   "edition": "2025",
   "label": "2025 U.S. elections · historical test",
-  "generated_at": "2026-11-03T04:58:46.389052+00:00",
+  "generated_at": "2026-11-03T05:01:56.575743+00:00",
   "method": {
     "unit": "one election-winner event",
     "probabilities": "named, traded candidate Yes prices normalized to sum to one; missing prices treated as zero for scoring",
@@ -18,28 +18,37 @@
   "discovered_events": 54,
   "included_races": 17,
   "fetch_failures": 0,
+  "category_counts": {
+    "governor": 2,
+    "mayor": 13,
+    "other": 2
+  },
   "summary": {
     "30": {
       "label": "30 days",
       "n": 16,
+      "provisional_n": 0,
       "hit_rate": 0.9375,
       "brier": 0.094
     },
     "7": {
       "label": "7 days",
       "n": 17,
+      "provisional_n": 0,
       "hit_rate": 0.8824,
       "brier": 0.074
     },
     "1": {
       "label": "1 day",
       "n": 17,
+      "provisional_n": 0,
       "hit_rate": 0.8824,
       "brier": 0.0629
     },
     "0": {
       "label": "Election day",
       "n": 17,
+      "provisional_n": 0,
       "hit_rate": 0.8824,
       "brier": 0.0652
     }
@@ -51,12 +60,14 @@
       "slug": "albuquerque-mayoral-election",
       "url": "https://polymarket.com/event/albuquerque-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 6,
       "winner": "Tim Keller",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x5c062fb577495543612043ba836445b519cfa73823493750a449a70ff50d73ef"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567208",
@@ -401,12 +412,14 @@
       "slug": "atlanta-mayoral-election",
       "url": "https://polymarket.com/event/atlanta-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 0,
       "winner": "Andre Dickens",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x3b873898781188a13d169ca827ae3bedfb385831825f957335a89099f21e6ec1"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567184",
@@ -673,12 +686,14 @@
       "slug": "boston-mayoral-election",
       "url": "https://polymarket.com/event/boston-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 0,
       "winner": "Michelle Wu",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x2ca1a3644af3f3f8720cf2283335319573f5fa42d1c7f884badf7f2ae398e844"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567118",
@@ -984,12 +999,14 @@
       "slug": "charlotte-mayoral-election",
       "url": "https://polymarket.com/event/charlotte-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 1,
       "winner": "Vi Lyles",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x0c1c44f71b4539d52369711bb79e8f843fd707cc2a80899beac60144fece6d91"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567091",
@@ -1217,12 +1234,14 @@
       "slug": "cleveland-mayoral-election",
       "url": "https://polymarket.com/event/cleveland-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 0,
       "winner": "Justin Bibb",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x18cca99609cd3a8d3076689512cc8a7ecb697343f706bfd172a3be48933c9011"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567229",
@@ -1372,12 +1391,14 @@
       "slug": "detroit-mayoral-election",
       "url": "https://polymarket.com/event/detroit-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 7,
       "winner": "Mary Sheffield",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xf22c6e8b667e92493d2025ad76f1ced8ff99fb96b6cad481da7fbcebe78f1632"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567162",
@@ -1800,12 +1821,14 @@
       "slug": "jersey-city-mayoral-election",
       "url": "https://polymarket.com/event/jersey-city-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 1,
       "winner": "James Solomon",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x4622bcb73c3ec49aa072a312bd25d48f1c1989dadcd6982d7550814bcd97f431"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567053",
@@ -2111,12 +2134,14 @@
       "slug": "miami-mayoral-election-568",
       "url": "https://polymarket.com/event/miami-mayoral-election-568",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 0,
       "winner": "Eileen Higgins",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x3f3e7fa3cba46733f1988b4677d67fa20da15c226f43ab9db9f39e660a42eb1d"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567009",
@@ -2344,12 +2369,14 @@
       "slug": "minneapolis-mayoral-election-665",
       "url": "https://polymarket.com/event/minneapolis-mayoral-election-665",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 0,
       "winner": "Jacob Frey",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x76c0c20596c22e4699dcce0970e0bafed1ebe22026caf4626d7d9a49c3b3b6f9"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "566987",
@@ -2616,12 +2643,14 @@
       "slug": "new-jersey-governor-election-winner-2025",
       "url": "https://polymarket.com/event/new-jersey-governor-election-winner-2025",
       "election_day": "2025-11-04",
+      "category": "governor",
       "winner_index": 0,
       "winner": "Mikie Sherrill",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x027eeeaba097b5f3b166eace64668b2e6b327acc7c6b314ae5f03b33b51425e7"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "551137",
@@ -3122,12 +3151,14 @@
       "slug": "new-orleans-mayoral-election",
       "url": "https://polymarket.com/event/new-orleans-mayoral-election",
       "election_day": "2025-10-11",
+      "category": "mayor",
       "winner_index": 0,
       "winner": "Helena Moreno",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xc3375de2237d0ddc1a807c3413cf41f0153559492239dc4d358407ee3e8dfff7"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567075",
@@ -3316,12 +3347,14 @@
       "slug": "new-york-city-mayoral-election",
       "url": "https://polymarket.com/event/new-york-city-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 4,
       "winner": "Zohran Mamdani",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xebddfcf7b4401dade8b4031770a1ab942b01854f3bed453d5df9425cd9f211a9"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "538928",
@@ -3861,12 +3894,14 @@
       "slug": "cleveland-mayoral-election-966",
       "url": "https://polymarket.com/event/cleveland-mayoral-election-966",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 1,
       "winner": "Corey O'Connor",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x339b3fc5882da834090ccbd9238a1996d47c50a3ab4a19e83bd7e054d91cab8f"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567245",
@@ -4055,12 +4090,14 @@
       "slug": "seattle-mayoral-election",
       "url": "https://polymarket.com/event/seattle-mayoral-election",
       "election_day": "2025-11-04",
+      "category": "mayor",
       "winner_index": 1,
       "winner": "Katie Wilson",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x41434a1fecb0eebffb4f3f9d881c1e10a953549c0f1027c49f2d45912107f27c"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "567137",
@@ -4483,12 +4520,14 @@
       "slug": "tennessee-house-special-election",
       "url": "https://polymarket.com/event/tennessee-house-special-election",
       "election_day": "2025-12-02",
+      "category": "other",
       "winner_index": 10,
       "winner": "Matt Van Epps",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xecb209079bdbdb22704c61a47ce1d8f31e83fce8e0763360e4bb17d04a7baad3"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "586024",
@@ -5301,12 +5340,14 @@
       "slug": "virginia-attorney-general-election-winner-2025",
       "url": "https://polymarket.com/event/virginia-attorney-general-election-winner-2025",
       "election_day": "2025-11-04",
+      "category": "other",
       "winner_index": 1,
       "winner": "Jay Jones",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xdfd3d267e9893993f70809ad9d0d21e0a56c1651910f128c3a88d6377d766c9e"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "623207",
@@ -5430,12 +5471,14 @@
       "slug": "virginia-governor-election-winner-2025",
       "url": "https://polymarket.com/event/virginia-governor-election-winner-2025",
       "election_day": "2025-11-04",
+      "category": "governor",
       "winner_index": 0,
       "winner": "Abigail Spanberger",
       "resolution": {
         "verified": true,
         "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x6a275bccfc2f3f09731fcde02291d06673d7540cbb120ddd0a56ae7a39ef0e38"
       },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "555813",

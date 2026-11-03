@@ -36,7 +36,32 @@ The [Data API documentation](https://data-api.polymarket.com/v2/docs) covers pri
 
 ## 2026 edition plan
 
-[`config/2026.json`](config/2026.json) records a starting discovery window and cutoffs. Before publishing the midterm edition, freeze an eligible event manifest, inspect ambiguous candidate and chamber-control markets, and retain the snapshot/API responses. The live page will show called races as provisional and unresolved races as pending, then issue a final edition from verified settlements. The 2025 historical test is kept separate so it cannot be mistaken for a 2026 result.
+[`config/2026.json`](config/2026.json) records the discovery window and cutoffs. The tagged event inventory is frozen in `data/2026/raw/events.json`; rerunning without `--refresh-discovery` preserves that list. The 2025 historical test stays separate so it cannot be mistaken for a 2026 result.
+
+```bash
+# Collect available pre-election prices, without replacing the 2025 demo site.
+python -m scorecard build --edition 2026
+
+# After results, refresh settlement state for the frozen events and score settled races.
+python -m scorecard build --edition 2026 --refresh-results
+
+# When reviewed, put the 2026 edition on the public site.
+python -m scorecard build --edition 2026 --refresh-results --publish-site
+```
+
+Unsettled races remain **pending**. For a preliminary election-night edition, a human can enter sourced calls in `data/2026/calls.json`, keyed by event slug. The `condition_id` must match a candidate in the frozen event inventory:
+
+```json
+{
+  "example-event-slug": {
+    "condition_id": "0x...",
+    "source_url": "https://source.example/race-call",
+    "called_at": "2026-11-04T04:10:00Z"
+  }
+}
+```
+
+These scores are labeled **provisional** until the winner's Polymarket resolution is verified. `--refresh-results` stores each refreshed event response by run timestamp and leaves the original event inventory intact. The main 2026 editorial cohort should be Senate and governor races; House results should be analyzed as a separate cohort so hundreds of safe seats do not dominate the headline. Chamber-control markets need a separate mapping because they are party/control outcomes rather than direct candidate-winner events.
 
 ## Test
 

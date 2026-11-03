@@ -14,7 +14,7 @@ function renderSummary() {
   $("brier-score").textContent = s.brier == null ? "—" : s.brier.toFixed(3);
   $("race-count").textContent = String(s.n);
   const hits = state.data.races.filter(r => scored(r) && forecast(r).hit).length;
-  $("hit-detail").textContent = `${hits} of ${s.n} favorites won`;
+  $("hit-detail").textContent = s.n ? `${hits} of ${s.n} favorites won${s.provisional_n ? ` · ${s.provisional_n} provisional` : ""}` : "Awaiting resolved or called races";
   $("coverage-detail").textContent = `${state.data.included_races} included · ${state.data.discovered_events} discovered`;
   $("selected-horizon-label").textContent = shortLabels[state.horizon];
   document.querySelectorAll("[data-horizon]").forEach(button => {
@@ -40,7 +40,13 @@ function renderPlot() {
 }
 
 function renderSurprises() {
-  const rows = state.data.races.filter(r => scored(r)).sort((a,b) => forecast(b).brier - forecast(a).brier).slice(0,5);
+  const all = state.data.races.filter(r => scored(r)).sort((a,b) => forecast(b).brier - forecast(a).brier);
+  const rows = all.slice(0,5);
+  const total = all.reduce((sum,r) => sum + forecast(r).brier, 0);
+  const topTwo = rows.slice(0,2).reduce((sum,r) => sum + forecast(r).brier, 0);
+  $("surprise-dek").textContent = total > 0
+    ? `The two biggest penalties account for ${Math.round(topTwo/total*100)}% of the total forecast error at this cutoff. A confident wrong call matters far more than a narrow miss.`
+    : "The biggest Brier penalties identify consequential misses.";
   $("surprises").innerHTML = rows.map((r,i) => {
     const f = forecast(r), leader = r.candidates[f.leader_index].name;
     return `<a class="surprise" href="${esc(r.url)}" target="_blank" rel="noopener"><span class="rank">0${i+1}</span><span class="title">${esc(r.title)}</span><span class="winner">Favorite: ${esc(leader)} · ${pct(f.probabilities[f.leader_index])}<br>Winner: ${esc(r.winner)}</span><span class="penalty">${f.brier.toFixed(3)}<small>BRIER PENALTY ↗</small></span></a>`;
@@ -71,24 +77,29 @@ function renderRace() {
   if (!r) return;
   state.raceId = r.id;
   $("race-select").value = String(r.id);
-  $("race-winner").textContent = r.winner;
+  const unresolved = r.winner_index == null;
+  const selected = forecast(r);
+  const focusIndex = unresolved ? (selected?.leader_index ?? horizons.map(h => forecast(r,h)?.leader_index).find(i => i != null)) : r.winner_index;
+  $("race-status-label").textContent = unresolved ? "CURRENT FAVORITE · RESULT PENDING" : r.outcome_status === "provisional" ? "CALLED WINNER · PROVISIONAL" : "EVENTUAL WINNER";
+  $("race-chance-label").textContent = unresolved ? "FAVORITE'S CHANCE" : "WINNER'S CHANCE";
+  $("race-winner").textContent = unresolved ? (r.candidates[focusIndex]?.name || "Awaiting result") : r.winner;
   $("race-link").href = r.url;
-  $("race-probability").textContent = scored(r) ? pct(forecast(r).winner_probability) : "—";
+  $("race-probability").textContent = selected?.probabilities && focusIndex != null ? pct(selected.probabilities[focusIndex]) : "—";
   const width = 1000, height = 290, left = 45, right = 30, top = 25, bottom = 40;
   const x = i => left + i / 3 * (width-left-right);
   const y = p => top + (1-p) * (height-top-bottom);
   const grid = [0,.25,.5,.75,1].map(p => `<line x1="${left}" y1="${y(p)}" x2="${width-right}" y2="${y(p)}" stroke="#d4ddd1"/><text x="${left-8}" y="${y(p)+4}" text-anchor="end" fill="#788b7b" font-family="IBM Plex Mono" font-size="11">${Math.round(p*100)}</text>`).join("");
-  const points = horizons.map((h,i) => ({i,h,f:forecast(r,h)})).filter(item => item.f.status === "scored");
-  const path = points.map((p,i) => `${i ? "L" : "M"} ${x(p.i)} ${y(p.f.winner_probability)}`).join(" ");
+  const points = horizons.map((h,i) => ({i,h,f:forecast(r,h)})).filter(item => item.f.probabilities && item.f.probabilities[focusIndex] != null);
+  const path = points.map((p,i) => `${i ? "L" : "M"} ${x(p.i)} ${y(p.f.probabilities[focusIndex])}`).join(" ");
   const line = path ? `<path d="${path}" fill="none" stroke="#167460" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>` : "";
-  const circles = points.map(p => `<circle cx="${x(p.i)}" cy="${y(p.f.winner_probability)}" r="6" fill="#167460" stroke="#fff" stroke-width="3"><title>${shortLabels[p.h]}: ${pct(p.f.winner_probability)}</title></circle>`).join("");
+  const circles = points.map(p => `<circle cx="${x(p.i)}" cy="${y(p.f.probabilities[focusIndex])}" r="6" fill="#167460" stroke="#fff" stroke-width="3"><title>${shortLabels[p.h]}: ${pct(p.f.probabilities[focusIndex])}</title></circle>`).join("");
   const xlabels = horizons.map((h,i) => `<text x="${x(i)}" y="${height-8}" text-anchor="middle" fill="#677a6b" font-family="IBM Plex Mono" font-size="11">${shortLabels[h]}</text>`).join("");
   $("race-chart").innerHTML = `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true">${grid}${line}${circles}${xlabels}</svg>`;
   $("race-points").innerHTML = horizons.map(h => {
     const f = forecast(r,h);
-    const observed = f.observations?.find(o => o.market_id === r.candidates[r.winner_index].id);
+    const observed = f.observations?.find(o => o.market_id === r.candidates[focusIndex]?.id);
     const when = observed ? new Date(observed.observed_at).toLocaleString("en-US",{month:"short",day:"numeric",hour:"numeric",timeZone:"UTC"}) + " UTC" : "No usable price";
-    return `<div><span>${shortLabels[h]}</span><span class="point-value">${f.status === "scored" ? pct(f.winner_probability) : "—"}</span><span class="point-time">Observed ${esc(when)}</span></div>`;
+    return `<div><span>${shortLabels[h]}</span><span class="point-value">${f.probabilities && focusIndex != null ? pct(f.probabilities[focusIndex]) : "—"}</span><span class="point-time">Observed ${esc(when)}</span></div>`;
   }).join("");
 }
 
