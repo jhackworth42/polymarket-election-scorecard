@@ -1,0 +1,488 @@
+[
+  {
+    "event_id": "22860",
+    "slug": "aoc-announces-senate-run-in-2025",
+    "title": "AOC announces senate run in 2025?",
+    "url": "https://polymarket.com/event/aoc-announces-senate-run-in-2025",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "23245",
+    "slug": "will-the-democratic-candidate-win-the-new-york-city-mayoral-election",
+    "title": "Will the Democratic candidate win the  NYC mayoral election?",
+    "url": "https://polymarket.com/event/will-the-democratic-candidate-win-the-new-york-city-mayoral-election",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "23246",
+    "slug": "new-york-city-mayoral-election",
+    "title": "New York City Mayoral Election",
+    "url": "https://polymarket.com/event/new-york-city-mayoral-election",
+    "market_count": 19,
+    "candidate_count": 12,
+    "decision": "included"
+  },
+  {
+    "event_id": "26507",
+    "slug": "new-jersey-governor-election-winner-2025",
+    "title": "New Jersey Governor Election Winner 2025",
+    "url": "https://polymarket.com/event/new-jersey-governor-election-winner-2025",
+    "market_count": 16,
+    "candidate_count": 11,
+    "decision": "included"
+  },
+  {
+    "event_id": "26863",
+    "slug": "2nd-place-in-new-york-city-mayoral-election",
+    "title": "2nd Place in New York City Mayoral Election",
+    "url": "https://polymarket.com/event/2nd-place-in-new-york-city-mayoral-election",
+    "market_count": 19,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "28830",
+    "slug": "virginia-governor-election-winner-2025",
+    "title": "Virginia Governor Election Winner",
+    "url": "https://polymarket.com/event/virginia-governor-election-winner-2025",
+    "market_count": 6,
+    "candidate_count": 2,
+    "decision": "included"
+  },
+  {
+    "event_id": "30386",
+    "slug": "will-mamdani-get-over-50-of-the-vote-in-the-general-mayoral-election",
+    "title": "Will Mamdani get over 50% of the vote in the general mayoral election?",
+    "url": "https://polymarket.com/event/will-mamdani-get-over-50-of-the-vote-in-the-general-mayoral-election",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "31213",
+    "slug": "america-party-wins-a-federal-or-gubernatorial-election-in-2025",
+    "title": "America Party wins a federal or gubernatorial election in 2025?",
+    "url": "https://polymarket.com/event/america-party-wins-a-federal-or-gubernatorial-election-in-2025",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "32590",
+    "slug": "which-boroughs-will-mamdani-win-in-nyc-mayoral-election",
+    "title": "Which boroughs will Mamdani win in NYC Mayoral Election?",
+    "url": "https://polymarket.com/event/which-boroughs-will-mamdani-win-in-nyc-mayoral-election",
+    "market_count": 5,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "32592",
+    "slug": "how-many-boroughs-will-mamdani-win-in-nyc-mayoral-election",
+    "title": "How many boroughs will Mamdani win in NYC Mayoral Election?",
+    "url": "https://polymarket.com/event/how-many-boroughs-will-mamdani-win-in-nyc-mayoral-election",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "33820",
+    "slug": "minneapolis-mayoral-election-665",
+    "title": "Minneapolis Mayoral Election",
+    "url": "https://polymarket.com/event/minneapolis-mayoral-election-665",
+    "market_count": 18,
+    "candidate_count": 5,
+    "decision": "included"
+  },
+  {
+    "event_id": "33825",
+    "slug": "miami-mayoral-election-568",
+    "title": "Miami Mayoral Election",
+    "url": "https://polymarket.com/event/miami-mayoral-election-568",
+    "market_count": 17,
+    "candidate_count": 4,
+    "decision": "included"
+  },
+  {
+    "event_id": "33838",
+    "slug": "jersey-city-mayoral-election",
+    "title": "Jersey City Mayoral Election",
+    "url": "https://polymarket.com/event/jersey-city-mayoral-election",
+    "market_count": 19,
+    "candidate_count": 6,
+    "decision": "included"
+  },
+  {
+    "event_id": "33842",
+    "slug": "new-orleans-mayoral-election",
+    "title": "New Orleans Mayoral Election",
+    "url": "https://polymarket.com/event/new-orleans-mayoral-election",
+    "market_count": 16,
+    "candidate_count": 3,
+    "decision": "included"
+  },
+  {
+    "event_id": "33843",
+    "slug": "charlotte-mayoral-election",
+    "title": "Charlotte Mayoral Election",
+    "url": "https://polymarket.com/event/charlotte-mayoral-election",
+    "market_count": 17,
+    "candidate_count": 4,
+    "decision": "included"
+  },
+  {
+    "event_id": "33846",
+    "slug": "boston-mayoral-election",
+    "title": "Boston Mayoral Election",
+    "url": "https://polymarket.com/event/boston-mayoral-election",
+    "market_count": 19,
+    "candidate_count": 6,
+    "decision": "included"
+  },
+  {
+    "event_id": "33847",
+    "slug": "seattle-mayoral-election",
+    "title": "Seattle Mayoral Election",
+    "url": "https://polymarket.com/event/seattle-mayoral-election",
+    "market_count": 22,
+    "candidate_count": 9,
+    "decision": "included"
+  },
+  {
+    "event_id": "33850",
+    "slug": "detroit-mayoral-election",
+    "title": "Detroit Mayoral Election",
+    "url": "https://polymarket.com/event/detroit-mayoral-election",
+    "market_count": 22,
+    "candidate_count": 9,
+    "decision": "included"
+  },
+  {
+    "event_id": "33851",
+    "slug": "atlanta-mayoral-election",
+    "title": "Atlanta Mayoral Election",
+    "url": "https://polymarket.com/event/atlanta-mayoral-election",
+    "market_count": 18,
+    "candidate_count": 5,
+    "decision": "included"
+  },
+  {
+    "event_id": "33857",
+    "slug": "albuquerque-mayoral-election",
+    "title": "Albuquerque Mayoral Election",
+    "url": "https://polymarket.com/event/albuquerque-mayoral-election",
+    "market_count": 20,
+    "candidate_count": 7,
+    "decision": "included"
+  },
+  {
+    "event_id": "33859",
+    "slug": "cleveland-mayoral-election",
+    "title": "Cleveland Mayoral Election",
+    "url": "https://polymarket.com/event/cleveland-mayoral-election",
+    "market_count": 15,
+    "candidate_count": 2,
+    "decision": "included"
+  },
+  {
+    "event_id": "33861",
+    "slug": "cleveland-mayoral-election-966",
+    "title": "Pittsburgh Mayoral Election",
+    "url": "https://polymarket.com/event/cleveland-mayoral-election-966",
+    "market_count": 16,
+    "candidate_count": 3,
+    "decision": "included"
+  },
+  {
+    "event_id": "34903",
+    "slug": "will-kamala-harris-announce-presidential-run-by-december-31",
+    "title": "Will Kamala Harris announce Presidential run by December 31?",
+    "url": "https://polymarket.com/event/will-kamala-harris-announce-presidential-run-by-december-31",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "41300",
+    "slug": "tennessee-house-special-election",
+    "title": "Tennessee House Special Election",
+    "url": "https://polymarket.com/event/tennessee-house-special-election",
+    "market_count": 38,
+    "candidate_count": 19,
+    "decision": "included"
+  },
+  {
+    "event_id": "41434",
+    "slug": "will-chelsea-clinton-announce-run-for-congress-by-december-31",
+    "title": "Will Chelsea Clinton announce run for congress by December 31?",
+    "url": "https://polymarket.com/event/will-chelsea-clinton-announce-run-for-congress-by-december-31",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "42252",
+    "slug": "will-sliwa-get-more-votes-than-adams",
+    "title": "Will Sliwa or Adams get more votes?",
+    "url": "https://polymarket.com/event/will-sliwa-get-more-votes-than-adams",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "42272",
+    "slug": "curtis-sliwa-of-vote-in-2025-nyc-mayoral-election",
+    "title": "Curtis Sliwa % of vote in 2025 NYC mayoral election?",
+    "url": "https://polymarket.com/event/curtis-sliwa-of-vote-in-2025-nyc-mayoral-election",
+    "market_count": 7,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "42290",
+    "slug": "zohran-mamdani-of-vote-in-2025-nyc-mayoral-election-216",
+    "title": "Zohran Mamdani % of vote in 2025 NYC mayoral election?",
+    "url": "https://polymarket.com/event/zohran-mamdani-of-vote-in-2025-nyc-mayoral-election-216",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "42291",
+    "slug": "andrew-cuomo-of-vote-in-2025-nyc-mayoral-election-584",
+    "title": "Andrew Cuomo % of vote in 2025 NYC mayoral election?",
+    "url": "https://polymarket.com/event/andrew-cuomo-of-vote-in-2025-nyc-mayoral-election-584",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "42604",
+    "slug": "how-many-seats-will-the-democrats-win-in-the-2025-virginia-house-of-delegates-election",
+    "title": "How many seats will the Democrats win in the 2025 Virginia House of Delegates election?",
+    "url": "https://polymarket.com/event/how-many-seats-will-the-democrats-win-in-the-2025-virginia-house-of-delegates-election",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "43172",
+    "slug": "new-jersey-governor-election-margin-of-victory",
+    "title": "New Jersey Governor Election Mikie Sherrill margin of victory?",
+    "url": "https://polymarket.com/event/new-jersey-governor-election-margin-of-victory",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "43173",
+    "slug": "virginia-governor-election-margin-of-victory",
+    "title": "Virginia Governor Election Abigail Spanberger  margin of victory?",
+    "url": "https://polymarket.com/event/virginia-governor-election-margin-of-victory",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "46860",
+    "slug": "az-07-special-election-adelita-grijalva-margin-of-victory",
+    "title": "AZ-07 Special Election: Adelita Grijalva margin of victory?",
+    "url": "https://polymarket.com/event/az-07-special-election-adelita-grijalva-margin-of-victory",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "46886",
+    "slug": "progressive-cities-parlay",
+    "title": "Progressive Cities Parlay",
+    "url": "https://polymarket.com/event/progressive-cities-parlay",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "48078",
+    "slug": "democratic-sweep",
+    "title": "Democratic sweep?",
+    "url": "https://polymarket.com/event/democratic-sweep",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "48092",
+    "slug": "how-many-democratic-wins-in-november",
+    "title": "How many Democratic wins in November?",
+    "url": "https://polymarket.com/event/how-many-democratic-wins-in-november",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "48328",
+    "slug": "which-party-will-win-the-2025-virginia-house-of-delegates-election",
+    "title": "Which party wins Virginia House of Delegates?",
+    "url": "https://polymarket.com/event/which-party-will-win-the-2025-virginia-house-of-delegates-election",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "54928",
+    "slug": "virginia-attorney-general-election-winner-2025",
+    "title": "Virginia Attorney General Election Winner",
+    "url": "https://polymarket.com/event/virginia-attorney-general-election-winner-2025",
+    "market_count": 5,
+    "candidate_count": 2,
+    "decision": "included"
+  },
+  {
+    "event_id": "54935",
+    "slug": "largest-democratic-margin-of-victory",
+    "title": "Largest Democratic Margin of Victory",
+    "url": "https://polymarket.com/event/largest-democratic-margin-of-victory",
+    "market_count": 5,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "54987",
+    "slug": "larger-margin-of-victory-virginia-or-new-jersey-governor-345",
+    "title": "Larger Margin of Victory: Virginia or New Jersey Governor?",
+    "url": "https://polymarket.com/event/larger-margin-of-victory-virginia-or-new-jersey-governor-345",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "54991",
+    "slug": "larger-margin-of-victory-zohran-mamdani-vs-california-referendum",
+    "title": "Larger Margin of Victory: Mamdani vs Prop 50?",
+    "url": "https://polymarket.com/event/larger-margin-of-victory-zohran-mamdani-vs-california-referendum",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "54998",
+    "slug": "larger-margin-of-victory-mamdani-vs-spanberger",
+    "title": "Larger Margin of Victory: Mamdani vs Spanberger?",
+    "url": "https://polymarket.com/event/larger-margin-of-victory-mamdani-vs-spanberger",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "56005",
+    "slug": "turnout-in-next-new-york-city-mayoral-election",
+    "title": "Turnout in Next New York City Mayoral Election?",
+    "url": "https://polymarket.com/event/turnout-in-next-new-york-city-mayoral-election",
+    "market_count": 7,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "62671",
+    "slug": "new-york-city-mayoral-election-staten-island-winner",
+    "title": "NYC Mayoral Election: Staten Island Winner",
+    "url": "https://polymarket.com/event/new-york-city-mayoral-election-staten-island-winner",
+    "market_count": 4,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "63455",
+    "slug": "nyc-election-sliwa-drops-out-x-cuomo-wins",
+    "title": "NYC Election: Sliwa drops out and Cuomo wins?",
+    "url": "https://polymarket.com/event/nyc-election-sliwa-drops-out-x-cuomo-wins",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "64789",
+    "slug": "netherlands-parliamentary-election-fvd-vs-sp",
+    "title": "Netherlands Parliamentary Election: FVD vs SP",
+    "url": "https://polymarket.com/event/netherlands-parliamentary-election-fvd-vs-sp",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "67223",
+    "slug": "zohran-mamdani-of-vote-in-2025-nyc-mayoral-election-smaller-brackets",
+    "title": "Zohran Mamdani % of vote in 2025 NYC mayoral election? (Smaller Brackets)",
+    "url": "https://polymarket.com/event/zohran-mamdani-of-vote-in-2025-nyc-mayoral-election-smaller-brackets",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "67256",
+    "slug": "will-eric-adams-get-over-1-in-the-2025-nyc-mayoral-election",
+    "title": "Will Eric Adams get over 1% in the 2025 NYC mayoral election?",
+    "url": "https://polymarket.com/event/will-eric-adams-get-over-1-in-the-2025-nyc-mayoral-election",
+    "market_count": 1,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "67303",
+    "slug": "when-will-the-ap-call-the-nyc-mayoral-election",
+    "title": "When will the AP call the NYC mayoral election?",
+    "url": "https://polymarket.com/event/when-will-the-ap-call-the-nyc-mayoral-election",
+    "market_count": 8,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "67304",
+    "slug": "when-will-the-ap-call-the-virginia-governor-election",
+    "title": "When will the AP call the Virginia governor election?",
+    "url": "https://polymarket.com/event/when-will-the-ap-call-the-virginia-governor-election",
+    "market_count": 4,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "67305",
+    "slug": "when-will-the-ap-call-the-new-jersey-governor-election",
+    "title": "When will the AP call the New Jersey governor election?",
+    "url": "https://polymarket.com/event/when-will-the-ap-call-the-new-jersey-governor-election",
+    "market_count": 5,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "69565",
+    "slug": "zohran-mamdani-margin-of-victory-smaller-brackets",
+    "title": "Zohran Mamdani Margin of Victory (Smaller Brackets)",
+    "url": "https://polymarket.com/event/zohran-mamdani-margin-of-victory-smaller-brackets",
+    "market_count": 6,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "86976",
+    "slug": "tn-07-special-election-margin-of-victory",
+    "title": "TN-07 Special Election Margin of Victory",
+    "url": "https://polymarket.com/event/tn-07-special-election-margin-of-victory",
+    "market_count": 7,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  },
+  {
+    "event_id": "90445",
+    "slug": "odds-of-newsom-dem-pres-nominee-by-december-31",
+    "title": "Odds of Newsom Dem Pres Nominee by December 31?",
+    "url": "https://polymarket.com/event/odds-of-newsom-dem-pres-nominee-by-december-31",
+    "market_count": 3,
+    "candidate_count": 0,
+    "decision": "excluded: not a race-winner event"
+  }
+]

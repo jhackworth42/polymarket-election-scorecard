@@ -1,0 +1,18 @@
+{
+  "edition": "2026",
+  "label": "2026 midterms · election night",
+  "tag_id": 1101,
+  "end_date_min": "2026-11-01T00:00:00Z",
+  "end_date_max": "2026-12-31T23:59:59Z",
+  "default_election_day": "2026-11-03",
+  "election_day_overrides": {},
+  "cutoff_hour_utc": 15,
+  "horizons_days": [30, 7, 1, 0],
+  "stale_hours_max": 24,
+  "include_title_patterns": [
+    "(?i)senate election winner",
+    "(?i)governor election winner",
+    "(?i)house election winner$"
+  ],
+  "exclude_slugs": []
+}

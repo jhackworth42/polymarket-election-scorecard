@@ -1,0 +1,23 @@
+{
+  "edition": "2025",
+  "label": "2025 U.S. elections · historical test",
+  "tag_id": 1101,
+  "end_date_min": "2025-10-01T00:00:00Z",
+  "end_date_max": "2025-12-31T23:59:59Z",
+  "default_election_day": "2025-11-04",
+  "election_day_overrides": {
+    "new-orleans-mayoral-election": "2025-10-11",
+    "tennessee-house-special-election": "2025-12-02"
+  },
+  "cutoff_hour_utc": 15,
+  "horizons_days": [30, 7, 1, 0],
+  "stale_hours_max": 24,
+  "include_title_patterns": [
+    "^\\s*New Jersey Governor Election Winner 2025$",
+    "^Virginia Governor Election Winner$",
+    "^Virginia Attorney General Election Winner$",
+    "^[A-Za-z ]+ Mayoral Election$",
+    "^Tennessee House Special Election$"
+  ],
+  "exclude_slugs": []
+}

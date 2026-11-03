@@ -1,0 +1,5583 @@
+{
+  "edition": "2025",
+  "label": "2025 U.S. elections · historical test",
+  "generated_at": "2026-11-03T04:58:46.389052+00:00",
+  "method": {
+    "unit": "one election-winner event",
+    "probabilities": "named, traded candidate Yes prices normalized to sum to one; missing prices treated as zero for scoring",
+    "brier": "0.5 × sum((probability - outcome)^2) across candidates",
+    "cutoff_hour_utc": 15,
+    "stale_hours_max": 24,
+    "horizons_days": [
+      30,
+      7,
+      1,
+      0
+    ]
+  },
+  "discovered_events": 54,
+  "included_races": 17,
+  "fetch_failures": 0,
+  "summary": {
+    "30": {
+      "label": "30 days",
+      "n": 16,
+      "hit_rate": 0.9375,
+      "brier": 0.094
+    },
+    "7": {
+      "label": "7 days",
+      "n": 17,
+      "hit_rate": 0.8824,
+      "brier": 0.074
+    },
+    "1": {
+      "label": "1 day",
+      "n": 17,
+      "hit_rate": 0.8824,
+      "brier": 0.0629
+    },
+    "0": {
+      "label": "Election day",
+      "n": 17,
+      "hit_rate": 0.8824,
+      "brier": 0.0652
+    }
+  },
+  "races": [
+    {
+      "id": "33857",
+      "title": "Albuquerque Mayoral Election",
+      "slug": "albuquerque-mayoral-election",
+      "url": "https://polymarket.com/event/albuquerque-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 6,
+      "winner": "Tim Keller",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x5c062fb577495543612043ba836445b519cfa73823493750a449a70ff50d73ef"
+      },
+      "candidates": [
+        {
+          "id": "567208",
+          "name": "Daniel Chavez",
+          "question": "Will Daniel Chavez win the 2025 Albuquerque mayoral election?",
+          "condition_id": "0xa5ffc38c0a9a663ac76510aabdd1ffdc4dc2a38b071578b7a57f78f2611bfe13",
+          "volume": 3789.235016
+        },
+        {
+          "id": "567209",
+          "name": "Alex Uballez",
+          "question": "Will Alex Uballez win the 2025 Albuquerque mayoral election?",
+          "condition_id": "0xff8b785223a669bf84777d8dde65062b5f4558271a5576f36d71167e677a4009",
+          "volume": 9805.561449
+        },
+        {
+          "id": "567210",
+          "name": "Louie Sanchez",
+          "question": "Will Louie Sanchez win the 2025 Albuquerque mayoral election?",
+          "condition_id": "0x61870556c0637f5696a33075581854ba8a8108948ec9f554919cf839d25b5bdf",
+          "volume": 7855.740314
+        },
+        {
+          "id": "567211",
+          "name": "Mayling Armijo",
+          "question": "Will Mayling Armijo win the 2025 Albuquerque mayoral election?",
+          "condition_id": "0x02debf347cce37fb5b54ae4d60d6b9f95069939315c5ba6b311005a1386e9068",
+          "volume": 6474.837778
+        },
+        {
+          "id": "567212",
+          "name": "Darren White",
+          "question": "Will Darren White win the 2025 Albuquerque mayoral election?",
+          "condition_id": "0x27abb9512ef2a65dbc539c5f076be661fcc4e15d1c26a288de2e2e0a1613ebe5",
+          "volume": 26738.434701
+        },
+        {
+          "id": "567213",
+          "name": "Eddie Varela",
+          "question": "Will Eddie Varela win the 2025 Albuquerque mayoral election?",
+          "condition_id": "0x5e6289bfaf4b03fed3aea4cf6fc3ee448b857e3f5362d11cb66c234b8fe7fa85",
+          "volume": 8351.963273
+        },
+        {
+          "id": "567214",
+          "name": "Tim Keller",
+          "question": "Will Tim Keller win the 2025 Albuquerque mayoral election?",
+          "condition_id": "0x5c062fb577495543612043ba836445b519cfa73823493750a449a70ff50d73ef",
+          "volume": 61047.329282
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 1.0,
+          "probabilities": [
+            0.009,
+            0.04,
+            0.009,
+            0.006,
+            0.0425,
+            0.0035,
+            0.89
+          ],
+          "raw_prices": [
+            0.009,
+            0.04,
+            0.009,
+            0.006,
+            0.0425,
+            0.0035,
+            0.89
+          ],
+          "observations": [
+            {
+              "market_id": "567208",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567209",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567210",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567211",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567212",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567213",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567214",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 6,
+          "hit": true,
+          "brier": 0.007858,
+          "winner_probability": 0.89
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.001,
+          "probabilities": [
+            0.002498,
+            0.011988,
+            0.003497,
+            0.003996,
+            0.012987,
+            0.002498,
+            0.962537
+          ],
+          "raw_prices": [
+            0.0025,
+            0.012,
+            0.0035,
+            0.004,
+            0.013,
+            0.0025,
+            0.9635
+          ],
+          "observations": [
+            {
+              "market_id": "567208",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567209",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567210",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567211",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567212",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567213",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567214",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 6,
+          "hit": true,
+          "brier": 0.000878,
+          "winner_probability": 0.962537
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 0.9795,
+          "probabilities": [
+            0.002552,
+            0.025523,
+            0.002552,
+            0.010209,
+            0.048494,
+            0.002552,
+            0.908116
+          ],
+          "raw_prices": [
+            0.0025,
+            0.025,
+            0.0025,
+            0.01,
+            0.0475,
+            0.0025,
+            0.8895
+          ],
+          "observations": [
+            {
+              "market_id": "567208",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567209",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567210",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567211",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567212",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567213",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567214",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 6,
+          "hit": true,
+          "brier": 0.005785,
+          "winner_probability": 0.908116
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 0.968,
+          "probabilities": [
+            0.002583,
+            0.014979,
+            0.002583,
+            0.007231,
+            0.026343,
+            0.002583,
+            0.943698
+          ],
+          "raw_prices": [
+            0.0025,
+            0.0145,
+            0.0025,
+            0.007,
+            0.0255,
+            0.0025,
+            0.9135
+          ],
+          "observations": [
+            {
+              "market_id": "567208",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567209",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567210",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567211",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567212",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567213",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567214",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 6,
+          "hit": true,
+          "brier": 0.00208,
+          "winner_probability": 0.943698
+        }
+      }
+    },
+    {
+      "id": "33851",
+      "title": "Atlanta Mayoral Election",
+      "slug": "atlanta-mayoral-election",
+      "url": "https://polymarket.com/event/atlanta-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 0,
+      "winner": "Andre Dickens",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x3b873898781188a13d169ca827ae3bedfb385831825f957335a89099f21e6ec1"
+      },
+      "candidates": [
+        {
+          "id": "567184",
+          "name": "Andre Dickens",
+          "question": "Will Andre Dickens win the 2025 Atlanta mayoral election?",
+          "condition_id": "0x3b873898781188a13d169ca827ae3bedfb385831825f957335a89099f21e6ec1",
+          "volume": 9128.05488
+        },
+        {
+          "id": "567185",
+          "name": "Helmut Domagalski",
+          "question": "Will Helmut Domagalski win the 2025 Atlanta mayoral election?",
+          "condition_id": "0x73ae586bcd72df0d26a3db3631cd26f250d24ee3fddc427e84227e01ba0964ac",
+          "volume": 1574.996941
+        },
+        {
+          "id": "567187",
+          "name": "Marcus LaMar",
+          "question": "Will Marcus LaMar win the 2025 Atlanta mayoral election?",
+          "condition_id": "0xe035d746361ba52d4c5f6d0a89d7d9b8fd06626e303ab5658ada023fe359b94d",
+          "volume": 4525.579941
+        },
+        {
+          "id": "567188",
+          "name": "Walter Reeves",
+          "question": "Will Walter Reeves win the 2025 Atlanta mayoral election?",
+          "condition_id": "0x58e092763b1321e8368538bf5b78fc200d9409e105700e06eceb66b35ef371aa",
+          "volume": 3419.200692
+        },
+        {
+          "id": "567190",
+          "name": "Ocean Zotique",
+          "question": "Will Ocean Zotique win the 2025 Atlanta mayoral election?",
+          "condition_id": "0xbbddee25b81387e119b12795905378fdf305c839f36896470c946140f76702e0",
+          "volume": 5133.906687
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.9855,
+          "probabilities": [
+            0.958904,
+            0.009132,
+            0.010147,
+            0.014713,
+            0.007103
+          ],
+          "raw_prices": [
+            0.945,
+            0.009,
+            0.01,
+            0.0145,
+            0.007
+          ],
+          "observations": [
+            {
+              "market_id": "567184",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567185",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567187",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567188",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567190",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.001071,
+          "winner_probability": 0.958904
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.0015,
+          "probabilities": [
+            0.982027,
+            0.001997,
+            0.010984,
+            0.002996,
+            0.001997
+          ],
+          "raw_prices": [
+            0.9835,
+            0.002,
+            0.011,
+            0.003,
+            0.002
+          ],
+          "observations": [
+            {
+              "market_id": "567184",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567185",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567187",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567188",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567190",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.00023,
+          "winner_probability": 0.982027
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0015,
+          "probabilities": [
+            0.984024,
+            0.002496,
+            0.008487,
+            0.002996,
+            0.001997
+          ],
+          "raw_prices": [
+            0.9855,
+            0.0025,
+            0.0085,
+            0.003,
+            0.002
+          ],
+          "observations": [
+            {
+              "market_id": "567184",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567185",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567187",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567188",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567190",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.000173,
+          "winner_probability": 0.984024
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 0.999,
+          "probabilities": [
+            0.995996,
+            0.002503,
+            0.000501,
+            0.000501,
+            0.000501
+          ],
+          "raw_prices": [
+            0.995,
+            0.0025,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567184",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567185",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567187",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567188",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567190",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 1.2e-05,
+          "winner_probability": 0.995996
+        }
+      }
+    },
+    {
+      "id": "33846",
+      "title": "Boston Mayoral Election",
+      "slug": "boston-mayoral-election",
+      "url": "https://polymarket.com/event/boston-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 0,
+      "winner": "Michelle Wu",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x2ca1a3644af3f3f8720cf2283335319573f5fa42d1c7f884badf7f2ae398e844"
+      },
+      "candidates": [
+        {
+          "id": "567118",
+          "name": "Michelle Wu",
+          "question": "Will Michelle Wu win the 2025 Boston mayoral election?",
+          "condition_id": "0x2ca1a3644af3f3f8720cf2283335319573f5fa42d1c7f884badf7f2ae398e844",
+          "volume": 16519.618004
+        },
+        {
+          "id": "567119",
+          "name": "Josh Kraft",
+          "question": "Will Josh Kraft win the 2025 Boston mayoral election?",
+          "condition_id": "0x09b195b26fd164e48d99e5635c5bbab10274dc7b32041de4438a0e6a7e47864f",
+          "volume": 16904.782456
+        },
+        {
+          "id": "567120",
+          "name": "Jorge Mendoza-Iturralde",
+          "question": "Will Jorge Mendoza-Iturralde win the 2025 Boston mayoral election?",
+          "condition_id": "0x9bc8ac0b956584b829d3a7617b0af29c96b6a81c646cf3ff70703c48d027a636",
+          "volume": 39628.477102
+        },
+        {
+          "id": "567121",
+          "name": "Ed Flynn",
+          "question": "Will Ed Flynn win the 2025 Boston mayoral election?",
+          "condition_id": "0xf9db681bb7bb5b5950c84b154dc2e9acae13a2bce6daa5d2d19b7f51775547db",
+          "volume": 15221.054333
+        },
+        {
+          "id": "567122",
+          "name": "Althea Garrison",
+          "question": "Will Althea Garrison win the 2025 Boston mayoral election?",
+          "condition_id": "0xef4ec2bfa9af789fcd64bc93622346d39a03ee12ba6e3968f4be336b1e1c99c0",
+          "volume": 70104.838833
+        },
+        {
+          "id": "567123",
+          "name": "William G. Gross",
+          "question": "Will William G. Gross win the 2025 Boston mayoral election?",
+          "condition_id": "0x383508e92b45d983b9c99a2167fb3286db9601fa87cbd0faa4a25f7903c989f5",
+          "volume": 14317.238317
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.9905,
+          "probabilities": [
+            0.993942,
+            0.002019,
+            0.000505,
+            0.002019,
+            0.00101,
+            0.000505
+          ],
+          "raw_prices": [
+            0.9845,
+            0.002,
+            0.0005,
+            0.002,
+            0.001,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567118",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567119",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567120",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567121",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567122",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567123",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 2.3e-05,
+          "winner_probability": 0.993942
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 0.997,
+          "probabilities": [
+            0.992477,
+            0.001505,
+            0.002508,
+            0.001505,
+            0.001505,
+            0.000502
+          ],
+          "raw_prices": [
+            0.9895,
+            0.0015,
+            0.0025,
+            0.0015,
+            0.0015,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567118",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567119",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567120",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567121",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567122",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567123",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 3.5e-05,
+          "winner_probability": 0.992477
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.003,
+          "probabilities": [
+            0.989531,
+            0.001496,
+            0.002493,
+            0.001496,
+            0.001994,
+            0.002991
+          ],
+          "raw_prices": [
+            0.9925,
+            0.0015,
+            0.0025,
+            0.0015,
+            0.002,
+            0.003
+          ],
+          "observations": [
+            {
+              "market_id": "567118",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567119",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567120",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567121",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567122",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567123",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 6.7e-05,
+          "winner_probability": 0.989531
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 1.003,
+          "probabilities": [
+            0.995513,
+            0.000997,
+            0.000997,
+            0.000499,
+            0.000997,
+            0.000997
+          ],
+          "raw_prices": [
+            0.9985,
+            0.001,
+            0.001,
+            0.0005,
+            0.001,
+            0.001
+          ],
+          "observations": [
+            {
+              "market_id": "567118",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567119",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567120",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567121",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567122",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567123",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 1.2e-05,
+          "winner_probability": 0.995513
+        }
+      }
+    },
+    {
+      "id": "33843",
+      "title": "Charlotte Mayoral Election",
+      "slug": "charlotte-mayoral-election",
+      "url": "https://polymarket.com/event/charlotte-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 1,
+      "winner": "Vi Lyles",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x0c1c44f71b4539d52369711bb79e8f843fd707cc2a80899beac60144fece6d91"
+      },
+      "candidates": [
+        {
+          "id": "567091",
+          "name": "Jaraun Boyd",
+          "question": "Will Jaraun Boyd win the 2025 Charlotte mayoral election?",
+          "condition_id": "0xd9c1381380486659a04b4bd0f57df0f7e5819685e9a4b2b49ae27d27a66b2401",
+          "volume": 4986.313232
+        },
+        {
+          "id": "567093",
+          "name": "Vi Lyles",
+          "question": "Will Vi Lyles win the 2025 Charlotte mayoral election?",
+          "condition_id": "0x0c1c44f71b4539d52369711bb79e8f843fd707cc2a80899beac60144fece6d91",
+          "volume": 21023.38629
+        },
+        {
+          "id": "567094",
+          "name": "Brendan Maginnis",
+          "question": "Will Brendan Maginnis win the 2025 Charlotte mayoral election?",
+          "condition_id": "0xbde24b6073054c581514607bdd5c599488bcc1c5ccd0bcdad344dc26c85911d4",
+          "volume": 4315.302142
+        },
+        {
+          "id": "567095",
+          "name": "Tigress McDaniel",
+          "question": "Will Tigress McDaniel win the 2025 Charlotte mayoral election?",
+          "condition_id": "0x3d4a6f64d8980f8a39835a941e2436dc3fd69ab6758590c5bffd945555be17db",
+          "volume": 8088.452583
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 1.016,
+          "probabilities": [
+            0.021161,
+            0.939961,
+            0.022146,
+            0.016732
+          ],
+          "raw_prices": [
+            0.0215,
+            0.955,
+            0.0225,
+            0.017
+          ],
+          "observations": [
+            {
+              "market_id": "567091",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567093",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567094",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567095",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.002411,
+          "winner_probability": 0.939961
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.005,
+          "probabilities": [
+            0.017413,
+            0.965672,
+            0.005473,
+            0.011443
+          ],
+          "raw_prices": [
+            0.0175,
+            0.9705,
+            0.0055,
+            0.0115
+          ],
+          "observations": [
+            {
+              "market_id": "567091",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567093",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567094",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567095",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.000821,
+          "winner_probability": 0.965672
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0015,
+          "probabilities": [
+            0.002496,
+            0.987519,
+            0.001498,
+            0.008487
+          ],
+          "raw_prices": [
+            0.0025,
+            0.989,
+            0.0015,
+            0.0085
+          ],
+          "observations": [
+            {
+              "market_id": "567091",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567093",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567094",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567095",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.000118,
+          "winner_probability": 0.987519
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 0.9985,
+          "probabilities": [
+            0.000501,
+            0.997997,
+            0.000501,
+            0.001002
+          ],
+          "raw_prices": [
+            0.0005,
+            0.9965,
+            0.0005,
+            0.001
+          ],
+          "observations": [
+            {
+              "market_id": "567091",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567093",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567094",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567095",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 3e-06,
+          "winner_probability": 0.997997
+        }
+      }
+    },
+    {
+      "id": "33859",
+      "title": "Cleveland Mayoral Election",
+      "slug": "cleveland-mayoral-election",
+      "url": "https://polymarket.com/event/cleveland-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 0,
+      "winner": "Justin Bibb",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x18cca99609cd3a8d3076689512cc8a7ecb697343f706bfd172a3be48933c9011"
+      },
+      "candidates": [
+        {
+          "id": "567229",
+          "name": "Justin Bibb",
+          "question": "Will Justin Bibb win the 2025 Cleveland mayoral election?",
+          "condition_id": "0x18cca99609cd3a8d3076689512cc8a7ecb697343f706bfd172a3be48933c9011",
+          "volume": 8200.595076
+        },
+        {
+          "id": "567230",
+          "name": "LaVerne Gore",
+          "question": "Will LaVerne Gore win the 2025 Cleveland mayoral election?",
+          "condition_id": "0x819c78a2541fe1402d06ff9f52d48c58fa09b783adca75d4d4eedf4a27d0e928",
+          "volume": 7533.180207
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.9985,
+          "probabilities": [
+            0.988483,
+            0.011517
+          ],
+          "raw_prices": [
+            0.987,
+            0.0115
+          ],
+          "observations": [
+            {
+              "market_id": "567229",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567230",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.000133,
+          "winner_probability": 0.988483
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.0005,
+          "probabilities": [
+            0.987006,
+            0.012994
+          ],
+          "raw_prices": [
+            0.9875,
+            0.013
+          ],
+          "observations": [
+            {
+              "market_id": "567229",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567230",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.000169,
+          "winner_probability": 0.987006
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0,
+          "probabilities": [
+            0.9915,
+            0.0085
+          ],
+          "raw_prices": [
+            0.9915,
+            0.0085
+          ],
+          "observations": [
+            {
+              "market_id": "567229",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567230",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 7.2e-05,
+          "winner_probability": 0.9915
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 0.999,
+          "probabilities": [
+            0.993493,
+            0.006507
+          ],
+          "raw_prices": [
+            0.9925,
+            0.0065
+          ],
+          "observations": [
+            {
+              "market_id": "567229",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567230",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 4.2e-05,
+          "winner_probability": 0.993493
+        }
+      }
+    },
+    {
+      "id": "33850",
+      "title": "Detroit Mayoral Election",
+      "slug": "detroit-mayoral-election",
+      "url": "https://polymarket.com/event/detroit-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 7,
+      "winner": "Mary Sheffield",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xf22c6e8b667e92493d2025ad76f1ced8ff99fb96b6cad481da7fbcebe78f1632"
+      },
+      "candidates": [
+        {
+          "id": "567162",
+          "name": "Jonathan Barlow",
+          "question": "Will Jonathan Barlow win the 2025 Detroit mayoral election?",
+          "condition_id": "0x1ef0cb1556d0ac77e513e03889ac8c57a769e7a2d7898bb9374d8ed7c0a0d4b3",
+          "volume": 18487.6721
+        },
+        {
+          "id": "567163",
+          "name": "James Craig",
+          "question": "Will James Craig win the 2025 Detroit mayoral election?",
+          "condition_id": "0xfe5905652a6f0641582ec5dc25af67081b1d5765f728a25a5cd63b0057b8a528",
+          "volume": 24213.52866
+        },
+        {
+          "id": "567164",
+          "name": "Fred Durhal III",
+          "question": "Will Fred Durhal III win the 2025 Detroit mayoral election?",
+          "condition_id": "0x1c8de39e991d5ebc4711569cab1263985962363c16a2bdfc73cd4ad55c364375",
+          "volume": 18986.757958
+        },
+        {
+          "id": "567165",
+          "name": "Joel Haashiim",
+          "question": "Will Joel Haashiim win the 2025 Detroit mayoral election?",
+          "condition_id": "0x5613116243516aad7bb148b7d2f1f0ec1d758137995f7d4d2bb01f7753eebf17",
+          "volume": 19891.061888
+        },
+        {
+          "id": "567166",
+          "name": "Saunteel Jenkins",
+          "question": "Will Saunteel Jenkins win the 2025 Detroit mayoral election?",
+          "condition_id": "0x1c7677fec082b40badc8a03749fd87c71164160124342e689a6fe76cc90f266d",
+          "volume": 22704.163638
+        },
+        {
+          "id": "567167",
+          "name": "Solomon Kinloch",
+          "question": "Will Solomon Kinloch win the 2025 Detroit mayoral election?",
+          "condition_id": "0x79839a025b3c06e17af9bb36c89fadea348b529f06393cd07bbc6722bd466307",
+          "volume": 35355.483579
+        },
+        {
+          "id": "567168",
+          "name": "Todd Perkins",
+          "question": "Will Todd Perkins win the 2025 Detroit mayoral election?",
+          "condition_id": "0x033e3ed76dd450bf90a11f56bdbc999eb3d8cb1762d66a937b597b407810af0e",
+          "volume": 19941.834934
+        },
+        {
+          "id": "567169",
+          "name": "Mary Sheffield",
+          "question": "Will Mary Sheffield win the 2025 Detroit mayoral election?",
+          "condition_id": "0xf22c6e8b667e92493d2025ad76f1ced8ff99fb96b6cad481da7fbcebe78f1632",
+          "volume": 67948.022435
+        },
+        {
+          "id": "567170",
+          "name": "Danetta Simpson",
+          "question": "Will Danetta Simpson win the 2025 Detroit mayoral election?",
+          "condition_id": "0x7f5402249dd771b1ae009d6b903073963a998fd8433cad052afb10ac3b239fd2",
+          "volume": 39164.649888
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.9915,
+          "probabilities": [
+            0.001009,
+            0.000504,
+            0.001009,
+            0.001009,
+            0.002521,
+            0.00353,
+            0.000504,
+            0.988401,
+            0.001513
+          ],
+          "raw_prices": [
+            0.001,
+            0.0005,
+            0.001,
+            0.001,
+            0.0025,
+            0.0035,
+            0.0005,
+            0.98,
+            0.0015
+          ],
+          "observations": [
+            {
+              "market_id": "567162",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567163",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567164",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567165",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567166",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567167",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567168",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567169",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567170",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 7,
+          "hit": true,
+          "brier": 8e-05,
+          "winner_probability": 0.988401
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 0.9955,
+          "probabilities": [
+            0.000502,
+            0.000502,
+            0.000502,
+            0.000502,
+            0.002009,
+            0.000502,
+            0.000502,
+            0.993471,
+            0.001507
+          ],
+          "raw_prices": [
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.002,
+            0.0005,
+            0.0005,
+            0.989,
+            0.0015
+          ],
+          "observations": [
+            {
+              "market_id": "567162",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567163",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567164",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567165",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567166",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567167",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567168",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567169",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567170",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 7,
+          "hit": true,
+          "brier": 2.5e-05,
+          "winner_probability": 0.993471
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.005,
+          "probabilities": [
+            0.001493,
+            0.002488,
+            0.001493,
+            0.001493,
+            0.00199,
+            0.002985,
+            0.001493,
+            0.98607,
+            0.000498
+          ],
+          "raw_prices": [
+            0.0015,
+            0.0025,
+            0.0015,
+            0.0015,
+            0.002,
+            0.003,
+            0.0015,
+            0.991,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567162",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567163",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567164",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567165",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567166",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567167",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567168",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567169",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567170",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 7,
+          "hit": true,
+          "brier": 0.000111,
+          "winner_probability": 0.98607
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 1.0025,
+          "probabilities": [
+            0.000499,
+            0.000499,
+            0.000499,
+            0.000499,
+            0.001995,
+            0.002494,
+            0.000998,
+            0.99202,
+            0.000499
+          ],
+          "raw_prices": [
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.002,
+            0.0025,
+            0.001,
+            0.9945,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567162",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567163",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567164",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567165",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567166",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567167",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567168",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567169",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567170",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 7,
+          "hit": true,
+          "brier": 3.8e-05,
+          "winner_probability": 0.99202
+        }
+      }
+    },
+    {
+      "id": "33838",
+      "title": "Jersey City Mayoral Election",
+      "slug": "jersey-city-mayoral-election",
+      "url": "https://polymarket.com/event/jersey-city-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 1,
+      "winner": "James Solomon",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x4622bcb73c3ec49aa072a312bd25d48f1c1989dadcd6982d7550814bcd97f431"
+      },
+      "candidates": [
+        {
+          "id": "567053",
+          "name": "Jim McGreevey",
+          "question": "Will Jim McGreevey win the 2025 Jersey City mayoral election?",
+          "condition_id": "0xb5ae4bf6d60c6d1bc10d78e9895adc47d966e3d82923ae40f4aff7412d803287",
+          "volume": 143945.706018
+        },
+        {
+          "id": "567054",
+          "name": "James Solomon",
+          "question": "Will James Solomon win the 2025 Jersey City mayoral election?",
+          "condition_id": "0x4622bcb73c3ec49aa072a312bd25d48f1c1989dadcd6982d7550814bcd97f431",
+          "volume": 158540.033049
+        },
+        {
+          "id": "567055",
+          "name": "Bill O’Dea",
+          "question": "Will Bill O’Dea win the 2025 Jersey City mayoral election?",
+          "condition_id": "0xe97744bcb7f8a67743636ca4cfb4045326af8c9f572bf10d1b6c9c18b078ca69",
+          "volume": 39420.168441
+        },
+        {
+          "id": "567056",
+          "name": "Mussab Ali",
+          "question": "Will Mussab Ali win the 2025 Jersey City mayoral election?",
+          "condition_id": "0xf785ceb7ccbe48b531d56fffceb196875a7ca4f9a2b1fba75eed068d71a9887d",
+          "volume": 57062.03349
+        },
+        {
+          "id": "567057",
+          "name": "Flash Gordon",
+          "question": "Will Flash Gordon win the 2025 Jersey City mayoral election?",
+          "condition_id": "0xa17a99df0302e0d2996ac9cc08081c9e923322741580880b13d1c258823a24a6",
+          "volume": 10079.301583
+        },
+        {
+          "id": "567058",
+          "name": "Joyce Watterman",
+          "question": "Will Joyce Watterman win the 2025 Jersey City mayoral election?",
+          "condition_id": "0x9b1d427821ea3b0c6a6d50e206e01505b60464b5b7a62f329b480fd7e44d4beb",
+          "volume": 23113.862802
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.991,
+          "probabilities": [
+            0.378406,
+            0.080727,
+            0.162462,
+            0.367306,
+            0.00555,
+            0.00555
+          ],
+          "raw_prices": [
+            0.375,
+            0.08,
+            0.161,
+            0.364,
+            0.0055,
+            0.0055
+          ],
+          "observations": [
+            {
+              "market_id": "567053",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567054",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567055",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567056",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567057",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567058",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": false,
+          "brier": 0.574812,
+          "winner_probability": 0.080727
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.024,
+          "probabilities": [
+            0.688477,
+            0.175781,
+            0.038086,
+            0.083496,
+            0.01123,
+            0.00293
+          ],
+          "raw_prices": [
+            0.705,
+            0.18,
+            0.039,
+            0.0855,
+            0.0115,
+            0.003
+          ],
+          "observations": [
+            {
+              "market_id": "567053",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567054",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567055",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567056",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567057",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567058",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": false,
+          "brier": 0.580947,
+          "winner_probability": 0.175781
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0035,
+          "probabilities": [
+            0.727454,
+            0.199302,
+            0.048331,
+            0.020927,
+            0.002491,
+            0.001495
+          ],
+          "raw_prices": [
+            0.73,
+            0.2,
+            0.0485,
+            0.021,
+            0.0025,
+            0.0015
+          ],
+          "observations": [
+            {
+              "market_id": "567053",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567054",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567055",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567056",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567057",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567058",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": false,
+          "brier": 0.586544,
+          "winner_probability": 0.199302
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 0.9695,
+          "probabilities": [
+            0.76328,
+            0.165034,
+            0.042806,
+            0.027849,
+            0.000516,
+            0.000516
+          ],
+          "raw_prices": [
+            0.74,
+            0.16,
+            0.0415,
+            0.027,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567053",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567054",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567055",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567056",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567057",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567058",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": false,
+          "brier": 0.641187,
+          "winner_probability": 0.165034
+        }
+      }
+    },
+    {
+      "id": "33825",
+      "title": "Miami Mayoral Election",
+      "slug": "miami-mayoral-election-568",
+      "url": "https://polymarket.com/event/miami-mayoral-election-568",
+      "election_day": "2025-11-04",
+      "winner_index": 0,
+      "winner": "Eileen Higgins",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x3f3e7fa3cba46733f1988b4677d67fa20da15c226f43ab9db9f39e660a42eb1d"
+      },
+      "candidates": [
+        {
+          "id": "567009",
+          "name": "Eileen Higgins",
+          "question": "Will Eileen Higgins win the 2025 Miami mayoral election?",
+          "condition_id": "0x3f3e7fa3cba46733f1988b4677d67fa20da15c226f43ab9db9f39e660a42eb1d",
+          "volume": 34012.578462
+        },
+        {
+          "id": "567010",
+          "name": "Ken Russell",
+          "question": "Will Ken Russell win the 2025 Miami mayoral election?",
+          "condition_id": "0x4998812d67881b002b31c9d76b0ad367a883dbf9908ee86456d8d448ead9602e",
+          "volume": 12893.875694
+        },
+        {
+          "id": "567011",
+          "name": "Emilio Gonzalez",
+          "question": "Will Emilio Gonzalez win the 2025 Miami mayoral election?",
+          "condition_id": "0x589e3a005c47851b597b96e592d88616193df1777684d72e357df7d5b8cb3f75",
+          "volume": 39339.153896
+        },
+        {
+          "id": "567012",
+          "name": "Xavier Suarez",
+          "question": "Will Xavier Suarez win the 2025 Miami mayoral election?",
+          "condition_id": "0x935652c74eb22c716f067b10fc974da56599503a8320bfb74cc179467496d791",
+          "volume": 7045.475889
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 1.305,
+          "probabilities": [
+            0.417625,
+            0.210728,
+            0.206897,
+            0.164751
+          ],
+          "raw_prices": [
+            0.545,
+            0.275,
+            0.27,
+            0.215
+          ],
+          "observations": [
+            {
+              "market_id": "567009",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567010",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567011",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567012",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.226758,
+          "winner_probability": 0.417625
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 0.995,
+          "probabilities": [
+            0.462312,
+            0.296482,
+            0.155779,
+            0.085427
+          ],
+          "raw_prices": [
+            0.46,
+            0.295,
+            0.155,
+            0.085
+          ],
+          "observations": [
+            {
+              "market_id": "567009",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567010",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567011",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567012",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.204288,
+          "winner_probability": 0.462312
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 0.896,
+          "probabilities": [
+            0.920759,
+            0.008929,
+            0.06808,
+            0.002232
+          ],
+          "raw_prices": [
+            0.825,
+            0.008,
+            0.061,
+            0.002
+          ],
+          "observations": [
+            {
+              "market_id": "567009",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567010",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567011",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567012",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.005499,
+          "winner_probability": 0.920759
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 0.93,
+          "probabilities": [
+            0.951613,
+            0.003226,
+            0.041935,
+            0.003226
+          ],
+          "raw_prices": [
+            0.885,
+            0.003,
+            0.039,
+            0.003
+          ],
+          "observations": [
+            {
+              "market_id": "567009",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567010",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567011",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567012",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.00206,
+          "winner_probability": 0.951613
+        }
+      }
+    },
+    {
+      "id": "33820",
+      "title": "Minneapolis Mayoral Election",
+      "slug": "minneapolis-mayoral-election-665",
+      "url": "https://polymarket.com/event/minneapolis-mayoral-election-665",
+      "election_day": "2025-11-04",
+      "winner_index": 0,
+      "winner": "Jacob Frey",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x76c0c20596c22e4699dcce0970e0bafed1ebe22026caf4626d7d9a49c3b3b6f9"
+      },
+      "candidates": [
+        {
+          "id": "566987",
+          "name": "Jacob Frey",
+          "question": "Will Jacob Frey win the 2025 Minneapolis mayoral election?",
+          "condition_id": "0x76c0c20596c22e4699dcce0970e0bafed1ebe22026caf4626d7d9a49c3b3b6f9",
+          "volume": 2010288.536332
+        },
+        {
+          "id": "566988",
+          "name": "Omar Fateh",
+          "question": "Will Omar Fateh win the 2025 Minneapolis mayoral election?",
+          "condition_id": "0x28abe56a6a3d7135a58c2e28e835ce2cda826fdce3cf2a71dd329a79cd482584",
+          "volume": 1165224.94679
+        },
+        {
+          "id": "566989",
+          "name": "DeWayne Davis",
+          "question": "Will DeWayne Davis win the 2025 Minneapolis mayoral election?",
+          "condition_id": "0x57f908ebcb5988fbdd6dba8c672e53b98f54364018c47b3479db6af8f60c7ce0",
+          "volume": 145350.61982
+        },
+        {
+          "id": "566990",
+          "name": "Jazz Hampton",
+          "question": "Will Jazz Hampton win the 2025 Minneapolis mayoral election?",
+          "condition_id": "0xf649e33efa9bc2f48df4f89077c9abe9448fa92fd64e3e986c1b841fb63aec96",
+          "volume": 119217.956716
+        },
+        {
+          "id": "566991",
+          "name": "Brenda Short",
+          "question": "Will Brenda Short win the 2025 Minneapolis mayoral election?",
+          "condition_id": "0x95673d698f821588926e41f72c0863aad0ee47064e590cba7362ba90e1db3014",
+          "volume": 63430.282533
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.996,
+          "probabilities": [
+            0.717871,
+            0.276104,
+            0.004016,
+            0.000502,
+            0.001506
+          ],
+          "raw_prices": [
+            0.715,
+            0.275,
+            0.004,
+            0.0005,
+            0.0015
+          ],
+          "observations": [
+            {
+              "market_id": "566987",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566988",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566989",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566990",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566991",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.077924,
+          "winner_probability": 0.717871
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.0065,
+          "probabilities": [
+            0.745156,
+            0.253353,
+            0.000497,
+            0.000497,
+            0.000497
+          ],
+          "raw_prices": [
+            0.75,
+            0.255,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "566987",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566988",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566989",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566990",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566991",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.064567,
+          "winner_probability": 0.745156
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0065,
+          "probabilities": [
+            0.755092,
+            0.23845,
+            0.002981,
+            0.002981,
+            0.000497
+          ],
+          "raw_prices": [
+            0.76,
+            0.24,
+            0.003,
+            0.003,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "566987",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566988",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566989",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566990",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566991",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.058428,
+          "winner_probability": 0.755092
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 0.9805,
+          "probabilities": [
+            0.72922,
+            0.265171,
+            0.00255,
+            0.00255,
+            0.00051
+          ],
+          "raw_prices": [
+            0.715,
+            0.26,
+            0.0025,
+            0.0025,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "566987",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566988",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566989",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566990",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566991",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.071825,
+          "winner_probability": 0.72922
+        }
+      }
+    },
+    {
+      "id": "26507",
+      "title": "New Jersey Governor Election Winner 2025",
+      "slug": "new-jersey-governor-election-winner-2025",
+      "url": "https://polymarket.com/event/new-jersey-governor-election-winner-2025",
+      "election_day": "2025-11-04",
+      "winner_index": 0,
+      "winner": "Mikie Sherrill",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x027eeeaba097b5f3b166eace64668b2e6b327acc7c6b314ae5f03b33b51425e7"
+      },
+      "candidates": [
+        {
+          "id": "551137",
+          "name": "Mikie Sherrill",
+          "question": "Will Mikie Sherrill win the New Jersey Governor Election in 2025",
+          "condition_id": "0x027eeeaba097b5f3b166eace64668b2e6b327acc7c6b314ae5f03b33b51425e7",
+          "volume": 7479198.557189
+        },
+        {
+          "id": "551138",
+          "name": "Josh Gottheimer",
+          "question": "Will Josh Gottheimer win the New Jersey Governor Election in 2025",
+          "condition_id": "0x280314e2e514db5b57590a40c33358540168b9787fe1512ce7996cf2e0576d64",
+          "volume": 26551.1241
+        },
+        {
+          "id": "551139",
+          "name": "Ras Baraka",
+          "question": "Will Ras Baraka win the New Jersey Governor Election in 2025",
+          "condition_id": "0x1d167f99233b26493dc6f17c4c8ee03fe4d644486d2416a3f2150858a971b2f1",
+          "volume": 43037.537835
+        },
+        {
+          "id": "551140",
+          "name": "Steven Fulop",
+          "question": "Will Steven Fulop win the New Jersey Governor Election in 2025",
+          "condition_id": "0x70b5cc9bc4c5ccdf9b1c34970466e54abf8cb5f73604208d0868c7abc8bae3cd",
+          "volume": 17616.357024
+        },
+        {
+          "id": "551141",
+          "name": "Sean Spiller",
+          "question": "Will Sean Spiller win the New Jersey Governor Election in 2025",
+          "condition_id": "0xdd0e84b7a830119eb15ec945b48c3945630f3c8ea647f6fbbcd3aca2085d64c4",
+          "volume": 10790.060037
+        },
+        {
+          "id": "551142",
+          "name": "Steve Sweeney",
+          "question": "Will Steve Sweeney win the New Jersey Governor Election in 2025",
+          "condition_id": "0x201df9b6a68bab220392ca4cd18cf4d8c96b7612568777626292d2fb08954efe",
+          "volume": 27458.472591
+        },
+        {
+          "id": "551143",
+          "name": "Jack Ciattarelli",
+          "question": "Will Jack Ciattarelli win the New Jersey Governor Election in 2025",
+          "condition_id": "0xda8ebb9d7998b0e37f912b78d8f71a9e36b8a8b5b2afff4bb1f8106e29ae0604",
+          "volume": 6037389.579269
+        },
+        {
+          "id": "551144",
+          "name": "Jon Bramnick",
+          "question": "Will Jon Bramnick win the New Jersey Governor Election in 2025",
+          "condition_id": "0xe93a90c12d9e9df58a7815852dc421a5f577d8dc61d9a41753db5ec0dc9ae3e2",
+          "volume": 7552.116
+        },
+        {
+          "id": "551145",
+          "name": "Mario Kranjac",
+          "question": "Will Mario Kranjac win the New Jersey Governor Election in 2025",
+          "condition_id": "0xf85b975ce4014957c7abe275cfc8d34b8805ac38917fbcaf9a976d645c1a7563",
+          "volume": 13524.628
+        },
+        {
+          "id": "551146",
+          "name": "Bill Spadea",
+          "question": "Will Bill Spadea win the New Jersey Governor Election in 2025",
+          "condition_id": "0xa314f870d42f06c983358977d73b8346029b8d47b0f9214c1a22fc9087d60d53",
+          "volume": 37589.025498
+        },
+        {
+          "id": "551147",
+          "name": "Justin Barbera",
+          "question": "Will Justin Barbera win the New Jersey Governor Election in 2025",
+          "condition_id": "0xee631e87f3519a81c659d42c588b66d81901b9b6720581f3d44031f96e5830a9",
+          "volume": 17616.338221
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 1.0045,
+          "probabilities": [
+            0.811349,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.184171,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498
+          ],
+          "raw_prices": [
+            0.815,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.185,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "551137",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551138",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551139",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551140",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551141",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551142",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551143",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551144",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551145",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551146",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551147",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.034755,
+          "winner_probability": 0.811349
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.0095,
+          "probabilities": [
+            0.871719,
+            0.000495,
+            0.000495,
+            0.000495,
+            0.000495,
+            0.000495,
+            0.123824,
+            0.000495,
+            0.000495,
+            0.000495,
+            0.000495
+          ],
+          "raw_prices": [
+            0.88,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.125,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "551137",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551138",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551139",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551140",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551141",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551142",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551143",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551144",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551145",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551146",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551147",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.015895,
+          "winner_probability": 0.871719
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0045,
+          "probabilities": [
+            0.87108,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.12444,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498
+          ],
+          "raw_prices": [
+            0.875,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.125,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "551137",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551138",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551139",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551140",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551141",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551142",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551143",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551144",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551145",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551146",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551147",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.016054,
+          "winner_probability": 0.87108
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 1.0045,
+          "probabilities": [
+            0.841215,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.154306,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498
+          ],
+          "raw_prices": [
+            0.845,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.155,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "551137",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551138",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551139",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551140",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551141",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551142",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551143",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551144",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551145",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551146",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551147",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.024513,
+          "winner_probability": 0.841215
+        }
+      }
+    },
+    {
+      "id": "33842",
+      "title": "New Orleans Mayoral Election",
+      "slug": "new-orleans-mayoral-election",
+      "url": "https://polymarket.com/event/new-orleans-mayoral-election",
+      "election_day": "2025-10-11",
+      "winner_index": 0,
+      "winner": "Helena Moreno",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xc3375de2237d0ddc1a807c3413cf41f0153559492239dc4d358407ee3e8dfff7"
+      },
+      "candidates": [
+        {
+          "id": "567075",
+          "name": "Helena Moreno",
+          "question": "Will Helena Moreno win the 2025 New Orleans mayoral election?",
+          "condition_id": "0xc3375de2237d0ddc1a807c3413cf41f0153559492239dc4d358407ee3e8dfff7",
+          "volume": 63525.073852
+        },
+        {
+          "id": "567076",
+          "name": "Oliver Thomas",
+          "question": "Will Oliver Thomas win the 2025 New Orleans mayoral election?",
+          "condition_id": "0x60fc29217041ce8017ea62d2b8a758b3c4076ce65d465e655dbaef6c3fbdc3f5",
+          "volume": 25506.016036
+        },
+        {
+          "id": "567077",
+          "name": "Royce Duplessis",
+          "question": "Will Royce Duplessis win the 2025 New Orleans mayoral election?",
+          "condition_id": "0xaf9a6363a51fb74f91afa2b27fcb43cb78a883b3755037d90bdd086278465a3b",
+          "volume": 4515.441171
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-09-11T15:00:00+00:00",
+          "raw_sum": 0.9975,
+          "probabilities": [
+            0.952381,
+            0.044612,
+            0.003008
+          ],
+          "raw_prices": [
+            0.95,
+            0.0445,
+            0.003
+          ],
+          "observations": [
+            {
+              "market_id": "567075",
+              "observed_at": "2025-09-11T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567076",
+              "observed_at": "2025-09-11T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567077",
+              "observed_at": "2025-09-11T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.002133,
+          "winner_probability": 0.952381
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-04T15:00:00+00:00",
+          "raw_sum": 0.9915,
+          "probabilities": [
+            0.989914,
+            0.008573,
+            0.001513
+          ],
+          "raw_prices": [
+            0.9815,
+            0.0085,
+            0.0015
+          ],
+          "observations": [
+            {
+              "market_id": "567075",
+              "observed_at": "2025-10-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567076",
+              "observed_at": "2025-10-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567077",
+              "observed_at": "2025-10-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 8.9e-05,
+          "winner_probability": 0.989914
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-10-10T15:00:00+00:00",
+          "raw_sum": 1.0,
+          "probabilities": [
+            0.9765,
+            0.0205,
+            0.003
+          ],
+          "raw_prices": [
+            0.9765,
+            0.0205,
+            0.003
+          ],
+          "observations": [
+            {
+              "market_id": "567075",
+              "observed_at": "2025-10-10T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567076",
+              "observed_at": "2025-10-10T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567077",
+              "observed_at": "2025-10-10T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.000491,
+          "winner_probability": 0.9765
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-10-11T15:00:00+00:00",
+          "raw_sum": 0.9965,
+          "probabilities": [
+            0.97993,
+            0.018063,
+            0.002007
+          ],
+          "raw_prices": [
+            0.9765,
+            0.018,
+            0.002
+          ],
+          "observations": [
+            {
+              "market_id": "567075",
+              "observed_at": "2025-10-11T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567076",
+              "observed_at": "2025-10-11T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567077",
+              "observed_at": "2025-10-11T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.000367,
+          "winner_probability": 0.97993
+        }
+      }
+    },
+    {
+      "id": "23246",
+      "title": "New York City Mayoral Election",
+      "slug": "new-york-city-mayoral-election",
+      "url": "https://polymarket.com/event/new-york-city-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 4,
+      "winner": "Zohran Mamdani",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xebddfcf7b4401dade8b4031770a1ab942b01854f3bed453d5df9425cd9f211a9"
+      },
+      "candidates": [
+        {
+          "id": "538928",
+          "name": "Eric Adams",
+          "question": "Will Eric Adams win the 2025 NYC mayoral election?",
+          "condition_id": "0x846ce700a217ec7b75b8d078450f7e88eb5f44c76c12ae448ca10039ef4412b9",
+          "volume": 24498006.503446
+        },
+        {
+          "id": "538929",
+          "name": "Andrew Cuomo",
+          "question": "Will Andrew Cuomo win the 2025 NYC mayoral election?",
+          "condition_id": "0xc40cbb2d7f5d2c43c624bd5b1d0b18cd3d0682b3937363ec7c1ad1d13bee107e",
+          "volume": 48755937.180665
+        },
+        {
+          "id": "538930",
+          "name": "Curtis Sliwa",
+          "question": "Will Curtis Sliwa win the 2025 NYC mayoral election?",
+          "condition_id": "0xd7bd58d09efa1ff15be61cf30587e79444971ab125d55b2a88bf6ec04623a0d8",
+          "volume": 60402049.764981
+        },
+        {
+          "id": "538931",
+          "name": "Jim Walden",
+          "question": "Will Jim Walden win the 2025 NYC mayoral election?",
+          "condition_id": "0x9e56a92abcf4996105ab15ce5612742bc33f4b9097bb6a4ec5f1468e6f2580c5",
+          "volume": 49207581.601009
+        },
+        {
+          "id": "538932",
+          "name": "Zohran Mamdani",
+          "question": "Will Zohran Mamdani win the 2025 NYC mayoral election?",
+          "condition_id": "0xebddfcf7b4401dade8b4031770a1ab942b01854f3bed453d5df9425cd9f211a9",
+          "volume": 143254859.334333
+        },
+        {
+          "id": "538933",
+          "name": "Zellnor Myrie",
+          "question": "Will Zellnor Myrie win the 2025 NYC mayoral election?",
+          "condition_id": "0xcdec3de1f9c73e9ade1d33dde14b96e7241d0cc87f04981e71a955d3dac56b37",
+          "volume": 19383661.523146
+        },
+        {
+          "id": "538934",
+          "name": "Scott Stringer",
+          "question": "Will Scott Stringer win the 2025 NYC mayoral election?",
+          "condition_id": "0xe5820e25ac4cdb2e53b98f159c638be0be99ab68e0efefa4b3507920be345fb8",
+          "volume": 5719259.7549
+        },
+        {
+          "id": "538935",
+          "name": "Brad Lander",
+          "question": "Will Brad Lander win the 2025 NYC mayoral election?",
+          "condition_id": "0x34c989bada239153e86a009b3d25539db4c86fc4df3e01d320f0bee58a7aef45",
+          "volume": 29246888.170365
+        },
+        {
+          "id": "538936",
+          "name": "Andrew Yang",
+          "question": "Will Andrew Yang win the 2025 NYC mayoral election?",
+          "condition_id": "0x85b11ae5afabe30013efc24d983a6145b7f4d2f187cccbdfbd763aa268c16a55",
+          "volume": 9355140.22698
+        },
+        {
+          "id": "538937",
+          "name": "Adrienne Adams",
+          "question": "Will Adrienne Adams win the 2025 NYC mayoral election?",
+          "condition_id": "0xbb50a8be669052c941c30a8892b48ba104fb09ffd7d82f963b511f3db855e0a1",
+          "volume": 17172736.263185
+        },
+        {
+          "id": "538938",
+          "name": "Rudy Giuliani",
+          "question": "Will Rudy Giuliani win the 2025 NYC mayoral election?",
+          "condition_id": "0xee44d5936019f87f0fee643d930ac34139e7211ebdde3f3d27c290bb9fdd5929",
+          "volume": 17399211.228589
+        },
+        {
+          "id": "538939",
+          "name": "Michael Bloomberg",
+          "question": "Will Michael Bloomberg win the 2025 NYC mayoral election?",
+          "condition_id": "0x0d846c3a844217f3f7f7dce64989c312af00451efc0d78ef6dcc690b12533eef",
+          "volume": 5219083.471827
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 1.0045,
+          "probabilities": [
+            0.001493,
+            0.111,
+            0.003484,
+            0.000498,
+            0.879044,
+            0.000498,
+            0.000498,
+            0.001493,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498
+          ],
+          "raw_prices": [
+            0.0015,
+            0.1115,
+            0.0035,
+            0.0005,
+            0.883,
+            0.0005,
+            0.0005,
+            0.0015,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "538928",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538929",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538930",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538931",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538932",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538933",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538934",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538935",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538936",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538937",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538938",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538939",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 4,
+          "hit": true,
+          "brier": 0.013485,
+          "winner_probability": 0.879044
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.0065,
+          "probabilities": [
+            0.000994,
+            0.118728,
+            0.002484,
+            0.000497,
+            0.87382,
+            0.000497,
+            0.000497,
+            0.000497,
+            0.000497,
+            0.000497,
+            0.000497,
+            0.000497
+          ],
+          "raw_prices": [
+            0.001,
+            0.1195,
+            0.0025,
+            0.0005,
+            0.8795,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "538928",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538929",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538930",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538931",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538932",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538933",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538934",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538935",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538936",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538937",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538938",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538939",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 4,
+          "hit": true,
+          "brier": 0.015013,
+          "winner_probability": 0.87382
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.005,
+          "probabilities": [
+            0.000498,
+            0.050249,
+            0.001493,
+            0.000498,
+            0.943781,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498
+          ],
+          "raw_prices": [
+            0.0005,
+            0.0505,
+            0.0015,
+            0.0005,
+            0.9485,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "538928",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538929",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538930",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538931",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538932",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538933",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538934",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538935",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538936",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538937",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538938",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538939",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 4,
+          "hit": true,
+          "brier": 0.002845,
+          "winner_probability": 0.943781
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 1.006,
+          "probabilities": [
+            0.000497,
+            0.083499,
+            0.000497,
+            0.000497,
+            0.911531,
+            0.000497,
+            0.000497,
+            0.000497,
+            0.000497,
+            0.000497,
+            0.000497,
+            0.000497
+          ],
+          "raw_prices": [
+            0.0005,
+            0.084,
+            0.0005,
+            0.0005,
+            0.917,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "538928",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538929",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538930",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538931",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538932",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538933",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538934",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538935",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538936",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538937",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538938",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538939",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 4,
+          "hit": true,
+          "brier": 0.007401,
+          "winner_probability": 0.911531
+        }
+      }
+    },
+    {
+      "id": "33861",
+      "title": "Pittsburgh Mayoral Election",
+      "slug": "cleveland-mayoral-election-966",
+      "url": "https://polymarket.com/event/cleveland-mayoral-election-966",
+      "election_day": "2025-11-04",
+      "winner_index": 1,
+      "winner": "Corey O'Connor",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x339b3fc5882da834090ccbd9238a1996d47c50a3ab4a19e83bd7e054d91cab8f"
+      },
+      "candidates": [
+        {
+          "id": "567245",
+          "name": "Tony Moreno",
+          "question": "Will Tony Moreno win the 2025 Pittsburgh mayoral election?",
+          "condition_id": "0xcce09872df444adeb13393aa952eba69bee00adcbdb9b673cf086fc8bd5ab1eb",
+          "volume": 5538.454303
+        },
+        {
+          "id": "567246",
+          "name": "Corey O'Connor",
+          "question": "Will Corey O'Connor win the 2025 Pittsburgh mayoral election?",
+          "condition_id": "0x339b3fc5882da834090ccbd9238a1996d47c50a3ab4a19e83bd7e054d91cab8f",
+          "volume": 13048.35449
+        },
+        {
+          "id": "567247",
+          "name": "Ed Gainey",
+          "question": "Will Ed Gainey win the 2025 Pittsburgh mayoral election?",
+          "condition_id": "0x6ac8c3ef98580f5278a6f7a893532640f2c364cc626917882794b221c509750b",
+          "volume": 3593.353
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.983,
+          "probabilities": [
+            0.043235,
+            0.940997,
+            0.015768
+          ],
+          "raw_prices": [
+            0.0425,
+            0.925,
+            0.0155
+          ],
+          "observations": [
+            {
+              "market_id": "567245",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567246",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567247",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.0028,
+          "winner_probability": 0.940997
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.007,
+          "probabilities": [
+            0.038232,
+            0.953327,
+            0.008441
+          ],
+          "raw_prices": [
+            0.0385,
+            0.96,
+            0.0085
+          ],
+          "observations": [
+            {
+              "market_id": "567245",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567246",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567247",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.001856,
+          "winner_probability": 0.953327
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 0.9965,
+          "probabilities": [
+            0.002509,
+            0.995986,
+            0.001505
+          ],
+          "raw_prices": [
+            0.0025,
+            0.9925,
+            0.0015
+          ],
+          "observations": [
+            {
+              "market_id": "567245",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567246",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567247",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 1.2e-05,
+          "winner_probability": 0.995986
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 1.0015,
+          "probabilities": [
+            0.001498,
+            0.997004,
+            0.001498
+          ],
+          "raw_prices": [
+            0.0015,
+            0.9985,
+            0.0015
+          ],
+          "observations": [
+            {
+              "market_id": "567245",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567246",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567247",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 7e-06,
+          "winner_probability": 0.997004
+        }
+      }
+    },
+    {
+      "id": "33847",
+      "title": "Seattle Mayoral Election",
+      "slug": "seattle-mayoral-election",
+      "url": "https://polymarket.com/event/seattle-mayoral-election",
+      "election_day": "2025-11-04",
+      "winner_index": 1,
+      "winner": "Katie Wilson",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x41434a1fecb0eebffb4f3f9d881c1e10a953549c0f1027c49f2d45912107f27c"
+      },
+      "candidates": [
+        {
+          "id": "567137",
+          "name": "Bruce Harrell",
+          "question": "Will Bruce Harrell win the 2025 Seattle mayoral election?",
+          "condition_id": "0x711958fe6eb4583b75afc501236836b20a3e17b95d69efcec047cc8ce5060d6c",
+          "volume": 577085.914827
+        },
+        {
+          "id": "567138",
+          "name": "Katie Wilson",
+          "question": "Will Katie Wilson win the 2025 Seattle mayoral election?",
+          "condition_id": "0x41434a1fecb0eebffb4f3f9d881c1e10a953549c0f1027c49f2d45912107f27c",
+          "volume": 446583.20056
+        },
+        {
+          "id": "567139",
+          "name": "Joe Mallahan",
+          "question": "Will Joe Mallahan win the 2025 Seattle mayoral election?",
+          "condition_id": "0x21caf8776c903a31133ba57f63d2a23c33502189372f3046786876fd037abdef",
+          "volume": 45431.911599
+        },
+        {
+          "id": "567140",
+          "name": "Graham Gori",
+          "question": "Will Graham Gori win the 2025 Seattle mayoral election?",
+          "condition_id": "0x0bd2cb9ae2503784fed1110b9ccf19375b9cbeb420ba0f0ded93be0093f14543",
+          "volume": 43419.225514
+        },
+        {
+          "id": "567141",
+          "name": "Isaiah Willoughby",
+          "question": "Will Isaiah Willoughby win the 2025 Seattle mayoral election?",
+          "condition_id": "0x8ee62b12480ab08c5489d767b458a07153ca430d110e59a8d73a846bdfbc8595",
+          "volume": 37197.4115
+        },
+        {
+          "id": "567142",
+          "name": "Clinton Bliss",
+          "question": "Will Clinton Bliss win the 2025 Seattle mayoral election?",
+          "condition_id": "0x0aac3260d99fc2b810f45bdbef061c11ef36cf3b3e5d4c5e44cc2884f7e25fe3",
+          "volume": 65354.555741
+        },
+        {
+          "id": "567143",
+          "name": "Thaddeus Whelan",
+          "question": "Will Thaddeus Whelan win the 2025 Seattle mayoral election?",
+          "condition_id": "0x3e450a661eeb75bffbdb2ebbfd3d236ee270e3f67b052c7568a23be80c9d0569",
+          "volume": 27100.742121
+        },
+        {
+          "id": "567144",
+          "name": "Ry Armstrong",
+          "question": "Will Ry Armstrong win the 2025 Seattle mayoral election?",
+          "condition_id": "0x6971d02aafac602561a3c6bbfd995811f1f2ded3942cb93f26d7b9ed60d27ac6",
+          "volume": 19792.66175
+        },
+        {
+          "id": "567145",
+          "name": "Joe Molloy",
+          "question": "Will Joe Molloy win the 2025 Seattle mayoral election?",
+          "condition_id": "0x6535cfc71749d8c168d2cacb945f73d101fb00866d1a23f9270ff43cbdda06f3",
+          "volume": 24119.283833
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.7485,
+          "probabilities": [
+            0.427522,
+            0.567802,
+            0.000668,
+            0.000668,
+            0.000668,
+            0.000668,
+            0.000668,
+            0.000668,
+            0.000668
+          ],
+          "raw_prices": [
+            0.32,
+            0.425,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567137",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567138",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567139",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567140",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567141",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567142",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567143",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567144",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567145",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.184786,
+          "winner_probability": 0.567802
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 0.9935,
+          "probabilities": [
+            0.206341,
+            0.790136,
+            0.000503,
+            0.000503,
+            0.000503,
+            0.000503,
+            0.000503,
+            0.000503,
+            0.000503
+          ],
+          "raw_prices": [
+            0.205,
+            0.785,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567137",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567138",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567139",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567140",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567141",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567142",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567143",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567144",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567145",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.043311,
+          "winner_probability": 0.790136
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0045,
+          "probabilities": [
+            0.204082,
+            0.791439,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.001493,
+            0.000498,
+            0.000498
+          ],
+          "raw_prices": [
+            0.205,
+            0.795,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0015,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567137",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567138",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567139",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567140",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567141",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567142",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567143",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567144",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567145",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.042575,
+          "winner_probability": 0.791439
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 1.004,
+          "probabilities": [
+            0.164343,
+            0.831673,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000498,
+            0.000996,
+            0.000498,
+            0.000498
+          ],
+          "raw_prices": [
+            0.165,
+            0.835,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.001,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "567137",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567138",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567139",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567140",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567141",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567142",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567143",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567144",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567145",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 1,
+          "hit": true,
+          "brier": 0.027672,
+          "winner_probability": 0.831673
+        }
+      }
+    },
+    {
+      "id": "41300",
+      "title": "Tennessee House Special Election",
+      "slug": "tennessee-house-special-election",
+      "url": "https://polymarket.com/event/tennessee-house-special-election",
+      "election_day": "2025-12-02",
+      "winner_index": 10,
+      "winner": "Matt Van Epps",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xecb209079bdbdb22704c61a47ce1d8f31e83fce8e0763360e4bb17d04a7baad3"
+      },
+      "candidates": [
+        {
+          "id": "586024",
+          "name": "Jody Barrett",
+          "question": "Will Jody Barrett win TN-7 Special Election?",
+          "condition_id": "0x7c27e0e039c587c0dd63104ddb3031fd635cfc1e1b011c748259a54cb942bf0e",
+          "volume": 10736.757216
+        },
+        {
+          "id": "586025",
+          "name": "Aftyn Behn",
+          "question": "Will Aftyn Behn win TN-7 Special Election?",
+          "condition_id": "0xcecf5bd4aebcda50818f73a755cd5d35080658e20bae41cb8339761963109e5f",
+          "volume": 441333.644908
+        },
+        {
+          "id": "586026",
+          "name": "Gino Bulso",
+          "question": "Will Gino Bulso win TN-7 Special Election?",
+          "condition_id": "0xc40fa670744916b201f1e00e7f52f15448deaedb68d84ad25807e219e7d49402",
+          "volume": 13004.5576
+        },
+        {
+          "id": "586027",
+          "name": "Darden Copeland",
+          "question": "Will Darden Copeland win TN-7 Special Election?",
+          "condition_id": "0xa4dee20fb53121c0bf21cbb9c6ba975883e150a19b2af98029b0c8c7f17b8188",
+          "volume": 6826.763
+        },
+        {
+          "id": "586028",
+          "name": "Vincent Dixie",
+          "question": "Will Vincent Dixie win TN-7 Special Election?",
+          "condition_id": "0x844780ede82f45209ff767a0827d5b61b2e617308145bdf2c24a54015b6afec3",
+          "volume": 13104.403
+        },
+        {
+          "id": "586029",
+          "name": "Jason Knight",
+          "question": "Will Jason Knight win TN-7 Special Election?",
+          "condition_id": "0xce92edd1bc80d108134adaee49bb889ab5cfa87a9d441836c159695b1154c9a5",
+          "volume": 6545.153
+        },
+        {
+          "id": "586030",
+          "name": "Bo Mitchell",
+          "question": "Will Bo Mitchell win TN-7 Special Election?",
+          "condition_id": "0xee24db5258a8c846244454bf67abec9a51d7d54fdd8b856541dba14bde21efa2",
+          "volume": 8041.673
+        },
+        {
+          "id": "586031",
+          "name": "Stewart Parks",
+          "question": "Will Stewart Parks win TN-7 Special Election?",
+          "condition_id": "0x5e67e5c2405d9eec82a7cc68a41fb6e9afe2221754397ddb5ff13c382f6ec58d",
+          "volume": 9886.248
+        },
+        {
+          "id": "586032",
+          "name": "Lee Reeves",
+          "question": "Will Lee Reeves win TN-7 Special Election?",
+          "condition_id": "0x6abdb2f59bab899d206c66fd533edf19919d3d2bd2a176bb9a98c63f880edc3b",
+          "volume": 27316.102362
+        },
+        {
+          "id": "586033",
+          "name": "Jon Thorp",
+          "question": "Will Jon Thorp win TN-7 Special Election?",
+          "condition_id": "0x92c863de3e818302bdfe388e1aca9b314742e463aae220844297b3ace904e04f",
+          "volume": 4966.783
+        },
+        {
+          "id": "586034",
+          "name": "Matt Van Epps",
+          "question": "Will Matt Van Epps win TN-7 Special Election?",
+          "condition_id": "0xecb209079bdbdb22704c61a47ce1d8f31e83fce8e0763360e4bb17d04a7baad3",
+          "volume": 716005.844408
+        },
+        {
+          "id": "586035",
+          "name": "Stuart Cooper",
+          "question": "Will Stuart Cooper win TN-7 Special Election?",
+          "condition_id": "0x9bbd4aaca039b708e2c0c3b6324d3037be46c44db49541e6b0fc38c8ab719f0a",
+          "volume": 6451.124
+        },
+        {
+          "id": "586036",
+          "name": "Adolph Dagan",
+          "question": "Will Adolph Dagan win TN-7 Special Election?",
+          "condition_id": "0x02c3362bfef4a8c877f4ddd845ecbb0c65acd2b4c0fea2d244f6d2448b7eee09",
+          "volume": 17891.417763
+        },
+        {
+          "id": "586037",
+          "name": "Mason Foley",
+          "question": "Will Mason Foley win TN-7 Special Election?",
+          "condition_id": "0xdf1738a1a65897b459a1d678c722082a7833cdeac67126f368fd7c7ba7230033",
+          "volume": 8250.734
+        },
+        {
+          "id": "586038",
+          "name": "Joe Leurs",
+          "question": "Will Joe Leurs win TN-7 Special Election?",
+          "condition_id": "0xbc80092e4f234306b9e4f7482c8be5edfc0e6f330cfc253ffd76f9989c0cd159",
+          "volume": 10244.571
+        },
+        {
+          "id": "586039",
+          "name": "Tres Wittum",
+          "question": "Will Tres Wittum win TN-7 Special Election?",
+          "condition_id": "0xe9d756aa96c20cd2c911dd7aa1074167f46a75e8f74ec27106c91097fcf928f7",
+          "volume": 5366.023
+        },
+        {
+          "id": "586040",
+          "name": "Terrie Christie",
+          "question": "Will Terrie Christie win TN-7 Special Election?",
+          "condition_id": "0xc562b545a0c8a9bf0264469bd1e6518618497cb2f94f5992649dc66de4389643",
+          "volume": 12138.726808
+        },
+        {
+          "id": "586041",
+          "name": "Bobby Dodge",
+          "question": "Will Bobby Dodge win TN-7 Special Election?",
+          "condition_id": "0x54c9b80ab385eee32e27e53b3ff73b3a3d73f934ed016050b2d376bd1bda364b",
+          "volume": 17229.298833
+        },
+        {
+          "id": "586042",
+          "name": "Robert James Sutherby",
+          "question": "Will Robert James Sutherby win TN-7 Special Election?",
+          "condition_id": "0xe2979a90f1b274821b4f1415f7c8043ff3b44284e05d57ee6841bb8ff3068f66",
+          "volume": 7147.773
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-11-02T15:00:00+00:00",
+          "raw_sum": 4.985,
+          "probabilities": [
+            0.047141,
+            0.018054,
+            0.055165,
+            0.019057,
+            0.032096,
+            0.038114,
+            0.037111,
+            0.066199,
+            0.068205,
+            0.039117,
+            0.162487,
+            0.042126,
+            0.042126,
+            0.058175,
+            0.054162,
+            0.068205,
+            0.039117,
+            0.072217,
+            0.041123
+          ],
+          "raw_prices": [
+            0.235,
+            0.09,
+            0.275,
+            0.095,
+            0.16,
+            0.19,
+            0.185,
+            0.33,
+            0.34,
+            0.195,
+            0.81,
+            0.21,
+            0.21,
+            0.29,
+            0.27,
+            0.34,
+            0.195,
+            0.36,
+            0.205
+          ],
+          "observations": [
+            {
+              "market_id": "586024",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586025",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586026",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586027",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586028",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586029",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586030",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586031",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586032",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586033",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586034",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586035",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586036",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586037",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586038",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586039",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586040",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586041",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586042",
+              "observed_at": "2025-11-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 10,
+          "hit": true,
+          "brier": 0.372381,
+          "winner_probability": 0.162487
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-11-25T15:00:00+00:00",
+          "raw_sum": 1.0125,
+          "probabilities": [
+            0.000494,
+            0.11358,
+            0.000494,
+            0.000494,
+            0.000494,
+            0.000494,
+            0.000494,
+            0.000494,
+            0.001481,
+            0.000494,
+            0.874074,
+            0.001481,
+            0.001481,
+            0.000494,
+            0.000494,
+            0.000494,
+            0.000494,
+            0.001481,
+            0.000494
+          ],
+          "raw_prices": [
+            0.0005,
+            0.115,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0015,
+            0.0005,
+            0.885,
+            0.0015,
+            0.0015,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0015,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "586024",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586025",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586026",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586027",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586028",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586029",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586030",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586031",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586032",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586033",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586034",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586035",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586036",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586037",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586038",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586039",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586040",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586041",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586042",
+              "observed_at": "2025-11-25T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 10,
+          "hit": true,
+          "brier": 0.014385,
+          "winner_probability": 0.874074
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-12-01T15:00:00+00:00",
+          "raw_sum": 1.0085,
+          "probabilities": [
+            0.000496,
+            0.133862,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.857709,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496,
+            0.000496
+          ],
+          "raw_prices": [
+            0.0005,
+            0.135,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.865,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "586024",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586025",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586026",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586027",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586028",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586029",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586030",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586031",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586032",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586033",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586034",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586035",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586036",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586037",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586038",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586039",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586040",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586041",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586042",
+              "observed_at": "2025-12-01T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 10,
+          "hit": true,
+          "brier": 0.019085,
+          "winner_probability": 0.857709
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-12-02T15:00:00+00:00",
+          "raw_sum": 1.0135,
+          "probabilities": [
+            0.000493,
+            0.103601,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.888012,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493,
+            0.000493
+          ],
+          "raw_prices": [
+            0.0005,
+            0.105,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.9,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005,
+            0.0005
+          ],
+          "observations": [
+            {
+              "market_id": "586024",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586025",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586026",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586027",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586028",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586029",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586030",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586031",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586032",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586033",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586034",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586035",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586036",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586037",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586038",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586039",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586040",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586041",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586042",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 10,
+          "hit": true,
+          "brier": 0.011639,
+          "winner_probability": 0.888012
+        }
+      }
+    },
+    {
+      "id": "54928",
+      "title": "Virginia Attorney General Election Winner",
+      "slug": "virginia-attorney-general-election-winner-2025",
+      "url": "https://polymarket.com/event/virginia-attorney-general-election-winner-2025",
+      "election_day": "2025-11-04",
+      "winner_index": 1,
+      "winner": "Jay Jones",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xdfd3d267e9893993f70809ad9d0d21e0a56c1651910f128c3a88d6377d766c9e"
+      },
+      "candidates": [
+        {
+          "id": "623207",
+          "name": "Jason Miyares",
+          "question": "Will Jason Miyares win the 2025 Virginia Attorney General election?",
+          "condition_id": "0xccf29510341e7437f067af2cb107f69d617975a734646b4a6c86089242c8daa0",
+          "volume": 1464306.177444
+        },
+        {
+          "id": "623208",
+          "name": "Jay Jones",
+          "question": "Will Jay Jones win the 2025 Virginia Attorney General election?",
+          "condition_id": "0xdfd3d267e9893993f70809ad9d0d21e0a56c1651910f128c3a88d6377d766c9e",
+          "volume": 1101981.718232
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "missing",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "observations": []
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.0,
+          "probabilities": [
+            0.56,
+            0.44
+          ],
+          "raw_prices": [
+            0.56,
+            0.44
+          ],
+          "observations": [
+            {
+              "market_id": "623207",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "623208",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": false,
+          "brier": 0.3136,
+          "winner_probability": 0.44
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0,
+          "probabilities": [
+            0.575,
+            0.425
+          ],
+          "raw_prices": [
+            0.575,
+            0.425
+          ],
+          "observations": [
+            {
+              "market_id": "623207",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "623208",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": false,
+          "brier": 0.330625,
+          "winner_probability": 0.425
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 1.0,
+          "probabilities": [
+            0.565,
+            0.435
+          ],
+          "raw_prices": [
+            0.565,
+            0.435
+          ],
+          "observations": [
+            {
+              "market_id": "623207",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "623208",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": false,
+          "brier": 0.319225,
+          "winner_probability": 0.435
+        }
+      }
+    },
+    {
+      "id": "28830",
+      "title": "Virginia Governor Election Winner",
+      "slug": "virginia-governor-election-winner-2025",
+      "url": "https://polymarket.com/event/virginia-governor-election-winner-2025",
+      "election_day": "2025-11-04",
+      "winner_index": 0,
+      "winner": "Abigail Spanberger",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x6a275bccfc2f3f09731fcde02291d06673d7540cbb120ddd0a56ae7a39ef0e38"
+      },
+      "candidates": [
+        {
+          "id": "555813",
+          "name": "Abigail Spanberger",
+          "question": "Will Abigail Spanberger win the Virginia Governor Election in 2025",
+          "condition_id": "0x6a275bccfc2f3f09731fcde02291d06673d7540cbb120ddd0a56ae7a39ef0e38",
+          "volume": 1785060.073154
+        },
+        {
+          "id": "555814",
+          "name": "Winsome Earle-Sears",
+          "question": "Will Winsome Earle-Sears win the Virginia Governor Election in 2025",
+          "condition_id": "0x6b9f192e5ddc110431a737aed515ed9ca5e13bc71dd5bab74f32a7dc68afd683",
+          "volume": 1377678.245054
+        }
+      ],
+      "forecasts": {
+        "30": {
+          "status": "scored",
+          "cutoff": "2025-10-05T15:00:00+00:00",
+          "raw_sum": 0.999,
+          "probabilities": [
+            0.954454,
+            0.045546
+          ],
+          "raw_prices": [
+            0.9535,
+            0.0455
+          ],
+          "observations": [
+            {
+              "market_id": "555813",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "555814",
+              "observed_at": "2025-10-05T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.002074,
+          "winner_probability": 0.954454
+        },
+        "7": {
+          "status": "scored",
+          "cutoff": "2025-10-28T15:00:00+00:00",
+          "raw_sum": 1.0005,
+          "probabilities": [
+            0.96052,
+            0.03948
+          ],
+          "raw_prices": [
+            0.961,
+            0.0395
+          ],
+          "observations": [
+            {
+              "market_id": "555813",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "555814",
+              "observed_at": "2025-10-28T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.001559,
+          "winner_probability": 0.96052
+        },
+        "1": {
+          "status": "scored",
+          "cutoff": "2025-11-03T15:00:00+00:00",
+          "raw_sum": 1.0005,
+          "probabilities": [
+            0.988006,
+            0.011994
+          ],
+          "raw_prices": [
+            0.9885,
+            0.012
+          ],
+          "observations": [
+            {
+              "market_id": "555813",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "555814",
+              "observed_at": "2025-11-03T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.000144,
+          "winner_probability": 0.988006
+        },
+        "0": {
+          "status": "scored",
+          "cutoff": "2025-11-04T15:00:00+00:00",
+          "raw_sum": 1.0005,
+          "probabilities": [
+            0.985507,
+            0.014493
+          ],
+          "raw_prices": [
+            0.986,
+            0.0145
+          ],
+          "observations": [
+            {
+              "market_id": "555813",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "555814",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 3.0,
+              "resolution_seconds": 10800
+            }
+          ],
+          "leader_index": 0,
+          "hit": true,
+          "brier": 0.00021,
+          "winner_probability": 0.985507
+        }
+      }
+    }
+  ]
+}

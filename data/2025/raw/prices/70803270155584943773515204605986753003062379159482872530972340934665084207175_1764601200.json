@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "timestamp": 1764590400,
+      "price": 0.865,
+      "resolution_seconds": 10800
+    }
+  ],
+  "pagination": {
+    "limit": 10000,
+    "offset": 0,
+    "has_more": false,
+    "next_cursor": null
+  }
+}
