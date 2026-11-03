@@ -3,35 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="An open, reproducible scorecard for Polymarket election forecasts.">
-  <title>How much did the market know? — Election Forecast Scorecard</title>
+  <meta name="description" content="A reproducible audit of Polymarket election forecasts, race by race and cutoff by cutoff.">
+  <title>Election markets, audited</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="masthead">
-    <a class="brand" href="#top"><span class="brand-mark">◈</span> THE FORECAST FILE</a>
-    <nav aria-label="Main navigation"><a href="#score">The score</a><a href="#explore">Explore races</a><a href="#method">Method</a><a class="repo-link" href="https://github.com/jhackworth42/polymarket-election-scorecard" target="_blank" rel="noopener">GitHub ↗</a></nav>
+    <a class="brand" href="#top">Election markets <span>/</span> audited</a>
+    <nav aria-label="Main navigation"><a href="#score">Results</a><a href="#calibration">Calibration</a><a href="#explore">Race explorer</a><a href="#method">Methods</a><a href="https://github.com/jhackworth42/polymarket-election-scorecard" target="_blank" rel="noopener">Data &amp; code ↗</a></nav>
   </header>
   <main id="top">
     <section class="hero wrap">
-      <div class="hero-meta"><span class="live-dot"></span><span id="edition-label">2025 U.S. elections · historical test</span><span class="meta-divider">/</span><span>OPEN DATA ANALYSIS</span></div>
-      <div class="hero-grid"><div><h1>How much did<br>the <em>market</em> know?</h1><p class="dek">A race-by-race audit of election prices—what they predicted, how confident they were, and where they missed.</p><div class="hero-links"><a class="button-primary" href="#score">See the score <span>↓</span></a><a class="button-text" href="#method">How we measured it ↗</a></div></div><div class="hero-symbol" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orb orb-three"></div><div class="orbit-label top">30 DAYS</div><div class="orbit-label bottom">ELECTION DAY</div><div class="orbit-cross">×</div></div></div>
-      <div class="hero-bottom"><span>01 / FORECASTS UNDER THE MICROSCOPE</span><span>SCROLL TO EXPLORE ↓</span></div>
+      <div class="kicker"><span id="edition-label">2025 U.S. elections · historical test</span><span>POLYMARKET FORECAST AUDIT</span></div>
+      <div class="hero-layout">
+        <div><h1 id="hero-title">How often did the market’s favorite win?</h1><p class="dek" id="hero-dek">An audit of direct race-winner markets at four cutoffs before voting ended. Each race counts once.</p><a class="text-link" href="#score">See every race ↓</a></div>
+        <aside class="hero-finding" aria-label="One-day forecast finding"><span class="small-label">ONE DAY BEFORE THE ELECTION</span><strong id="hero-hits">—</strong><span class="finding-caption">favorites won their races</span><div class="finding-rule"></div><div class="finding-pair"><span>Mean Brier score <a href="#method" aria-label="Brier score definition">ⓘ</a></span><b id="hero-brier">—</b></div><div class="finding-pair"><span>Races scored</span><b id="hero-sample">—</b></div></aside>
+      </div>
+      <p class="source-note">Historical test · Prices are pre-election snapshots · Results are verified Polymarket settlements · <a href="coverage.json">See inclusion decisions</a></p>
     </section>
-    <section class="score-section" id="score"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">01 — THE SCORE</span><h2>Accuracy changes<br>with the clock.</h2></div><p>Choose a snapshot to see what the market believed at that point. Every race counts once; unresolved or missing-price races are kept out of the score.</p></div>
-      <div class="horizon-control" role="group" aria-label="Forecast cutoff"><button data-horizon="30">30 days out</button><button data-horizon="7">7 days out</button><button data-horizon="1" class="active">1 day out</button><button data-horizon="0">Election day</button></div>
-      <div class="stat-grid"><div class="stat"><div class="stat-label">FAVORITE WON <span>↗</span></div><div class="stat-value" id="hit-rate">—</div><div class="stat-foot" id="hit-detail">Loading races</div></div><div class="stat"><div class="stat-label">BRIER SCORE <span>↗</span></div><div class="stat-value" id="brier-score">—</div><div class="stat-foot">Lower is better · 0 is perfect</div></div><div class="stat"><div class="stat-label">RACES SCORED <span>↗</span></div><div class="stat-value" id="race-count">—</div><div class="stat-foot" id="coverage-detail">From the eligible cohort</div></div></div>
-      <div class="chart-intro"><div><span class="eyebrow">THE FORECAST FIELD</span><h3>Each dot is one race.</h3></div><p>The farther right, the more confident the market was in its favorite. Hollow dots mark favorites that lost.</p></div><div class="plot-frame"><div id="confidence-plot" class="confidence-plot" role="img" aria-label="Race forecasts by favorite probability"></div><div class="plot-legend"><span><i class="legend-dot filled"></i> Favorite won</span><span><i class="legend-dot hollow"></i> Favorite lost</span></div></div>
-      <div class="chart-intro calibration-intro"><div><span class="eyebrow">CALIBRATION CHECK</span><h3>Did confidence pay off?</h3></div><p>For favorites in each probability range, compare their average quoted chance with how often they won. Small groups are descriptive, not a verdict.</p></div><div id="calibration" class="calibration" role="img" aria-label="Favorite forecast confidence compared with actual win rates"></div><div class="calibration-legend"><span><i class="cal-marker predicted"></i> Average forecast</span><span><i class="cal-marker observed"></i> Actual win rate</span></div>
+
+    <section class="section-light" id="score"><div class="wrap section-pad">
+      <div class="section-number">01 / FORECAST ACCURACY</div><h2>What the market favored, race by race</h2>
+      <p class="section-dek">A “favorite” is the candidate with the highest normalized price at the chosen cutoff. <strong>Blue</strong> means the favorite won; <strong>red</strong> means another candidate won. The horizontal position is the favorite’s forecast chance, from 0% to 100%. Colors describe forecast accuracy, not party.</p>
+      <div class="horizon-control" role="group" aria-label="Choose forecast cutoff"><button data-horizon="30">30 days before</button><button data-horizon="7">7 days before</button><button data-horizon="1" class="active">1 day before</button><button data-horizon="0">Election day morning</button></div>
+      <div class="score-summary"><span id="hit-detail">Loading races</span><span>Brier score <b id="brier-score">—</b> <a href="#method">What is this? ↗</a></span></div>
+      <div class="chart-head"><span>RACE AND FAVORED CANDIDATE</span><span>FAVORITE’S FORECAST CHANCE</span><span>RESULT</span></div>
+      <div id="confidence-plot" class="race-plot" aria-label="Each race's favorite probability and whether that favorite won"></div>
+      <div class="axis-row" aria-hidden="true"><span></span><div class="axis-labels"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span></div><span></span></div>
+      <p class="chart-note">Cutoff is 15:00 UTC; election-day snapshots precede results. Open a race below to inspect its price history.</p>
     </div></section>
-    <section class="story-section wrap"><div class="section-heading"><div><span class="eyebrow">02 — THE EXCEPTIONS</span><h2>Where the market<br>paid for confidence.</h2></div><p id="surprise-dek">The biggest Brier penalties identify consequential misses. A narrow 51–49 miss hurts less than a highly confident wrong call.</p></div><div class="surprises" id="surprises"></div></section>
-    <section class="explore-section" id="explore"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">03 — RACE EXPLORER</span><h2>Follow the forecast.</h2></div><p>See how each winner’s estimated chance changed from a month out to election day. Points are historical price snapshots, with observation times in the details below.</p></div><div class="explorer"><div class="explorer-top"><label for="race-select">SELECT A RACE</label><select id="race-select"></select></div><div class="race-head"><div><div class="eyebrow" id="race-status-label">EVENTUAL WINNER</div><h3 id="race-winner">—</h3><a id="race-link" href="#" target="_blank" rel="noopener">View Polymarket market ↗</a></div><div class="winner-chance"><span><span id="race-chance-label">WINNER'S CHANCE</span> · <span id="selected-horizon-label">1 DAY OUT</span></span><strong id="race-probability">—</strong></div></div><div id="race-chart" class="race-chart" role="img" aria-label="Candidate probability over time"></div><div id="race-points" class="race-points"></div></div></div></section>
-    <section class="method-section wrap" id="method"><div><span class="eyebrow">04 — THE RECEIPTS</span><h2>Show the work.</h2><p>Each election-winner event is one race. Named candidate “Yes” prices are normalized to 100% within that race; the highest-priced candidate is the favorite. The score uses the multiclass Brier formula, so a confident wrong call receives a larger penalty.</p><p>Historical prices can be aggregated or stale. We reject observations more than 24 hours old and retain every price’s timestamp in the downloadable data. This 2025 edition is a historical pipeline test of tagged U.S. race-winner markets; it is not a claim about all Polymarket election bets.</p><div class="method-links"><a href="coverage.json">Coverage ledger ↗</a><a href="scorecard.json">Scored data ↗</a><a href="https://data-api.polymarket.com/v2/docs" target="_blank" rel="noopener">Polymarket API ↗</a></div></div><aside class="method-card"><div class="eyebrow">THE FORMULA</div><div class="formula">Brier = ½ Σ(p − y)²</div><p>For each candidate, p is its normalized forecast probability; y is 1 for the winner and 0 otherwise. We average race scores at each cutoff.</p><div class="method-rule"></div><div class="mono-small" id="method-note">Source data and inclusion decisions are in the repository.</div></aside></section>
+
+    <section class="section-muted" id="calibration"><div class="wrap section-pad">
+      <div class="section-number">02 / CALIBRATION</div><h2>Did confidence match reality?</h2>
+      <p class="section-dek">If favorites quoted near 80% are well calibrated, they should win about 8 in 10 times. Each row groups races by the favorite’s quoted chance at the selected cutoff. The bars compare the <strong>average forecast</strong> with the <strong>share that actually won</strong>.</p>
+      <div class="cal-header"><span>FAVORITE’S PRICE RANGE</span><span>FORECAST VS. RESULT</span><span>RACES</span></div>
+      <div id="calibration-chart" class="calibration-chart" aria-label="Average forecast probability and actual win rate for groups of races"></div>
+      <div class="bar-key"><span><i class="key-block blue"></i> Average forecast</span><span><i class="key-block ink"></i> Favorites that won</span></div>
+      <p class="chart-note">These groups are small and the races share political information. Treat the comparison as a description of this cohort, not proof that markets are calibrated generally.</p>
+    </div></section>
+
+    <section class="section-light" id="surprise-section"><div class="wrap section-pad">
+      <div class="section-number">03 / FORECAST ERRORS</div><h2>Which races drove the score?</h2>
+      <p class="section-dek" id="surprise-dek">A confident miss adds more to the Brier score than a narrow miss. The bars show each race’s share of the total squared error at this cutoff.</p>
+      <div class="surprise-head"><span>RACE</span><span>SHARE OF TOTAL ERROR</span></div><div class="surprises" id="surprises"></div>
+      <p class="chart-note">The full Brier score averages error across every eligible race. These bars allocate that total back to individual races.</p>
+    </div></section>
+
+    <section class="section-muted" id="explore"><div class="wrap section-pad">
+      <div class="section-number">04 / PRICE HISTORY</div><h2>Follow one race through time</h2>
+      <p class="section-dek">The blue line tracks the eventual winner’s pre-election price at four fixed cutoffs. For pending races it tracks the current favorite. A higher line means greater confidence in that candidate; the chart contains no post-election prices.</p>
+      <div class="explorer"><div class="explorer-top"><label for="race-select">Choose a race</label><select id="race-select"></select></div>
+        <div class="race-head"><div><span class="small-label" id="race-status-label">EVENTUAL WINNER</span><h3 id="race-winner">—</h3><a id="race-link" href="#" target="_blank" rel="noopener">Open Polymarket event ↗</a></div><div class="winner-chance"><span id="race-chance-label">WINNER’S CHANCE</span><strong id="race-probability">—</strong><small id="selected-horizon-label">1 DAY BEFORE</small></div></div>
+        <div class="race-chart-title">Candidate’s forecast probability</div><div id="race-chart" class="race-chart" role="img" aria-label="Pre-election probability for the selected candidate over time"></div><div id="race-points" class="race-points"></div>
+      </div>
+    </div></section>
+
+    <section class="method wrap section-pad" id="method"><div><div class="section-number">05 / METHODS &amp; SOURCES</div><h2>What counts—and what doesn’t</h2><p>We score one direct election-winner event per race. Named, traded candidate “Yes” prices are normalized to sum to 100% within that event. A favorite “hit” means the highest-priced candidate won. A race enters a cutoff score only when its eventual winner has a usable historical price.</p><p>The Brier score is <code>½ × Σ(probability − outcome)²</code> across candidates; lower is better and 0 is perfect. We exclude prices more than 24 hours older than a cutoff and retain each observation time. The 2025 edition is a historical test of tagged U.S. markets, not every election or every Polymarket bet.</p><div class="method-links"><a href="coverage.json">Coverage ledger ↗</a><a href="scorecard.json">Scored data ↗</a><a href="https://data-api.polymarket.com/v2/docs" target="_blank" rel="noopener">Polymarket API ↗</a><a href="https://github.com/jhackworth42/polymarket-election-scorecard" target="_blank" rel="noopener">GitHub repository ↗</a></div></div><aside><div class="small-label">AT A GLANCE</div><div class="method-fact"><strong id="method-discovered">—</strong><span>tagged events reviewed</span></div><div class="method-fact"><strong id="method-included">—</strong><span>direct race-winner events included</span></div><div class="method-fact"><strong id="method-failures">—</strong><span>price fetch failures</span></div><p>Candidate and event eligibility rules are in the public repository.</p></aside></section>
   </main>
-  <footer><div class="wrap footer-inner"><span>THE FORECAST FILE <span class="footer-star">◈</span> 2025 HISTORICAL TEST</span><span>Built from public market data · <a href="https://github.com/jhackworth42/polymarket-election-scorecard">View the code ↗</a></span></div></footer>
+  <footer><div class="wrap footer-inner"><span>Election markets / audited</span><span>2025 historical test · <a href="https://github.com/jhackworth42/polymarket-election-scorecard">Data and code ↗</a></span></div></footer>
   <script src="app.js"></script>
 </body>
 </html>
