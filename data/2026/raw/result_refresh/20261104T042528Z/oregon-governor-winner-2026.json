@@ -1,0 +1,84 @@
+{
+  "id": "57187",
+  "slug": "oregon-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629583",
+      "conditionId": "0x8d65ff57f443011c4c10e7aa50aa54b3a3b5e2b940cb3ca97c0357bbcaee0b36",
+      "closed": false,
+      "outcomePrices": "[\"0.986\", \"0.014\"]"
+    },
+    {
+      "id": "629584",
+      "conditionId": "0x883c09380a078565f29485a9d3671fff48853a87de9a5bf48bc204f7161250c9",
+      "closed": false,
+      "outcomePrices": "[\"0.0125\", \"0.9875\"]"
+    },
+    {
+      "id": "629585",
+      "conditionId": "0xd6dc7db9cde86a8e376b962a0032a2d70e2712dd1a33f90f5331c081277e5382",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629586",
+      "conditionId": "0xaeff4d31e417fe0f393b57875cf20bd8c7c37f9d4d1d70e97d0ab3364c5bd0cd",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629587",
+      "conditionId": "0x7d545612d2b4cd03476c0640dabe97924b3b7d572c14ac93ebbe54a0bfbd7303",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629588",
+      "conditionId": "0xefb40cccbe161dd9d439fe5e883ced3cdb2644679f33774dd7d53f4a86c176ca",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629589",
+      "conditionId": "0x8e21b946e0af10a89355027c28239deabe7d44eadbdb89d9281ae93b8f66a28c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629590",
+      "conditionId": "0x4909d8a53834067b035eef1d16235a42087b9171a5f31860d44a79b1c03aee9f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629591",
+      "conditionId": "0x8684fca8aa39f947491946c6f0f16615b838b099eb37f5ebe122a96439fba557",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629592",
+      "conditionId": "0x15ff6c2a78a5b309c13f25ce8a0c6389aa7b4a213f9dacfc838b8994b57a6df7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629593",
+      "conditionId": "0xa6196e1a1c15415f347f87fd72459c3908b707914717cc98f0c3b9e1120734f1",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629594",
+      "conditionId": "0xfa84deccd955bf1fdfc1a92b705e77bc00f3fee10d227b629e2043f8e373e157",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629595",
+      "conditionId": "0xf2f2bc8cabbd54fd475537e6a53c4dc539789f2e72d5b2f66110263dad159ad7",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

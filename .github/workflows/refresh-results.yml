@@ -1,0 +1,37 @@
+name: Refresh 2026 results
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-2026-results
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Refresh verified results and comparison
+        run: python -m scorecard build --edition 2026 --refresh-results
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/2026 site/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Refresh verified 2026 election results"
+            git push origin HEAD:main
+          fi

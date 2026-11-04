@@ -1,0 +1,54 @@
+{
+  "id": "191470",
+  "slug": "ks-02-house-election-winner",
+  "markets": [
+    {
+      "id": "1283520",
+      "conditionId": "0x21017b31d4a1d3985f2121f1d452d857d54ac45c975507c6ace3ae6041f9a62f",
+      "closed": false,
+      "outcomePrices": "[\"0.9825\", \"0.0175\"]"
+    },
+    {
+      "id": "1283521",
+      "conditionId": "0x0cf24055e3630528a1d4f50303d8481cacc8c30df71d142c4a5d3841c528f3af",
+      "closed": false,
+      "outcomePrices": "[\"0.0155\", \"0.9845\"]"
+    },
+    {
+      "id": "1283522",
+      "conditionId": "0x9c5a145798a9182c5d0ab6ac2eae3d15b1c5e3fadada5c8924609cecbb377a6e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283523",
+      "conditionId": "0x9afc8cdc73515f2850e76f8eef4982f305938a3c576632d8179c4ae164ac97c8",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283524",
+      "conditionId": "0x6d4075fc75204a063b80effd4967aeeba4833c7e07b86373825859179e6db82a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283525",
+      "conditionId": "0x3a0dd2bf8e7076329c8ef2d5142732a909fd125130532738050f18536535bc0f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283526",
+      "conditionId": "0xba4f7f38bd1bc1fdd342fa39866b157cd01a125a91163d043d9f4a44a9651467",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283527",
+      "conditionId": "0x655ce51bae850ad8340c316b4f9ec7c68aee5582855139e930d1a42ef9c33b02",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

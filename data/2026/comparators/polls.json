@@ -1,0 +1,386 @@
+{
+  "source": "FutureBallot simple polling average",
+  "as_of": "2026-11-02T21:12:00Z",
+  "source_url": "https://futureballot.com/polls",
+  "method": "Mean poll margin in the 30 days before each race's newest poll; ties abstain",
+  "picks": {
+    "senate:LA": {
+      "pick": null,
+      "average": "Even (1)",
+      "latest_poll": "Oct 29, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:IA": {
+      "pick": null,
+      "average": "Even (15)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:GA": {
+      "pick": null,
+      "average": "Even (7)",
+      "latest_poll": "Nov 2, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:NV": {
+      "pick": null,
+      "average": "D+0 (4)",
+      "latest_poll": "Oct 28, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:VT": {
+      "pick": "D",
+      "average": "D+1 (3)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:OR": {
+      "pick": "D",
+      "average": "D+1 (4)",
+      "latest_poll": "Oct 4, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:KS": {
+      "pick": "R",
+      "average": "R+1 (7)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:SC": {
+      "pick": "R",
+      "average": "R+1 (9)",
+      "latest_poll": "Oct 29, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:NE": {
+      "pick": "R",
+      "average": "R+1 (11)",
+      "latest_poll": "Oct 29, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:TX": {
+      "pick": "R",
+      "average": "R+2 (22)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:AK": {
+      "pick": "D",
+      "average": "D+2 (8)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:MS": {
+      "pick": "R",
+      "average": "R+3 (1)",
+      "latest_poll": "Oct 22, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:OH": {
+      "pick": "D",
+      "average": "D+3 (18)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:TX": {
+      "pick": "D",
+      "average": "D+3 (29)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:KS": {
+      "pick": "D",
+      "average": "D+3 (9)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:NE": {
+      "pick": "R",
+      "average": "R+4 (10)",
+      "latest_poll": "Oct 29, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:OK": {
+      "pick": "R",
+      "average": "R+4 (1)",
+      "latest_poll": "Oct 13, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:OH": {
+      "pick": "D",
+      "average": "D+4 (15)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:MI": {
+      "pick": "D",
+      "average": "D+4 (18)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:ME": {
+      "pick": "D",
+      "average": "D+4 (14)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:FL": {
+      "pick": "R",
+      "average": "R+4 (19)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:WI": {
+      "pick": "D",
+      "average": "D+5 (4)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:MN": {
+      "pick": "D",
+      "average": "D+5 (12)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:FL": {
+      "pick": "R",
+      "average": "R+6 (17)",
+      "latest_poll": "Oct 30, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:NM": {
+      "pick": "D",
+      "average": "D+6 (2)",
+      "latest_poll": "Oct 9, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:NH": {
+      "pick": "D",
+      "average": "D+7 (7)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:IA": {
+      "pick": "D",
+      "average": "D+7 (12)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:NH": {
+      "pick": "R",
+      "average": "R+8 (7)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:MT": {
+      "pick": "R",
+      "average": "R+8 (6)",
+      "latest_poll": "Oct 23, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:MI": {
+      "pick": "D",
+      "average": "D+9 (12)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:GA": {
+      "pick": "D",
+      "average": "D+9 (6)",
+      "latest_poll": "Nov 2, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:AL": {
+      "pick": "R",
+      "average": "R+9 (3)",
+      "latest_poll": "Oct 24, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:AR": {
+      "pick": "R",
+      "average": "R+9 (1)",
+      "latest_poll": "Oct 13, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:KY": {
+      "pick": "R",
+      "average": "R+9 (1)",
+      "latest_poll": "Aug 27, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:SD": {
+      "pick": "R",
+      "average": "R+10 (7)",
+      "latest_poll": "Oct 26, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:MN": {
+      "pick": "D",
+      "average": "D+11 (8)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:NC": {
+      "pick": "D",
+      "average": "D+11 (11)",
+      "latest_poll": "Oct 29, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:SC": {
+      "pick": "R",
+      "average": "R+11 (5)",
+      "latest_poll": "Oct 26, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:AZ": {
+      "pick": "D",
+      "average": "D+12 (6)",
+      "latest_poll": "Oct 28, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:ME": {
+      "pick": "D",
+      "average": "D+12 (11)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:TN": {
+      "pick": "R",
+      "average": "R+12 (1)",
+      "latest_poll": "Oct 15, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:NY": {
+      "pick": "D",
+      "average": "D+13 (9)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:RI": {
+      "pick": "D",
+      "average": "D+14 (3)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:IL": {
+      "pick": "D",
+      "average": "D+14 (3)",
+      "latest_poll": "Oct 30, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:AL": {
+      "pick": "R",
+      "average": "R+15 (3)",
+      "latest_poll": "Oct 24, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:SD": {
+      "pick": "R",
+      "average": "R+15 (2)",
+      "latest_poll": "Oct 14, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:CO": {
+      "pick": "D",
+      "average": "D+16 (2)",
+      "latest_poll": "Oct 20, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:NM": {
+      "pick": "D",
+      "average": "D+17 (2)",
+      "latest_poll": "Oct 9, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:CO": {
+      "pick": "D",
+      "average": "D+18 (2)",
+      "latest_poll": "Oct 20, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:CT": {
+      "pick": "D",
+      "average": "D+18 (5)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:IL": {
+      "pick": "D",
+      "average": "D+19 (3)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:AR": {
+      "pick": "R",
+      "average": "R+19 (1)",
+      "latest_poll": "Oct 13, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:AK": {
+      "pick": "D",
+      "average": "D+19 (6)",
+      "latest_poll": "Oct 30, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:TN": {
+      "pick": "R",
+      "average": "R+20 (1)",
+      "latest_poll": "Aug 26, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:ID": {
+      "pick": "R",
+      "average": "R+21 (1)",
+      "latest_poll": "Jul 30, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:MA": {
+      "pick": "D",
+      "average": "D+22 (3)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:CA": {
+      "pick": "D",
+      "average": "D+23 (10)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:OK": {
+      "pick": "R",
+      "average": "R+24 (1)",
+      "latest_poll": "Aug 6, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:PA": {
+      "pick": "D",
+      "average": "D+25 (5)",
+      "latest_poll": "Nov 1, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:ID": {
+      "pick": "R",
+      "average": "R+25 (1)",
+      "latest_poll": "Sep 30, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:MA": {
+      "pick": "D",
+      "average": "D+25 (3)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "governor:MD": {
+      "pick": "D",
+      "average": "D+27 (1)",
+      "latest_poll": "Sep 27, 2026",
+      "source_url": "https://futureballot.com/polls"
+    },
+    "senate:RI": {
+      "pick": "D",
+      "average": "D+29 (3)",
+      "latest_poll": "Oct 31, 2026",
+      "source_url": "https://futureballot.com/polls"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "57227",
+  "slug": "wyoming-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629733",
+      "conditionId": "0x08cf528519394c3bdbca3299cf993db6d38dabcfb78addb80cfd82d6e273a82c",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "629734",
+      "conditionId": "0xa7ff180532ac8e0a5efa29eeee07fc8cfdc0cd3bd830ef93b5ca53cbb9922633",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "629735",
+      "conditionId": "0x076b37fc9b10e4472344279714942a8124bd80ec35745e5272c6e04a14092a3d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629736",
+      "conditionId": "0x4fde0f3e61d59882d85c7c82d29160cc2567db9e000bb9c41608be1cdcc93138",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629737",
+      "conditionId": "0xb2d9871209f38057769554d8cc22d67cd7360bef8169c551fca52ef46479fe98",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629738",
+      "conditionId": "0x8c70bc000bbcb1362f923af3407e38d5ae6ebb7b2282c8c36718a2ac554bec37",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629739",
+      "conditionId": "0xcac0a0d0c4024b1b254f5d2c478860197377a8940a7b06fe3a860b2f9048c0b3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629740",
+      "conditionId": "0xb2457b8ff1e6baebad7b556f4bf668932e9cd04de804ae9c725fc4ff1a1e6da6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629741",
+      "conditionId": "0x7dd91a44db2d797c35a6c62c819be1648f5e02c98fb854c71cc6ed4235e0249a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629742",
+      "conditionId": "0xa4574de00c805f0709187052fc9846dcd6fc61a88e356eb0d861d290883ab9d0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629743",
+      "conditionId": "0x4100f6fa4e0f53fbf67eeb2c9b2c43a55834bd3bed0b0e50dfb79fd9e5911bd6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629744",
+      "conditionId": "0xa2dc6759e13a01a9cb6047b11a5e27ae0df2a26672f9fb29c1bfbc6e122cc4e9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629745",
+      "conditionId": "0xdda7396bd94c5e0ddfff8dcbc2b396d8036944eb730812aad5dc822ae90633d2",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

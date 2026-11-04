@@ -1,0 +1,180 @@
+{
+  "id": "59233",
+  "slug": "alaska-senate-election-winner",
+  "markets": [
+    {
+      "id": "634974",
+      "conditionId": "0x741bb46008b72234857c5118c8365ab3c2f69dbf28b30b59de04f173b8a778de",
+      "closed": false,
+      "outcomePrices": "[\"0.085\", \"0.915\"]"
+    },
+    {
+      "id": "634975",
+      "conditionId": "0xa26ab383a1f115fa8d2b0fcbac29bcd6a9843ec8c1d160b0a122917230c3c96a",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "634976",
+      "conditionId": "0x19d2ff72e389d190c183e6b114817301d29eba651d67d75a38ee201a05188fd9",
+      "closed": false,
+      "outcomePrices": "[\"0.915\", \"0.085\"]"
+    },
+    {
+      "id": "634977",
+      "conditionId": "0xec751bd3e1cf4d22a1dee41ee85c7304bdb7b6ed6dccc807e88ef2603b4a6449",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "634978",
+      "conditionId": "0x998ee2bd25cea8e07eaf1b1f1be82ba6c3ecfd74c28a87497786103d84fd06d8",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "634979",
+      "conditionId": "0x10d6e079450f84c35ab6fae1857352c9cb5ed5c63d25a918854ae26ab76af12f",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "634980",
+      "conditionId": "0x809ee6925f52191d93cf13f3221f36cd72d7f71c121b7a07ca854a8fd4e6db97",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "634981",
+      "conditionId": "0xfd0d3cfef4fd6d931ae36fc1f4e694340c355d4970c709d10cb3ed10f0b2148c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634982",
+      "conditionId": "0x07301939a51ae1f63146fb9f59406888a4aa99e8492a5f25257d46d186c6868f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634983",
+      "conditionId": "0xd0e30a81dc7cb5a5e60335f382b89bdcfd50589b4fa4a4f407bb866e3d782ffe",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634984",
+      "conditionId": "0x76f178676cfd5e22ca6cd15219f5df3a81af5b73be0b1ba109e2fc9ffafcf993",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634985",
+      "conditionId": "0x2db3f6756a0165fd8785a85dbdf8c6f5d806efc97faadab1afaf0e50d98d19f6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634986",
+      "conditionId": "0x2b9e56cdcce878240cf9df704632c676bbf495fc054fb0a81e32fc302c49909a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634987",
+      "conditionId": "0x92178678b00a576382651ca5c16c0c5d29bc378576ffb766dac3804dbb2e1dc3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634988",
+      "conditionId": "0x69727989fb9cfb8c86fabdeaa40b1f470490cf717f939aa71bb8a4b8f33a9833",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634989",
+      "conditionId": "0x668fa4eb78456403e727e69e905ce5bfb3f5e497da5b313434dc1b3e29115e2d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634990",
+      "conditionId": "0x5cbbb66b34e20a4130f375d60822044f3f45b6399173035811ea361fd5198b2a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634991",
+      "conditionId": "0x9970b1516cde506b52f8cf1896dfdac8255e1d3d133884e059d3a79c359f1b13",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634992",
+      "conditionId": "0x89da7f9d1f62e7b1996ea5d9e03d0bae1dbcc5f0b15a9830829c94757530496d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634993",
+      "conditionId": "0x75a0f04f99a377f689556dd3c887c362754f908291c0d6cbdf60ac1e372b9330",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634994",
+      "conditionId": "0xa2ec16e7bdd097abaf59d570ec4ce8906a114da280f2e4193431208f78c8542d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634995",
+      "conditionId": "0x96940a5a982f49e123e97c498dc37b3992a7eedd8fbb15289a389ed6a0ffacaa",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634996",
+      "conditionId": "0xa2cd8d59ae311d9bfb94234e6c3a07e8e516a2769302afa569c20940e7eca6b0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634997",
+      "conditionId": "0x014c8186173f416847dae8c460c11e7ea82568b049870ecc651912fe181b7ff1",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634998",
+      "conditionId": "0x3d9b9eedaef0e9a802ee8f5bfc6026ed3f9249bef8143ed6f0dfa84cd3ce3a2c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "634999",
+      "conditionId": "0x5d731d4811dc19bc505857acd192dae4baec99cf0bb9036f3438064848debff2",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635000",
+      "conditionId": "0x6d3939c4196dfb50daa28a7ece652f736d396e84daf29b5422721b21a934a3c2",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635001",
+      "conditionId": "0xb70372d05d2a231e3d48d94f3495447941c24b9c8edc279a4336568f8c38806b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635002",
+      "conditionId": "0x760537035a0296312429d693b31d1498eba947db1e30155e7c37d0b012f201ef",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

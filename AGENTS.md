@@ -1,0 +1,3 @@
+# Repo handoff for coding agents
+
+Read [CLOUD_HANDOFF.md](CLOUD_HANDOFF.md) before refreshing data or editing the scorecard. This is a GitHub Pages static site in `site/` with a Python data pipeline in `scorecard/`. The frozen 2026 election inventory and pre-election comparator picks must remain fixed during routine result updates. Use `./scripts/refresh_2026.sh`, inspect outcomes and tests, then commit and push the generated `data/2026` and `site/data` changes. `main` deploys to GitHub Pages. Keep the common-race denominator, source abstentions, and pending outcomes explicit in any new accuracy claim.

@@ -400,6 +400,9 @@ def main() -> None:
     save_site_json(ROOT / "site" / "data" / f"{args.edition}.json", result)
     if args.edition == "2025":
         save_json(ROOT / "site" / "scorecard.json", result)
+    elif all((outdir / "comparators" / f"{name}.json").exists() for name in ("inside", "polls")):
+        from .comparison import build as build_comparison
+        build_comparison()
     print(f"{len(events)} discovered; {len(races)} races included; {len(failures)} fetch failures")
     for horizon, item in summary.items():
         print(f"{item['label']}: n={item['n']}, hit={item['hit_rate']}, Brier={item['brier']}")

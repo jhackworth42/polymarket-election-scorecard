@@ -1,0 +1,84 @@
+{
+  "id": "57664",
+  "slug": "north-carolina-senate-election-winner",
+  "markets": [
+    {
+      "id": "630883",
+      "conditionId": "0x129dbcb7d39ff8df5f0d7685a2db6400b5db37d3963914486fbb7fd2bc96a923",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "630884",
+      "conditionId": "0xd59f25520a8c0ea44a9c9741a97c8c3d769e21f1479b9a14e1a9d475e91f522a",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "630885",
+      "conditionId": "0xb452d785d494b8f607344b3eff8b82989d9f71cd27c57e1660f47d559c7e83ac",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630886",
+      "conditionId": "0xdf17c6b5b9c9d83c0f3ec37890a980bee02563f7f07c5ae50374bfb3f037d410",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630887",
+      "conditionId": "0x287fda02a15b6aa182be17be94d7eb9ae4a604e2bc536d6e408326bcc4fb0158",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630888",
+      "conditionId": "0x77ea2820389fc9855629003d914ce77ba0cd1dd165cf27966ddc2174ade4eddc",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630889",
+      "conditionId": "0xcc3cb456fc11efa40fb940d52e4278e3c79f9c7a3b981457c89ca9c599382bd2",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630890",
+      "conditionId": "0xbc197289b1bf3ac652e2b3f38fd66a7509cf56e04c77fd86bf1db1cd1a6e2399",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630891",
+      "conditionId": "0x9b5f61109a5f58f3e1eccc89f8c4c8eb1a082405aee1d46bdcad760a05fb283c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630892",
+      "conditionId": "0xa06c7f6e10943d1aea84a8a93addbef4bdda581714f164c329f8984008633489",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630893",
+      "conditionId": "0xec80922045530faeb7b3bfc75e0d9e5ae0f010aa243003ffd95663a2e82e69ed",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630894",
+      "conditionId": "0x3aa3dae188cff22f70e65aec16ec6ce080349078fd15a8d53217f0afdb15e42b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630895",
+      "conditionId": "0xea63035ab85b78fa8d54fcb7caa9b3119d33813b4765b2663ed7d72cf0bfd3ca",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

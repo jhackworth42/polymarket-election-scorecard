@@ -6,8 +6,11 @@ An open, reproducible scorecard for Polymarket election forecasts. The front pag
 
 - [2026 results overview](https://jhackworth42.github.io/polymarket-election-scorecard/)
 - [Every 2026 race](https://jhackworth42.github.io/polymarket-election-scorecard/races.html)
+- [Race-by-race source comparison](https://jhackworth42.github.io/polymarket-election-scorecard/compare.html)
 - [2025 historical scorecard](https://jhackworth42.github.io/polymarket-election-scorecard/2025.html)
 - [2026 scored data](data/2026/scorecard.json) and [coverage ledger](data/2026/coverage.json)
+
+For the next data update, use the [cloud session handoff](CLOUD_HANDOFF.md) or the manual [Refresh 2026 results workflow](https://github.com/jhackworth42/polymarket-election-scorecard/actions/workflows/refresh-results.yml). The workflow rebuilds and republishes the site.
 
 ## Rebuild either edition
 
@@ -70,11 +73,11 @@ These scores are labeled **provisional** until the winner's Polymarket resolutio
 - **Pre-close:** 5:00 p.m. America/New_York on election day, before the first U.S. general-election poll closing.
 - **Six hours out:** noon America/New_York on election day, six hours before the first U.S. general-election poll closing. This is a fixed election-day cutoff, not six hours before each market's eventual settlement.
 - A race enters the movement analysis only when all its included outcome contracts have usable prices within one hour of both cutoffs. The event probabilities are normalized separately at each cutoff.
-- The confidence chart groups individual candidate or party outcomes into ten-point T−1 price bands. It reports the share whose absolute price change reached five percentage points by pre-close. Its denominator is outcome contracts, not independent races.
+- The confidence chart groups the highest-priced outcome in each race into ten-point bands at the selected checkpoint, then compares its average price with the share that won. Its denominator is verified races.
 - The largest-move ranking counts each race once, using the outcome with the largest absolute change. A leadership reversal means the highest-priced outcome changed between snapshots.
 - **Contested at T−7** means the highest-priced outcome was below 80% seven days before the election. This segment is fixed before results.
-- A price movement is not an election result. Accuracy, high-confidence misses, calibration, and Brier scores require a verified winner. The 2025 archive is the completed test; 2026 outcomes remain pending until settlement or a sourced provisional call.
-- The 2026 overview's Brier line uses the same verified races with usable prices at 30 days, 7 days, 1 day, and six hours out. The overall and contested/clearer breakdowns display their own denominators.
+- A price movement is not an election result. Accuracy, high-confidence misses, calibration, and Brier scores require a verified winner. The 2025 archive is the completed test; unsettled 2026 outcomes remain pending.
+- The 2026 overview's red competitive and blue clearer Brier lines each use the same verified races within that group at 30 days, 7 days, 1 day, and six hours out. The breakdown bars display their own denominators.
 - The 2025 historical API did not return prices within one hour of the intraday cutoffs, so its intraday movement fields are omitted rather than treating stale prices as Election Day observations.
 
 ## Test
@@ -90,3 +93,7 @@ The static site has no build dependencies. GitHub Actions deploys `site/` to Git
 A polling comparison should start with competitive Senate and governor races that have public, dated polls and unambiguous candidate matches. A poll's vote share is not a win probability, so it cannot be placed on the same calibration or Brier axis as a market price. A fair first comparison would ask whether the latest pre-cutoff poll average and the market selected the eventual winner, and how the polling margin compared with the final vote margin. Polls whose fieldwork or publication date falls after a market checkpoint must be excluded from that checkpoint. [Decision Desk HQ's dated Senate and governor averages](https://decisiondeskhq.substack.com/p/2026-election-polling-averages) are a promising source; data access, coverage and race mapping need an audit before publishing a score.
 
 The [source comparison audit](research/comparator-audit.md) evaluates dated Inside Elections, Cook Political Report, Sabato's Crystal Ball, Decision Desk HQ, Silver Bulletin, and VoteHub data. It specifies a common-race directional score, Toss-up abstentions, and separate probability and vote-margin metrics.
+
+## Source comparison
+
+The [race-by-race comparison](https://jhackworth42.github.io/polymarket-election-scorecard/compare.html) uses a frozen six-hour Polymarket snapshot, Inside Elections' October 29 directional ratings, and FutureBallot's November 2 simple polling averages. `data/2026/comparators/` preserves the compact, attributed source picks. When results are refreshed with `python -m scorecard build --edition 2026 --refresh-results`, the comparison JSON rebuilds automatically. The leaderboard scores only verified Senate and governor races where all three made a D/R pick; tied averages and Toss-ups abstain, and coverage is displayed separately. See [source methods](research/comparator-audit.md).

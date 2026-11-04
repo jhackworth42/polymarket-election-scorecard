@@ -1,0 +1,1567 @@
+{
+  "as_of": "2026-11-03T17:00:00+00:00",
+  "generated_at": "2026-11-04T04:27:00.658397+00:00",
+  "unit": "one Senate or governor race with a directional party pick at the six-hour checkpoint",
+  "method": "Ranking uses only verified races where all three sources made a D/R pick; ties and Toss-ups abstain",
+  "source_as_of": {
+    "inside": "2026-10-29T18:07:26+00:00",
+    "polls": "2026-11-02T21:12:00Z"
+  },
+  "sources": [
+    {
+      "key": "polymarket",
+      "name": "Polymarket",
+      "coverage": 71,
+      "eligible": 71,
+      "settled_covered": 11,
+      "common_hits": 8,
+      "common_n": 8,
+      "common_hit_rate": 1.0
+    },
+    {
+      "key": "inside",
+      "name": "Inside Elections",
+      "coverage": 66,
+      "eligible": 71,
+      "settled_covered": 11,
+      "common_hits": 8,
+      "common_n": 8,
+      "common_hit_rate": 1.0
+    },
+    {
+      "key": "polls",
+      "name": "Polling average",
+      "coverage": 59,
+      "eligible": 71,
+      "settled_covered": 8,
+      "common_hits": 8,
+      "common_n": 8,
+      "common_hit_rate": 1.0
+    }
+  ],
+  "common_verified_races": 8,
+  "races": [
+    {
+      "key": "governor:AL",
+      "title": "Alabama Governor Election Winner",
+      "url": "https://polymarket.com/event/alabama-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.941206
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+9 (3)",
+        "latest_poll": "Oct 24, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:AL",
+      "title": "Alabama Senate Election Winner",
+      "url": "https://polymarket.com/event/alabama-senate-election-winner-154",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.98
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+15 (3)",
+        "latest_poll": "Oct 24, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:AK",
+      "title": "Alaska Governor Election Winner",
+      "url": "https://polymarket.com/event/alaska-governor-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.889225
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+19 (6)",
+        "latest_poll": "Oct 30, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:AK",
+      "title": "Alaska Senate Election Winner",
+      "url": "https://polymarket.com/event/alaska-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.700252
+      },
+      "inside": {
+        "pick": null,
+        "rating": "Toss-up",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+2 (8)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:AZ",
+      "title": "Arizona Governor Election Winner",
+      "url": "https://polymarket.com/event/arizona-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.940594
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+12 (6)",
+        "latest_poll": "Oct 28, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:AR",
+      "title": "Arkansas Governor Election Winner",
+      "url": "https://polymarket.com/event/arkansas-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.977956
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+19 (1)",
+        "latest_poll": "Oct 13, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:AR",
+      "title": "Arkansas Senate Election Winner",
+      "url": "https://polymarket.com/event/arkansas-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.967435
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+9 (1)",
+        "latest_poll": "Oct 13, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:CA",
+      "title": "California Governor Election Winner",
+      "url": "https://polymarket.com/event/california-governor-election-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.968827
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+23 (10)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:CO",
+      "title": "Colorado Governor Election Winner",
+      "url": "https://polymarket.com/event/colorado-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.983034
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+18 (2)",
+        "latest_poll": "Oct 20, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:CO",
+      "title": "Colorado Senate Election Winner",
+      "url": "https://polymarket.com/event/colorado-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.986527
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+16 (2)",
+        "latest_poll": "Oct 20, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:CT",
+      "title": "Connecticut Governor Election Winner",
+      "url": "https://polymarket.com/event/connecticut-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.977023
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+18 (5)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:DE",
+      "title": "Delaware Senate Election Winner",
+      "url": "https://polymarket.com/event/delaware-senate-election-winner",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.988972
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": null
+    },
+    {
+      "key": "governor:FL",
+      "title": "Florida Governor Election Winner",
+      "url": "https://polymarket.com/event/florida-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.661616
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Lean Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+4 (19)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:FL",
+      "title": "Florida Senate Election Winner",
+      "url": "https://polymarket.com/event/florida-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.89604
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Likely Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+6 (17)",
+        "latest_poll": "Oct 30, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:GA",
+      "title": "Georgia Governor Election Winner",
+      "url": "https://polymarket.com/event/georgia-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.675
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": null,
+        "average": "Even (7)",
+        "latest_poll": "Nov 2, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:GA",
+      "title": "Georgia Senate Election Winner",
+      "url": "https://polymarket.com/event/georgia-senate-election-winner",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.971414
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Likely Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+9 (6)",
+        "latest_poll": "Nov 2, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:HI",
+      "title": "Hawaii Governor Election Winner",
+      "url": "https://polymarket.com/event/hawaii-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.981028
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": null
+    },
+    {
+      "key": "governor:ID",
+      "title": "Idaho Governor Election Winner",
+      "url": "https://polymarket.com/event/idaho-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.985507
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+21 (1)",
+        "latest_poll": "Jul 30, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:ID",
+      "title": "Idaho Senate Election Winner",
+      "url": "https://polymarket.com/event/idaho-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.969062
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+25 (1)",
+        "latest_poll": "Sep 30, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:IL",
+      "title": "Illinois Governor Election Winner",
+      "url": "https://polymarket.com/event/illinois-governor-winner-2026",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.983492
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+19 (3)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:IL",
+      "title": "Illinois Senate Election Winner",
+      "url": "https://polymarket.com/event/illinois-senate-election-winner",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.986007
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+14 (3)",
+        "latest_poll": "Oct 30, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:IA",
+      "title": "Iowa Governor Election Winner",
+      "url": "https://polymarket.com/event/iowa-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.895
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Lean Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+7 (12)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:IA",
+      "title": "Iowa Senate Election Winner",
+      "url": "https://polymarket.com/event/iowa-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.5
+      },
+      "inside": {
+        "pick": null,
+        "rating": "Toss-up",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": null,
+        "average": "Even (15)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:KS",
+      "title": "Kansas Governor Election Winner",
+      "url": "https://polymarket.com/event/kansas-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.645
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Tilt Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+1 (7)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:KS",
+      "title": "Kansas Senate Election Winner",
+      "url": "https://polymarket.com/event/kansas-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.626866
+      },
+      "inside": {
+        "pick": null,
+        "rating": "Toss-up",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+3 (9)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:KY",
+      "title": "Kentucky Senate Election Winner",
+      "url": "https://polymarket.com/event/kentucky-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.970529
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+9 (1)",
+        "latest_poll": "Aug 27, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:LA",
+      "title": "Louisiana Senate Election Winner",
+      "url": "https://polymarket.com/event/louisiana-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.875
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Likely Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": null,
+        "average": "Even (1)",
+        "latest_poll": "Oct 29, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:ME",
+      "title": "Maine Governor Election Winner",
+      "url": "https://polymarket.com/event/maine-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.970559
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+12 (11)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:ME",
+      "title": "Maine Senate Election Winner",
+      "url": "https://polymarket.com/event/maine-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.713568
+      },
+      "inside": {
+        "pick": null,
+        "rating": "Toss-up",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+4 (14)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:MD",
+      "title": "Maryland Governor Election Winner",
+      "url": "https://polymarket.com/event/maryland-governor-winner-2026",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.993497
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+27 (1)",
+        "latest_poll": "Sep 27, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:MA",
+      "title": "Massachusetts Governor Election Winner",
+      "url": "https://polymarket.com/event/massachusetts-governor-winner-2026",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.974052
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+22 (3)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:MA",
+      "title": "Massachusetts Senate Election Winner",
+      "url": "https://polymarket.com/event/massachusetts-senate-election-winner",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.991013
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+25 (3)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:MI",
+      "title": "Michigan Governor Election Winner",
+      "url": "https://polymarket.com/event/michigan-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.954523
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Lean Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+9 (12)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:MI",
+      "title": "Michigan Senate Election Winner",
+      "url": "https://polymarket.com/event/michigan-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.785
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+4 (18)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:MN",
+      "title": "Minnesota Governor Election Winner",
+      "url": "https://polymarket.com/event/minnesota-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.981955
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Likely Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+11 (8)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:MN",
+      "title": "Minnesota Senate Election Winner",
+      "url": "https://polymarket.com/event/minnesota-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.915
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Lean Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+5 (12)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:MS",
+      "title": "Mississippi Senate Election Winner",
+      "url": "https://polymarket.com/event/mississippi-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.885
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Likely Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+3 (1)",
+        "latest_poll": "Oct 22, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:MT",
+      "title": "Montana Senate Election Winner",
+      "url": "https://polymarket.com/event/montana-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.917293
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+8 (6)",
+        "latest_poll": "Oct 23, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:NE",
+      "title": "Nebraska Governor Election Winner",
+      "url": "https://polymarket.com/event/nebraska-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.885572
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Likely Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+4 (10)",
+        "latest_poll": "Oct 29, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:NE",
+      "title": "Nebraska Senate Election Winner",
+      "url": "https://polymarket.com/event/nebraska-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.69664
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Tilt Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+1 (11)",
+        "latest_poll": "Oct 29, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:NV",
+      "title": "Nevada Governor Election Winner",
+      "url": "https://polymarket.com/event/nevada-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.776119
+      },
+      "inside": {
+        "pick": null,
+        "rating": "Toss-up",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": null,
+        "average": "D+0 (4)",
+        "latest_poll": "Oct 28, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:NH",
+      "title": "New Hampshire Governor Election Winner",
+      "url": "https://polymarket.com/event/new-hampshire-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.844534
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+8 (7)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:NH",
+      "title": "New Hampshire Senate Election Winner",
+      "url": "https://polymarket.com/event/new-hampshire-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.955
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+7 (7)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:NJ",
+      "title": "New Jersey Senate Election Winner",
+      "url": "https://polymarket.com/event/new-jersey-senate-election-winner",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.987512
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": null
+    },
+    {
+      "key": "governor:NM",
+      "title": "New Mexico Governor Election Winner",
+      "url": "https://polymarket.com/event/new-mexico-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.959398
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Likely Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+6 (2)",
+        "latest_poll": "Oct 9, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:NM",
+      "title": "New Mexico Senate Election Winner",
+      "url": "https://polymarket.com/event/new-mexico-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.994006
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+17 (2)",
+        "latest_poll": "Oct 9, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:NY",
+      "title": "New York Governor Election Winner",
+      "url": "https://polymarket.com/event/new-york-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.963555
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Likely Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+13 (9)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:NC",
+      "title": "North Carolina Senate Election Winner",
+      "url": "https://polymarket.com/event/north-carolina-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.9785
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Lean Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+11 (11)",
+        "latest_poll": "Oct 29, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:OH",
+      "title": "Ohio Governor Election Winner",
+      "url": "https://polymarket.com/event/ohio-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.825
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+4 (15)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:OH",
+      "title": "Ohio Senate Election Winner",
+      "url": "https://polymarket.com/event/ohio-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.725
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+3 (18)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:OK",
+      "title": "Oklahoma Governor Election Winner",
+      "url": "https://polymarket.com/event/oklahoma-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.894472
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Likely Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+4 (1)",
+        "latest_poll": "Oct 13, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:OK",
+      "title": "Oklahoma Senate Election Winner",
+      "url": "https://polymarket.com/event/oklahoma-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.987019
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+24 (1)",
+        "latest_poll": "Aug 6, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:OR",
+      "title": "Oregon Governor Election Winner",
+      "url": "https://polymarket.com/event/oregon-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.850746
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+1 (4)",
+        "latest_poll": "Oct 4, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:OR",
+      "title": "Oregon Senate Election Winner",
+      "url": "https://polymarket.com/event/oregon-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.988024
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": null
+    },
+    {
+      "key": "governor:PA",
+      "title": "Pennsylvania Governor Election Winner",
+      "url": "https://polymarket.com/event/pennsylvania-governor-winner-2026",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.990505
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+25 (5)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:RI",
+      "title": "Rhode Island Governor Election Winner",
+      "url": "https://polymarket.com/event/rhode-island-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.977137
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+14 (3)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:RI",
+      "title": "Rhode Island Senate Election Winner",
+      "url": "https://polymarket.com/event/rhode-island-senate-election-winner",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.987519
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+29 (3)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:SC",
+      "title": "South Carolina Governor Election Winner",
+      "url": "https://polymarket.com/event/south-carolina-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.96655
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+11 (5)",
+        "latest_poll": "Oct 26, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:SC",
+      "title": "South Carolina Senate Election Winner",
+      "url": "https://polymarket.com/event/south-carolina-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.69802
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Tilt Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+1 (9)",
+        "latest_poll": "Oct 29, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:SD",
+      "title": "South Dakota Governor Election Winner",
+      "url": "https://polymarket.com/event/south-dakota-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.981472
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+15 (2)",
+        "latest_poll": "Oct 14, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:SD",
+      "title": "South Dakota Senate Election Winner",
+      "url": "https://polymarket.com/event/south-dakota-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.941558
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+10 (7)",
+        "latest_poll": "Oct 26, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:TN",
+      "title": "Tennessee Governor Election Winner",
+      "url": "https://polymarket.com/event/tennessee-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.984702
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Likely Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+12 (1)",
+        "latest_poll": "Oct 15, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:TN",
+      "title": "Tennessee Senate Election Winner",
+      "url": "https://polymarket.com/event/tennessee-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.983516
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+20 (1)",
+        "latest_poll": "Aug 26, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:TX",
+      "title": "Texas Governor Election Winner",
+      "url": "https://polymarket.com/event/texas-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.634269
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Tilt Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "R",
+        "average": "R+2 (22)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:TX",
+      "title": "Texas Senate Election Winner",
+      "url": "https://polymarket.com/event/texas-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.725
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+3 (29)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:VT",
+      "title": "Vermont Governor Election Winner",
+      "url": "https://polymarket.com/event/vermont-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.690176
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Likely Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+1 (3)",
+        "latest_poll": "Oct 31, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "senate:VA",
+      "title": "Virginia Senate Election Winner",
+      "url": "https://polymarket.com/event/virginia-senate-election-winner",
+      "status": "settled",
+      "winner_party": "D",
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.991992
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Solid Democrat",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": null
+    },
+    {
+      "key": "senate:WV",
+      "title": "West Virginia Senate Election Winner",
+      "url": "https://polymarket.com/event/west-virginia-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.985993
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": null
+    },
+    {
+      "key": "governor:WI",
+      "title": "Wisconsin Governor Election Winner",
+      "url": "https://polymarket.com/event/wisconsin-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "D",
+        "confidence": 0.866337
+      },
+      "inside": {
+        "pick": "D",
+        "rating": "Tilt Democrat",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": {
+        "pick": "D",
+        "average": "D+5 (4)",
+        "latest_poll": "Nov 1, 2026",
+        "source_url": "https://futureballot.com/polls"
+      }
+    },
+    {
+      "key": "governor:WY",
+      "title": "Wyoming Governor Election Winner",
+      "url": "https://polymarket.com/event/wyoming-governor-winner-2026",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.991996
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/governor/"
+      },
+      "polls": null
+    },
+    {
+      "key": "senate:WY",
+      "title": "Wyoming Senate Election Winner",
+      "url": "https://polymarket.com/event/wyoming-senate-election-winner",
+      "status": "pending",
+      "winner_party": null,
+      "polymarket": {
+        "pick": "R",
+        "confidence": 0.984032
+      },
+      "inside": {
+        "pick": "R",
+        "rating": "Solid Republican",
+        "source_url": "https://insideelections.com/ratings/senate/"
+      },
+      "polls": null
+    }
+  ]
+}

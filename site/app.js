@@ -87,6 +87,18 @@ function renderMovement() {
   $('movement-biggest').textContent=movers.length?`${Math.abs(movers[0].movement.biggest_move_pp).toFixed(1)} pts`:'—';
   $('mover-list').innerHTML=movers.slice(0,8).map(race=>{const m=race.movement,i=m.biggest_mover_index,before=race.forecasts.night_before.probabilities[i],after=race.forecasts.preclose.probabilities[i];const result=race.outcome_status==='settled'?race.winner:race.outcome_status==='provisional'?`${race.winner} (called)`:'Pending';return `<a class="mover-row" href="${safe(race.url)}" target="_blank" rel="noopener"><span><span class="race-title">${safe(race.title)}</span><span class="candidate">${safe(race.candidates[i].name)}</span></span><span class="prices">${percent(before)} → ${percent(after)}</span><span class="move ${m.biggest_move_pp>=0?'positive':'negative'}">${points(m.biggest_move_pp)}</span><span class="result">${safe(result)}</span></a>`}).join('');
 }
+async function renderComparison() {
+  try {
+    const response=await fetch('data/comparison.json');
+    if(!response.ok)throw Error(`HTTP ${response.status}`);
+    const comparison=await response.json();
+    const n=comparison.common_verified_races;
+    $('comparison-status').textContent=n?`${n} verified race${n===1?'':'s'} where all three sources made a pick · provisional ranking`:'No verified race has a pick from all three sources yet. The comparison will score as those outcomes settle.';
+    const links={polymarket:'https://polymarket.com',inside:'https://insideelections.com/developer/',polls:'https://futureballot.com/polls'};
+    const sources=[...comparison.sources].sort((a,b)=>n?(b.common_hit_rate-a.common_hit_rate||b.coverage-a.coverage):b.coverage-a.coverage);
+    $('comparison-list').innerHTML=sources.map((source,index)=>`<div class="comparison-row"><span><b>${n?`${index+1}. `:''}<a href="${links[source.key]}" target="_blank" rel="noopener">${safe(source.name)} ↗</a></b></span><span class="comparison-score">${n?`${source.common_hits} / ${n} · ${percent(source.common_hit_rate)}`:'Awaiting shared results'}</span><span>${source.coverage} / ${source.eligible}</span></div>`).join('');
+  } catch(error) { $('comparison-status').textContent=`Source comparison could not be loaded: ${error.message}`; }
+}
 function renderSelected() {renderStats();renderMisses();renderConfidence();renderBrier();renderBreakdown();document.querySelectorAll('[data-horizon]').forEach(button=>{const active=button.dataset.horizon===horizon;button.setAttribute('aria-selected',String(active));button.classList.toggle('active',active)});}
-async function init() {try {const response=await fetch('data/2026.json');if(!response.ok)throw Error(`HTTP ${response.status}`);data=await response.json();$('confidence-filter').addEventListener('change',renderConfidence);document.querySelectorAll('[data-horizon]').forEach(button=>button.addEventListener('click',()=>{horizon=button.dataset.horizon;renderSelected()}));renderSelected();renderMovement();}catch(error){$('updated-note').textContent=`Scorecard data could not be loaded: ${error.message}`}}
+async function init() {try {const response=await fetch('data/2026.json');if(!response.ok)throw Error(`HTTP ${response.status}`);data=await response.json();$('confidence-filter').addEventListener('change',renderConfidence);document.querySelectorAll('[data-horizon]').forEach(button=>button.addEventListener('click',()=>{horizon=button.dataset.horizon;renderSelected()}));renderSelected();renderMovement();renderComparison();}catch(error){$('updated-note').textContent=`Scorecard data could not be loaded: ${error.message}`}}
 init();

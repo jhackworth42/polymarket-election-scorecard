@@ -1,0 +1,362 @@
+{
+  "source": "Inside Elections",
+  "as_of": "2026-10-29T18:07:26+00:00",
+  "source_url": "https://insideelections.com/developer/",
+  "picks": {
+    "senate:OH": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:TX": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:GA": {
+      "pick": "D",
+      "rating": "Likely Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:IA": {
+      "pick": null,
+      "rating": "Toss-up",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:KS": {
+      "pick": null,
+      "rating": "Toss-up",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:NE": {
+      "pick": "R",
+      "rating": "Tilt Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:SC": {
+      "pick": "R",
+      "rating": "Tilt Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:LA": {
+      "pick": "R",
+      "rating": "Likely Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:MS": {
+      "pick": "R",
+      "rating": "Likely Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:FL": {
+      "pick": "R",
+      "rating": "Likely Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:NH": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:NC": {
+      "pick": "D",
+      "rating": "Lean Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:MN": {
+      "pick": "D",
+      "rating": "Lean Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:MI": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:AK": {
+      "pick": null,
+      "rating": "Toss-up",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:ME": {
+      "pick": null,
+      "rating": "Toss-up",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:MT": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:OK": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:WY": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:AL": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:IL": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:KY": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:DE": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:NJ": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:NM": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:VA": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:CO": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:MA": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:WV": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:OR": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:ID": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:RI": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:SD": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:TN": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "senate:AR": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/senate/"
+    },
+    "governor:AK": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:GA": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:OH": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:WI": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:MI": {
+      "pick": "D",
+      "rating": "Lean Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:IA": {
+      "pick": "D",
+      "rating": "Lean Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:NV": {
+      "pick": null,
+      "rating": "Toss-up",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:OR": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:TX": {
+      "pick": "R",
+      "rating": "Tilt Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:TN": {
+      "pick": "R",
+      "rating": "Likely Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:VT": {
+      "pick": "R",
+      "rating": "Likely Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:NE": {
+      "pick": "R",
+      "rating": "Likely Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:OK": {
+      "pick": "R",
+      "rating": "Likely Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:FL": {
+      "pick": "R",
+      "rating": "Lean Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:ME": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:AZ": {
+      "pick": "D",
+      "rating": "Tilt Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:KS": {
+      "pick": "R",
+      "rating": "Tilt Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:PA": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:MN": {
+      "pick": "D",
+      "rating": "Likely Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:NM": {
+      "pick": "D",
+      "rating": "Likely Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:NY": {
+      "pick": "D",
+      "rating": "Likely Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:IL": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:WY": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:AL": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:MD": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:RI": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:MA": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:SC": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:AR": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:SD": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:CA": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:CO": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:CT": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:HI": {
+      "pick": "D",
+      "rating": "Solid Democrat",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:NH": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    },
+    "governor:ID": {
+      "pick": "R",
+      "rating": "Solid Republican",
+      "source_url": "https://insideelections.com/ratings/governor/"
+    }
+  }
+}
