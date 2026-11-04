@@ -1,10 +1,10 @@
 {
   "edition": "2025",
   "label": "2025 U.S. elections · historical test",
-  "generated_at": "2026-11-03T05:21:41.552061+00:00",
+  "generated_at": "2026-11-04T02:09:06.985826+00:00",
   "method": {
     "unit": "one election-winner event",
-    "probabilities": "named, traded candidate Yes prices normalized to sum to one; missing prices treated as zero for scoring",
+    "probabilities": "traded candidate or party Yes prices normalized to sum to one; missing prices treated as zero for scoring",
     "brier": "0.5 × sum((probability - outcome)^2) across candidates",
     "cutoff_hour_utc": 15,
     "stale_hours_max": 24,
@@ -16,7 +16,13 @@
       3,
       1,
       0
-    ]
+    ],
+    "intraday_stale_hours_max": 1,
+    "intraday_cutoffs": {
+      "timezone": "America/New_York",
+      "night_before": "23:59 on the prior calendar day",
+      "preclose": "17:00 on election day, before first U.S. general-election poll close"
+    }
   },
   "discovered_events": 54,
   "included_races": 17,
@@ -844,8 +850,105 @@
           "hit": true,
           "brier": 0.00208,
           "winner_probability": 0.943698
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567208",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567209",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567210",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567211",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567212",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567213",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567214",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567208",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567209",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567210",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567211",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567212",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567213",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567214",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -1284,8 +1387,81 @@
           "hit": true,
           "brier": 1.2e-05,
           "winner_probability": 0.995996
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567184",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567185",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567187",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567188",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567190",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567184",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567185",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567187",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567188",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567190",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -1787,8 +1963,93 @@
           "hit": true,
           "brier": 1.2e-05,
           "winner_probability": 0.995513
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567118",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567119",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567120",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567121",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567122",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567123",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567118",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567119",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567120",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567121",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567122",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567123",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -2164,8 +2425,69 @@
           "hit": true,
           "brier": 3e-06,
           "winner_probability": 0.997997
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567091",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567093",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567094",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567095",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567091",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567093",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567094",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567095",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -2415,8 +2737,45 @@
           "hit": true,
           "brier": 4.2e-05,
           "winner_probability": 0.993493
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567229",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567230",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567229",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567230",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -3107,8 +3466,129 @@
           "hit": true,
           "brier": 3.8e-05,
           "winner_probability": 0.99202
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567162",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567163",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567164",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567165",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567166",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567167",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567168",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567169",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567170",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567162",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567163",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567164",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567165",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567166",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567167",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567168",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567169",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567170",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -3610,8 +4090,93 @@
           "hit": false,
           "brier": 0.641187,
           "winner_probability": 0.165034
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567053",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567054",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567055",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567056",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567057",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567058",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567053",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567054",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567055",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567056",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567057",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567058",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "contested"
     },
     {
@@ -3987,8 +4552,69 @@
           "hit": true,
           "brier": 0.00206,
           "winner_probability": 0.951613
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567009",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567010",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567011",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567012",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567009",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567010",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567011",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567012",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "contested"
     },
     {
@@ -4427,8 +5053,81 @@
           "hit": true,
           "brier": 0.071825,
           "winner_probability": 0.72922
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "566987",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566988",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566989",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566990",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566991",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "566987",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566988",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566989",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566990",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "566991",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "contested"
     },
     {
@@ -5245,8 +5944,153 @@
           "hit": true,
           "brier": 0.024513,
           "winner_probability": 0.841215
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "551137",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551138",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551139",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551140",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551141",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551142",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551143",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551144",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551145",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551146",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551147",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "551137",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551138",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551139",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551140",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551141",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551142",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551143",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551144",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551145",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551146",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "551147",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -5559,8 +6403,57 @@
           "hit": true,
           "brier": 0.000367,
           "winner_probability": 0.97993
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-10-11T03:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567075",
+              "observed_at": "2025-10-11T00:00:00+00:00",
+              "age_hours": 3.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567076",
+              "observed_at": "2025-10-11T00:00:00+00:00",
+              "age_hours": 3.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567077",
+              "observed_at": "2025-10-11T00:00:00+00:00",
+              "age_hours": 3.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-10-11T21:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567075",
+              "observed_at": "2025-10-11T12:00:00+00:00",
+              "age_hours": 9.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567076",
+              "observed_at": "2025-10-11T12:00:00+00:00",
+              "age_hours": 9.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567077",
+              "observed_at": "2025-10-11T12:00:00+00:00",
+              "age_hours": 9.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -6440,8 +7333,165 @@
           "hit": true,
           "brier": 0.007401,
           "winner_probability": 0.911531
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "538928",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538929",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538930",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538931",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538932",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538933",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538934",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538935",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538936",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538937",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538938",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538939",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "538928",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538929",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538930",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538931",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538932",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538933",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538934",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538935",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538936",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538937",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538938",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "538939",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -6754,8 +7804,57 @@
           "hit": true,
           "brier": 7e-06,
           "winner_probability": 0.997004
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567245",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567246",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567247",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567245",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567246",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567247",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -7446,8 +8545,129 @@
           "hit": true,
           "brier": 0.027672,
           "winner_probability": 0.831673
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "567137",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567138",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567139",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567140",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567141",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567142",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567143",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567144",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567145",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "567137",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567138",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567139",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567140",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567141",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567142",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567143",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567144",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "567145",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "contested"
     },
     {
@@ -8768,8 +9988,249 @@
           "hit": true,
           "brier": 0.011639,
           "winner_probability": 0.888012
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-12-02T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "586024",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586025",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586026",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586027",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586028",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586029",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586030",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586031",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586032",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586033",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586034",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586035",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586036",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586037",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586038",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586039",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586040",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586041",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586042",
+              "observed_at": "2025-12-02T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-12-02T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "586024",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586025",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586026",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586027",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586028",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586029",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586030",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586031",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586032",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586033",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586034",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586035",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586036",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586037",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586038",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586039",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586040",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586041",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "586042",
+              "observed_at": "2025-12-02T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     },
     {
@@ -8993,8 +10454,45 @@
           "hit": false,
           "brier": 0.319225,
           "winner_probability": 0.435
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "623207",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "623208",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "623207",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "623208",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "contested"
     },
     {
@@ -9244,8 +10742,45 @@
           "hit": true,
           "brier": 0.00021,
           "winner_probability": 0.985507
+        },
+        "night_before": {
+          "status": "missing",
+          "cutoff": "2025-11-04T04:59:00+00:00",
+          "observations": [
+            {
+              "market_id": "555813",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "555814",
+              "observed_at": "2025-11-04T00:00:00+00:00",
+              "age_hours": 4.98,
+              "resolution_seconds": 10800
+            }
+          ]
+        },
+        "preclose": {
+          "status": "missing",
+          "cutoff": "2025-11-04T22:00:00+00:00",
+          "observations": [
+            {
+              "market_id": "555813",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            },
+            {
+              "market_id": "555814",
+              "observed_at": "2025-11-04T12:00:00+00:00",
+              "age_hours": 10.0,
+              "resolution_seconds": 10800
+            }
+          ]
         }
       },
+      "movement": null,
       "segment": "clear"
     }
   ]

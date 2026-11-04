@@ -14,6 +14,7 @@ from pathlib import Path
 import re
 import statistics
 import time
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -45,6 +46,11 @@ def get_json(url: str, params: dict | None = None) -> object:
 def save_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n")
+
+
+def save_site_json(path: Path, value: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, separators=(",", ":"), ensure_ascii=False))
 
 
 def parse_list(value: object) -> list:
@@ -115,6 +121,24 @@ def cutoff_time(day: str, horizon: int, hour: int) -> datetime:
     return base - timedelta(days=horizon)
 
 
+def intraday_cutoff(day: str, name: str, tz_name: str = "America/New_York") -> datetime:
+    local_day = datetime.fromisoformat(day)
+    if name == "night_before":
+        local = (local_day - timedelta(days=1)).replace(hour=23, minute=59, tzinfo=ZoneInfo(tz_name))
+    elif name == "preclose":
+        local = local_day.replace(hour=17, minute=0, tzinfo=ZoneInfo(tz_name))
+    else:
+        raise ValueError(f"Unknown intraday cutoff: {name}")
+    return local.astimezone(timezone.utc)
+
+
+def event_cutoffs(day: str, config: dict) -> list[tuple[str, datetime]]:
+    regular = [(str(horizon), cutoff_time(day, horizon, config["cutoff_hour_utc"]))
+               for horizon in config["horizons_days"]]
+    intraday = [(name, intraday_cutoff(day, name)) for name in ("night_before", "preclose")]
+    return regular + intraday
+
+
 def race_category(title: str) -> str:
     lowered = title.lower()
     if "senate election winner" in lowered:
@@ -173,7 +197,11 @@ def main() -> None:
         if reason == "candidate" and args.refresh_results:
             current = get_json(f"{GAMMA}/events", {"slug": event["slug"]})
             if current:
-                save_json(refresh_dir / f"{event['slug']}.json", current[0])
+                save_json(refresh_dir / f"{event['slug']}.json", {
+                    "id": current[0].get("id"), "slug": current[0].get("slug"),
+                    "markets": [{key: market.get(key) for key in ("id", "conditionId", "closed", "outcomePrices")}
+                                for market in current[0].get("markets", [])],
+                })
                 current_markets = {m["id"]: m for m in current[0].get("markets", [])}
                 markets = [current_markets.get(m["id"], m) for m in markets]
         winner = winner_market(markets) if markets else None
@@ -187,7 +215,7 @@ def main() -> None:
                 raise ValueError(f"Call condition_id not found in frozen cohort: {event['slug']}")
             provisional = True
         if reason == "candidate" and len(markets) < 2:
-            reason = "excluded: fewer than two named, traded candidates"
+            reason = "excluded: fewer than two traded candidate or party outcomes"
         elif reason == "candidate" and winner is None and args.edition == "2025":
             reason = "excluded: winner not uniquely settled"
         ledger.append({
@@ -199,15 +227,15 @@ def main() -> None:
         if reason == "candidate":
             included.append((event, markets, winner, provisional))
     save_json(outdir / "coverage.json", ledger)
-    if args.edition == "2025" or args.publish_site:
+    save_site_json(ROOT / "site" / "data" / f"{args.edition}-coverage.json", ledger)
+    if args.edition == "2025":
         save_json(ROOT / "site" / "coverage.json", ledger)
 
     jobs = {}
     with ThreadPoolExecutor(max_workers=8) as pool:
         for event, markets, _, _ in included:
             day = config["election_day_overrides"].get(event["slug"], config["default_election_day"])
-            for horizon in config["horizons_days"]:
-                cutoff = cutoff_time(day, horizon, config["cutoff_hour_utc"])
+            for horizon, cutoff in event_cutoffs(day, config):
                 if cutoff > datetime.now(timezone.utc):
                     continue
                 for market in markets:
@@ -242,8 +270,7 @@ def main() -> None:
                        "volume": float(m.get("volume") or 0)} for m in markets]
         winner_index = next((i for i, m in enumerate(markets) if winner and m["id"] == winner["id"]), None)
         forecasts = {}
-        for horizon in config["horizons_days"]:
-            cutoff = cutoff_time(day, horizon, config["cutoff_hour_utc"])
+        for horizon, cutoff in event_cutoffs(day, config):
             values = []
             times = []
             for m in markets:
@@ -252,7 +279,8 @@ def main() -> None:
                     values.append(None)
                     continue
                 age = (cutoff.timestamp() - point["timestamp"]) / 3600
-                values.append(float(point["price"]) if 0 <= age <= config["stale_hours_max"] else None)
+                max_age = config.get("intraday_stale_hours_max", config["stale_hours_max"]) if horizon in ("night_before", "preclose") else config["stale_hours_max"]
+                values.append(float(point["price"]) if 0 <= age <= max_age else None)
                 times.append({"market_id": m["id"], "observed_at": datetime.fromtimestamp(point["timestamp"], timezone.utc).isoformat(),
                               "age_hours": round(age, 2), "resolution_seconds": point.get("resolution_seconds")})
             available = [(i, v) for i, v in enumerate(values) if v is not None]
@@ -277,6 +305,35 @@ def main() -> None:
             "resolution": resolution, "outcome_status": "pending" if winner is None else "provisional" if provisional else "settled",
             "candidates": candidates, "forecasts": forecasts})
     races.sort(key=lambda r: r["title"])
+    for race in races:
+        night = race["forecasts"].get("night_before", {})
+        preclose = race["forecasts"].get("preclose", {})
+        if not night.get("probabilities") or not preclose.get("probabilities"):
+            race["movement"] = None
+            continue
+        deltas = [(i, round(after - before, 6)) for i, (before, after) in
+                  enumerate(zip(night["probabilities"], preclose["probabilities"]))
+                  if before is not None and after is not None]
+        if not deltas:
+            race["movement"] = None
+            continue
+        biggest_index, biggest_delta = max(deltas, key=lambda item: abs(item[1]))
+        before_leader = night["leader_index"]
+        race["movement"] = {
+            "night_before_cutoff": night["cutoff"], "preclose_cutoff": preclose["cutoff"],
+            "night_before_leader_index": before_leader,
+            "preclose_leader_index": preclose["leader_index"],
+            "leader_flipped": before_leader != preclose["leader_index"],
+            "night_before_favorite_probability": night["probabilities"][before_leader],
+            "preclose_same_candidate_probability": preclose["probabilities"][before_leader],
+            "favorite_move_pp": round(100 * (preclose["probabilities"][before_leader] - night["probabilities"][before_leader]), 2)
+                if preclose["probabilities"][before_leader] is not None else None,
+            "biggest_mover_index": biggest_index, "biggest_move_pp": round(100 * biggest_delta, 2),
+            "winner_night_before_probability": night["probabilities"][race["winner_index"]]
+                if race["winner_index"] is not None else None,
+            "winner_preclose_probability": preclose["probabilities"][race["winner_index"]]
+                if race["winner_index"] is not None else None,
+        }
     for race in races:
         week = race["forecasts"].get("7", {})
         probabilities = week.get("probabilities") or []
@@ -313,9 +370,12 @@ def main() -> None:
             timeline[str(horizon)][segment] = {"n": len(group),
                 "brier": round(statistics.mean(f["brier"] for f in group), 4) if group else None}
     result = {"edition": config["edition"], "label": config["label"], "generated_at": datetime.now(timezone.utc).isoformat(),
-        "method": {"unit": "one election-winner event", "probabilities": "named, traded candidate Yes prices normalized to sum to one; missing prices treated as zero for scoring",
+        "method": {"unit": "one election-winner event", "probabilities": "traded candidate or party Yes prices normalized to sum to one; missing prices treated as zero for scoring",
                    "brier": "0.5 × sum((probability - outcome)^2) across candidates", "cutoff_hour_utc": config["cutoff_hour_utc"],
-                   "stale_hours_max": config["stale_hours_max"], "horizons_days": config["horizons_days"]},
+                   "stale_hours_max": config["stale_hours_max"], "horizons_days": config["horizons_days"],
+                   "intraday_stale_hours_max": config.get("intraday_stale_hours_max"),
+                   "intraday_cutoffs": {"timezone": "America/New_York", "night_before": "23:59 on the prior calendar day",
+                                        "preclose": "17:00 on election day, before first U.S. general-election poll close"}},
         "discovered_events": len(events), "included_races": len(races), "fetch_failures": len(failures),
         "category_counts": {name: sum(r["category"] == name for r in races) for name in sorted({r["category"] for r in races})},
         "segmentation": {"basis": "highest candidate probability seven days before each race", "contested_if_below": 0.8},
@@ -327,7 +387,8 @@ def main() -> None:
         "timeline": timeline,
         "races": races}
     save_json(outdir / "scorecard.json", result)
-    if args.edition == "2025" or args.publish_site:
+    save_site_json(ROOT / "site" / "data" / f"{args.edition}.json", result)
+    if args.edition == "2025":
         save_json(ROOT / "site" / "scorecard.json", result)
     print(f"{len(events)} discovered; {len(races)} races included; {len(failures)} fetch failures")
     for horizon, item in summary.items():

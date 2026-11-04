@@ -1,7 +1,7 @@
 import unittest
 from datetime import timezone
 
-from scorecard.pipeline import brier, candidate_market, cutoff_time, event_decision, race_category, winner_market
+from scorecard.pipeline import brier, candidate_market, cutoff_time, event_decision, intraday_cutoff, race_category, winner_market
 
 
 class PipelineTests(unittest.TestCase):
@@ -13,6 +13,11 @@ class PipelineTests(unittest.TestCase):
         point = cutoff_time("2025-11-04", 1, 15)
         self.assertEqual(point.isoformat(), "2025-11-03T15:00:00+00:00")
         self.assertEqual(point.tzinfo, timezone.utc)
+
+    def test_intraday_cutoffs_use_eastern_time_before_poll_close(self):
+        self.assertEqual(intraday_cutoff("2026-11-03", "night_before").isoformat(), "2026-11-03T04:59:00+00:00")
+        self.assertEqual(intraday_cutoff("2026-11-03", "preclose").isoformat(), "2026-11-03T22:00:00+00:00")
+        self.assertEqual(intraday_cutoff("2025-11-04", "night_before").isoformat(), "2025-11-04T04:59:00+00:00")
 
     def test_candidate_filter_excludes_placeholders(self):
         valid = {"question": "Will Jane Doe win the Governor Election in 2025?", "outcomes": '["Yes", "No"]',

@@ -12,6 +12,7 @@
   "cutoff_hour_utc": 15,
   "horizons_days": [30, 21, 14, 7, 3, 1, 0],
   "stale_hours_max": 24,
+  "intraday_stale_hours_max": 1,
   "include_title_patterns": [
     "^\\s*New Jersey Governor Election Winner 2025$",
     "^Virginia Governor Election Winner$",
