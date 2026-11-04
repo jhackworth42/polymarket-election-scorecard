@@ -1,0 +1,54 @@
+{
+  "id": "191546",
+  "slug": "nj-02-house-election-winner",
+  "markets": [
+    {
+      "id": "1284129",
+      "conditionId": "0x72efd66ee80174b9d64d080692ccdaf77750532d9d706ad05372117fa0d99a4a",
+      "closed": false,
+      "outcomePrices": "[\"0.013\", \"0.987\"]"
+    },
+    {
+      "id": "1284130",
+      "conditionId": "0xda6443c47be5c76cfe19a36b6de027558fbf669c825b7aa20c0642b753127b58",
+      "closed": false,
+      "outcomePrices": "[\"0.9865\", \"0.0135\"]"
+    },
+    {
+      "id": "1284131",
+      "conditionId": "0x865030ee89500626823e2212a826f03c6831bb2bd7871eb793334b00bd7f7d5b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284132",
+      "conditionId": "0xa1f8f67472fa7bf1b7d2e960001af38d38771564e040be3c6add934e82ae3217",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284133",
+      "conditionId": "0x848fd304a860f3feb4e9f4ff63c552e744080267127299f82b4913a78990646a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284134",
+      "conditionId": "0x27548103dc6f87e9ad66067721996ec55bb248cdd5e307718d9bc0877bae6339",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284135",
+      "conditionId": "0x7301890bbc5f8d4d7a233e244c9a31233a62d51728d4985b55b965c13b70abe4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284136",
+      "conditionId": "0xdd1580827bb7410e7d1120b46235650c67c1d56500d7b3a855c2b3cbd711ef23",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

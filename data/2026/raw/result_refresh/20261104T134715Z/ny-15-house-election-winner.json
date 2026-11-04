@@ -1,0 +1,54 @@
+{
+  "id": "191569",
+  "slug": "ny-15-house-election-winner",
+  "markets": [
+    {
+      "id": "1284314",
+      "conditionId": "0xf5df443a3206eb38a12cb46747c9b69436ff7925dffcb5b8e006856aa8d43aa7",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284315",
+      "conditionId": "0x591684461ed2a3d00361fba0bb71d07f325fed75797413b96a794302989e4c07",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1284316",
+      "conditionId": "0xe11ade63fb94f86a57a834d62fd468a6b06b564baff41dabffff81a71557d20c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284317",
+      "conditionId": "0xcce328b43116b7a3006f723ddb4681fac5396ae92a46f6c03dd0fc964fa3acc1",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284318",
+      "conditionId": "0xba005f3709e3e717f67d2b38ab99154a017645b61a0d8f81c56fbf2be2458c89",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284319",
+      "conditionId": "0xec0644506e88803ed875cb947cd520a5150dd68ce0ca5550cc5b23d93cbad96d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284320",
+      "conditionId": "0xd457f9e41ac872e98b1cd83bd03940365065e5c7390b46ca1bab3e8b4d6b0193",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284321",
+      "conditionId": "0x85eb7ba3436042dad8db0676246f6cadbe9a11ff7e116da515df67a8b3ca6a8b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

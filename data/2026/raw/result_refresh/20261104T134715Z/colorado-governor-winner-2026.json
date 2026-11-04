@@ -1,0 +1,84 @@
+{
+  "id": "57156",
+  "slug": "colorado-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629296",
+      "conditionId": "0x15de5f99db14dd323df50b4c0af7d756cea681bdc3adbe1f1b6be7194a59c978",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "629297",
+      "conditionId": "0x9cf6302c34e0533635870c02bf46c601b0e3a2c3ac617e62a719a2cf8b1b5ca5",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629298",
+      "conditionId": "0x605b70a2b63dfe631a4b7fc8bfb0c7b6e07415383590c8a6df6bf92e6a4d7b4f",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629299",
+      "conditionId": "0x717b156ae0fef40c933244b2cac0f95cb768654ff63517ef9ec31552d5feaf62",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629300",
+      "conditionId": "0x91532e90fc7b7754ef6bc9d51f7274ad46272f0d28bbd7d4c674c800043d7109",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629301",
+      "conditionId": "0x47cc5c01d8d894fb42c2cae2ae14e3ba54acb1c7fb7b4215f27ef5750e5e3aee",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629302",
+      "conditionId": "0x73fc098038122e5f6d8097cbbba992b20461907c1b5a7b6fb40ac2ad466df900",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629303",
+      "conditionId": "0x72c640c6d5a0bcfab2863ee3695f8e25c217fe218017ab1bbfca4882384bcf44",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629304",
+      "conditionId": "0x4161c362617bebda1fee26e46f1ff58005f822eac16b17855384d691998fe3d1",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629305",
+      "conditionId": "0x9ac274424ae6f71e5533b97ceae05514bec00780a826ca3f1b8f68e35eaad6eb",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629306",
+      "conditionId": "0x629a9c8bf0714bf97ea6d8ed5d4273395bae944b56145b8b5c2c9c24feb3a04b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629307",
+      "conditionId": "0x3e79b992181b9fc8fb470434a45ec8889758de8f4660c82646892b919a6e6cce",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629308",
+      "conditionId": "0xb8afdba8ac4e2438496190e28cfb76be434ea017c664073adbc5ae5eca17205f",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

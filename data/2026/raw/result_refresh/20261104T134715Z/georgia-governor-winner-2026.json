@@ -1,0 +1,84 @@
+{
+  "id": "57161",
+  "slug": "georgia-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629337",
+      "conditionId": "0x73a9911393e7bd2262904c4413d9614f68bb6290ddf7d88ed607f1562d08fb05",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "629338",
+      "conditionId": "0x71c05b735300b6087ff5588bcc7e83fecf009293d794f613c63c92ea8a16fb2b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629339",
+      "conditionId": "0x72b9bbfb0501433df5e9c8c7db2f1b2059c084f355d2bf9f8b390835d3c63450",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629340",
+      "conditionId": "0x0cd03c3b11e47d4513d625d402d0ec78d634e0e8123ec6395fbeb006aa2b3900",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629341",
+      "conditionId": "0x65aa2f95f8af98a3e9fbc8d25ef78f779fdcf8980fc30c27bb18f990e6f3b6f8",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629342",
+      "conditionId": "0x0994ee36b43221db6f0e8827a27cc42c900631db0698f43f30a95fb8eed3091d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629343",
+      "conditionId": "0x5d14201d26dd2002762c9d4b5ed1f5aad0d17e9f24552941ecf5cc554e6d7d41",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629344",
+      "conditionId": "0xdbe79772360456adda43a333152e485b77420ff0d294fbefd76b1606dae6a239",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629345",
+      "conditionId": "0xa80d8846fb155fade106c8eb2dea450a9fe18d7e1658f1ea08e59bd943e60017",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629346",
+      "conditionId": "0x4666f2a1bfded07d7cc9daeeb7ad354e8e271eb5eba77724791a14101f59ab30",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629347",
+      "conditionId": "0xa5f59c38fb0731653ff529bf4a340cc06706499923d34925f11277d042474b30",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629348",
+      "conditionId": "0xfcdd9359708c092bb556b6f5d25593591ba20458c74f283db4c3b24bb640b70b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629349",
+      "conditionId": "0x04fef96f503ac1d1303f914aec7e09f002a5628f5f6a74c4f9651842246cd855",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

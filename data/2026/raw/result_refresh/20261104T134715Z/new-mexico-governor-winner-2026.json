@@ -1,0 +1,84 @@
+{
+  "id": "57183",
+  "slug": "new-mexico-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629531",
+      "conditionId": "0x5eb660082d749c35ec496dae4c1f52e3950487b4d3c63215d2e27910dab38819",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "629532",
+      "conditionId": "0xc5b92069aa1a3319830b2e44bf51ecee36e849790bde3fd68339f5beb5a8ffad",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629533",
+      "conditionId": "0xe1bf1f9e083959ac9f554965c530f1db5d94de67a94b68b42fc7fd178695ed20",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629534",
+      "conditionId": "0xfb6374f29a29f0e918bd9e6c2fe589df90f998ad2cd7b37fe991b66b00b7089b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629535",
+      "conditionId": "0x4ed2ea0829c6653c73607bac2caf4df30b461a4cc6de368d6940b4050a7d061d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629536",
+      "conditionId": "0xab2a1ba2d38c573819cd36541e275c433331f20227315f3a4c2e724b4c2fd09c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629537",
+      "conditionId": "0x011d970bf6da22807c9ff2519df15366352194717a8c6a8cf4dbbc9f79034e92",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629538",
+      "conditionId": "0x71de85a4db61525a610cf78712ed36922cc953d430620fc918a2b258f14e7823",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629539",
+      "conditionId": "0xa05065d628df7ca0a421a6b141de333f6ea928af8e0b539a4452feb6896e9e72",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629540",
+      "conditionId": "0x3de3c04db5a918f151bebd484da41c2d95d5deeae9fb1415b5caacbc6f55ad71",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629541",
+      "conditionId": "0x286048d6f426ac88ec1d8ba64123a9a264b01a610b7e9473fdda411b4c6f21e0",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629542",
+      "conditionId": "0xacfe04849567d7bb2cde0335808476dea837e96e92ed3f2f6af60e4ea2f2b831",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629543",
+      "conditionId": "0x3a480e427161ced15c0b0bd4eb7637bfa63db95d35c9aa42a29093c7ca85165e",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

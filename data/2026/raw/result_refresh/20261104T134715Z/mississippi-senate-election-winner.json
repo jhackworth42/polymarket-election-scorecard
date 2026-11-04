@@ -1,0 +1,84 @@
+{
+  "id": "57678",
+  "slug": "mississippi-senate-election-winner",
+  "markets": [
+    {
+      "id": "631017",
+      "conditionId": "0x8c9b8ad3a64088a06d45e0b296a9a836203bc7f3ef35d134c57abead446a8b72",
+      "closed": false,
+      "outcomePrices": "[\"0.855\", \"0.145\"]"
+    },
+    {
+      "id": "631018",
+      "conditionId": "0xc8c5760c26490b0cd0bedcf1c61aa86c5e09c8b2886b84ff4ea2db81d5f29388",
+      "closed": false,
+      "outcomePrices": "[\"0.1475\", \"0.8525\"]"
+    },
+    {
+      "id": "631019",
+      "conditionId": "0x06635ac74e7348a07aa2212025cc0a2398076d1c64bc5839efcc89748695c62d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631020",
+      "conditionId": "0xe7809f956866698b7a514de87085af6b90c865338901a60f966a1cc543c0e0a3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631021",
+      "conditionId": "0xb1a9b946269209ccc06f868b084139d2c0fd8aeca49084a9b92ee39e2702ebe1",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631022",
+      "conditionId": "0x7dd06218542af847a7ae7499fd4bdea3490359f2a4f3f38c957d1f8a25ad9025",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631023",
+      "conditionId": "0x0c5f2201c0772e09c55d2a6cc8fba58f743156e85bbf3c61d9d0437b4d59426e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631024",
+      "conditionId": "0x78be888880acd70eb5fe43d7dcfdae1fdb11296414faac2f6b8d962a295d7baa",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631025",
+      "conditionId": "0xfcebcc5b2935ec807569165e90cb3d0e35cd6f22c17827f7d384c372b0381e6b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631026",
+      "conditionId": "0x98ee97630dab35cbc41e7cca87ff4b5776febc95741aa6cd8c7fcd09f713c5f6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631027",
+      "conditionId": "0x8b550f1155aefe4aeb462a4dbb631664c223938bdd490571433d5a7b80e9eb75",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631028",
+      "conditionId": "0x401302e20b158bc3e1aa51648774b0e245b04383d336ecef27848f75d77547fb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631029",
+      "conditionId": "0x1dbfee74749bc8cc18d37bdfc73e9bb7f78f7717d2ef81251f2a5ffc754b3d02",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

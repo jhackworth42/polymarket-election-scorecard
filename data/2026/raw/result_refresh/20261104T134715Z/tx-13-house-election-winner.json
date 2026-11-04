@@ -1,0 +1,54 @@
+{
+  "id": "191645",
+  "slug": "tx-13-house-election-winner",
+  "markets": [
+    {
+      "id": "1284895",
+      "conditionId": "0x4482da6539426799a135e01150a04162644492a1d1a9e631d613ca0c75ae11e0",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1284896",
+      "conditionId": "0x3f91ef362a7510c965eb3e3e5394d308d8eb157d08175958edeba06d5b921243",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284897",
+      "conditionId": "0xfeabeeeba04811993014b1e870c4f9e4bddfbcdd6324183045d2afb3f8bd3144",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284898",
+      "conditionId": "0x6541d9589322ba14c8c8f1326c1dc96e8089e509f0ac48689b1eefdec90b9496",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284899",
+      "conditionId": "0x0f7221b17943569731153dd4068371228626864b0d623467bcb283e55c6da3ae",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284900",
+      "conditionId": "0xf11556e023ee43a0f8670cc403bbabab3f52b18ea0bcdc58a365797a180191f4",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284901",
+      "conditionId": "0x266cbc53dcc16f75166d8f99a7dbad77c6af5031287374a30763dbbb8baa0cf6",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284902",
+      "conditionId": "0x19ac45aeb7cf01af703caf654e8c524e7586141494d962c8a11b30df0fa5c70d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

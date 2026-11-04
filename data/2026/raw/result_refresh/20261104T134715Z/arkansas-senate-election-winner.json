@@ -1,0 +1,84 @@
+{
+  "id": "57639",
+  "slug": "arkansas-senate-election-winner",
+  "markets": [
+    {
+      "id": "630653",
+      "conditionId": "0xfd583ce731a731f6500cf5427090f1e708ec102140146200306b56c489ed4364",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630654",
+      "conditionId": "0x814f5203f08088877a5e70911f5f1c7d13030d986a9237822e6f708a27111c62",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "630655",
+      "conditionId": "0x1b740ce5e48c96509aef9fae35e5aa98b78dffcbe2d53635bd544fe110f7dda8",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630656",
+      "conditionId": "0x10a7215b88335dc797a5ad734a209dbda4ab54c78907d8fcded3c314ce0e619f",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630657",
+      "conditionId": "0xd5349d274311101aecde6c05b881a5107c508d9bed3ba919e1239d67b3cc926c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630658",
+      "conditionId": "0xbf34d6ce84fb046bc1f09e725e2d0f2c9b8896b883c0d75f33bcad08b486e78d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630659",
+      "conditionId": "0x59130545809fa0e8520815d89d8ec452a895fb4e0e64ff9b63f517c03a5909e7",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630660",
+      "conditionId": "0xcf11954c37a3c070e184b7ff78326016e810801da515d7971c7363ef6bac1b40",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630661",
+      "conditionId": "0x9af515648f0d2a802c308284a5f9a17b66e39d4a3b88645d661059e87fd52f8b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630662",
+      "conditionId": "0x76ff8ffaf75f08b5c69cf59c624acf6efecedaee33452bf961f4783a7c8a6d07",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630663",
+      "conditionId": "0xcf2237898db324aeac195c7f938d348fd33f0d47a8efeeda78b98ac8dbc5f2a7",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630664",
+      "conditionId": "0x0221d816ae305eabffbaa3f165bbce284cf0a8d0837560bbdb3709bd9ba955e0",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630665",
+      "conditionId": "0xa16bb7b4a538980aea415fff9c5f99e895222353c6893f8b9930ef40426ced27",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

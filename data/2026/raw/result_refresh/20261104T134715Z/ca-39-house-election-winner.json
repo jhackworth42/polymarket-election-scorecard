@@ -1,0 +1,54 @@
+{
+  "id": "190926",
+  "slug": "ca-39-house-election-winner",
+  "markets": [
+    {
+      "id": "1281204",
+      "conditionId": "0xb36c01739fbf1427b28f46770c722125d96875da8d7d2005a88a71fdd6d5af0e",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1281205",
+      "conditionId": "0x309a6a46f8bd102281422b20a09003793c4bfc4fb7bdd3660165e655c15b2c15",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1281206",
+      "conditionId": "0x377244c9ecd2c75b499d6b18a04a9f59daa8da6a123183837ec86fb7e1dc636c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1281207",
+      "conditionId": "0xad9c65950d1c3d71540282dbd4361f77855c7841ed7c7876d3e87ed9b0f7cc78",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1281208",
+      "conditionId": "0x98bf092c6db7ad8a13da7abbf4e202cabab97177876e1bad79abc1afb3e4f991",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1281209",
+      "conditionId": "0xcb331556fa3ca2215951692ee2660536f7aa804ac0bdac42e9aad4820a6a96af",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1281210",
+      "conditionId": "0x970eca09e1f04b7e841f275abcfc2e5ec9642abac4decee4b1e900dacfbfc07b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1281211",
+      "conditionId": "0xe04e85390a2d2b4e1fd870b3c12f2a2fdacd5dccc17972b0f783ae79708d6285",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

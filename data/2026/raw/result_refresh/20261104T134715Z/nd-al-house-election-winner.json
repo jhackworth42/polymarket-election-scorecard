@@ -1,0 +1,54 @@
+{
+  "id": "191542",
+  "slug": "nd-al-house-election-winner",
+  "markets": [
+    {
+      "id": "1284097",
+      "conditionId": "0x46d36f63912449614fae2904c1db76fdd78002179a45fa9d38e20e21766b9c5e",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1284098",
+      "conditionId": "0x3e42cebb947b4d0b6ecf9ca1a5a7dbaae2a3192fc2e2110dff482400750cbca9",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284099",
+      "conditionId": "0xd6d83e5f99828ce47e41e0448df66c5fd90a0f2cdfc7413205759ebd74edf0f4",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284100",
+      "conditionId": "0x7bacfe9d0cc735d1e86ff400def847d48467c417f886ad50f99a10842524210a",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284101",
+      "conditionId": "0x9a9c9406ccdca081240d7a9410af2b45719ab5d665b94b5d5ea161061b73a9a4",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284102",
+      "conditionId": "0x03ea653ebac7f14d96424b6b655f0378f80b44e280c098d7f7900cebd06d65a1",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284103",
+      "conditionId": "0xfcf8078b875222b2b7a23cb9c4860641d6745464b6be14cf26fa9c22ac98ee44",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1284104",
+      "conditionId": "0x954d0bf7bb500a54c8305d44405a5def6c42d6dea1c97dce0805539a264ddf8c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

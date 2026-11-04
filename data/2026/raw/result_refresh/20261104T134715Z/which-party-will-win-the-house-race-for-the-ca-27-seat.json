@@ -1,0 +1,54 @@
+{
+  "id": "90272",
+  "slug": "which-party-will-win-the-house-race-for-the-ca-27-seat",
+  "markets": [
+    {
+      "id": "703689",
+      "conditionId": "0x1ca460bdddfec1f2fc1564355c5000526150e746a702042b3b176d35eac85d88",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "703690",
+      "conditionId": "0xa3a67d6cd09d2b3af055b057ef25742dd3806cddb861b2e32cd1e76639266a4f",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "703691",
+      "conditionId": "0x1b1d09df9113af9e67f3a34805b9d9a68c73e32817ebb0eabd294d628ae2ebf6",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "703981",
+      "conditionId": "0x0836034ab76ab27871d6241705ce639479de6691a332477dc072fd8f2daa6568",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "703982",
+      "conditionId": "0xd4385212c7a2f20a033dc72b1bb55273f3ea56d58cea76fb92713e84e0528432",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "703983",
+      "conditionId": "0xc43c4e9a87e9db456fe70013ead562ae9b3c74c36548ac59f7453f1842c1e357",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "703984",
+      "conditionId": "0xea94a61bb0a7c0719a22d553af028b8451fe65085eb25fcc22ac2f3de8fcc5b2",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "703985",
+      "conditionId": "0x5ba67f116f05d4adcb09c81e7e182a2a331bd13cd232e5ea8e85eb6273273851",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

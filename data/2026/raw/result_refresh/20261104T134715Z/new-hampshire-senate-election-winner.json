@@ -1,0 +1,84 @@
+{
+  "id": "57661",
+  "slug": "new-hampshire-senate-election-winner",
+  "markets": [
+    {
+      "id": "630844",
+      "conditionId": "0xfc5c740e4617eb9908ceada7c91bfbe1cd41f172d703ef811d544e60a7a70bb5",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "630845",
+      "conditionId": "0x57599a84bf50c94b958adb020aa2a25bf02e26453e500d3b739d86e6b783774c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630846",
+      "conditionId": "0xeb4e96bc36fd088252028732c26c6ecdb1d52b60672d06104648b5e71e09ee73",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630847",
+      "conditionId": "0x741d5d35ea57ce1b2928484942bee4575792f22d6acc399fef5956dcdf620357",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630848",
+      "conditionId": "0x4b96d0bc4fa6722563369a5bb41642f15ad2e1c2250723a4aa3a3644432d4b83",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630849",
+      "conditionId": "0x179e9a60638abcfcfa582f8ae06a7a14ad49ba6ad73640da6eec7977d8e444e6",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630850",
+      "conditionId": "0x3bbc008303d987871ed1149f1b94c67c171f22e1566ab97f2e572e405b90bf48",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630851",
+      "conditionId": "0x8d14609be581df640b12876d4d7f6089eb30fb1df992827f1566c577de9e55ce",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630852",
+      "conditionId": "0x1f706093cb47aa4d54d140d42f75ea1785793f0065bd5dbc36ca992982ee564c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630853",
+      "conditionId": "0xef090b98b401e74327bba2b0d46846f44841436b22129e78b85dcaaf0087225c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630854",
+      "conditionId": "0xea34fa1d4e7922568da458264dc0c0efe8aa0e467b0e26411b0de04b83184306",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630855",
+      "conditionId": "0x91ff2dc8303667ae0ba1236316fd14440d0818dcbcabb0d6a09897d7c77d9f93",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630856",
+      "conditionId": "0xcef6f684e8c8aef10e69ee8daa4358d2189b5148244db50411fbaa1749b1eabb",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

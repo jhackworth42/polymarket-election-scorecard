@@ -1,0 +1,54 @@
+{
+  "id": "191673",
+  "slug": "vt-al-house-election-winner",
+  "markets": [
+    {
+      "id": "1285119",
+      "conditionId": "0x476416ab954fea68536a48ead02924c6d91da63e12e3af095775669f85c8abd9",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285120",
+      "conditionId": "0x41ce4a6b863eb865319475e03c34ee3bbb1757332255ae86fa51bfc29313972e",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1285121",
+      "conditionId": "0x1134f236c5efc10492dae65f03128a5a46c025f16d37f839f4b0b53d65d88aa0",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285122",
+      "conditionId": "0xaf9720199c8cbf8e144233b8a9982ed5df35cfefd39dc772de78bad09b626ac1",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285123",
+      "conditionId": "0x3c8c256aa294b2a7bb5fc1cdd8bf8080c26870c1146a2f55b5fd25a6e9c12b17",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285124",
+      "conditionId": "0x2ee037993e0ff34ccf0458d590e1f8358fe4c72bb5835c51308f0951c4d48d46",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285125",
+      "conditionId": "0x44527773f21da4484f39de1e660a9ae3759d0a85eaeab887ef8d23546d519384",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285126",
+      "conditionId": "0x21981c6191d5274d5bba08eaa77d538b150513e92bd8b752af1f3b38565164b8",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "191667",
+  "slug": "va-04-house-election-winner",
+  "markets": [
+    {
+      "id": "1285071",
+      "conditionId": "0x356d92a8c40e3033cca07ffca41c9628bdf6d509796c3f3060c87590934e2be4",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285072",
+      "conditionId": "0x6069d570e8be25d93149ca206c88b3f5354b1d9ffdfdcd24cbdfe0efb64f4462",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1285073",
+      "conditionId": "0x55106492af3ea5c055f1e423a14310b0c452a116d4e87a07a9a062e7cc47526f",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285074",
+      "conditionId": "0x6f4f9cd2bda59f8cc3f0d83e9e786dec950f2a9dcb91d13fc64dd38f247df58e",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285075",
+      "conditionId": "0x04986b3dff136ae5a9cb6c7cdf9df05a670717ca0433ff456142f9f81c70f9c4",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285076",
+      "conditionId": "0xcfd2bd705dcb8b697a3b908110613a47d132ed01074c7d5f6075e2dc123adf74",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285077",
+      "conditionId": "0xca422229a8ba18bf8a5f9491797d4d79d995219f68f87da311a814d5a4eae77c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285078",
+      "conditionId": "0x0b8d37154bdf8bac8cd9f888055866f7c5a9bbe2aac8a3b8d6b7526f29f358a5",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

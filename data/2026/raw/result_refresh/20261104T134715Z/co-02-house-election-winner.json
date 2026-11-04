@@ -1,0 +1,54 @@
+{
+  "id": "191389",
+  "slug": "co-02-house-election-winner",
+  "markets": [
+    {
+      "id": "1282872",
+      "conditionId": "0x4554565c16f06a8882851e5b728c9476221d7366cc2714741190f9c4b2832104",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1282873",
+      "conditionId": "0xf67ce5f1f92518d95c6961c7d7ca5a616b7e33174d0e30c451bfbc7578aa7ad3",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1282874",
+      "conditionId": "0xf78776320849db1350e9d8e18b68aa93a686ec8edc2dd199762bcc9fd157eac1",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1282875",
+      "conditionId": "0x2ba2e1df692a0ed3eb6ea56b8e53159c84ee6cd68b41ac998dfacdf5e7b1892a",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1282876",
+      "conditionId": "0x6ef88b74d4fc6c471d03efe59bfff0aa7c41e05792505299346f07de509a281d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1282877",
+      "conditionId": "0xa0cfc01ad438f9da5ce78bb70323deb3034b3294939a8983b4d0e932b3bf7da0",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1282878",
+      "conditionId": "0x8f4350802784bb4ec653e7ae4e52d158168260b117be14245d1696bec0617e1c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1282879",
+      "conditionId": "0xe3c99b87adbd4828260c2e2992a9910bcaaca8dd10893e4ef6ce2d2c6d812d96",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

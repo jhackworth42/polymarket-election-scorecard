@@ -1,0 +1,54 @@
+{
+  "id": "191652",
+  "slug": "tx-22-house-election-winner",
+  "markets": [
+    {
+      "id": "1284951",
+      "conditionId": "0xed589ddf384f2f25185e2afc1cc5729309463980f2249e1f94b647dc7f1a7678",
+      "closed": false,
+      "outcomePrices": "[\"0.95\", \"0.05\"]"
+    },
+    {
+      "id": "1284952",
+      "conditionId": "0x6acf586f3e821528af375ad66d7a76f30abdbf8197cc5cfee069abee6e3f6156",
+      "closed": false,
+      "outcomePrices": "[\"0.028\", \"0.972\"]"
+    },
+    {
+      "id": "1284953",
+      "conditionId": "0x69c3b41e2cc5e4132a237d6e43bae34facf3bb7deb33163e33abb3c806b6bb65",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284954",
+      "conditionId": "0x34b96523ae6139cc019491c6c90351ff0e2008c1c6d9ef596d641bf30218c899",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284955",
+      "conditionId": "0xc0b43e6b5f097f7cbf32083ad15a56503a17a747f594b274923d264765ef6157",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284956",
+      "conditionId": "0x7234cecf2d70e3a565b8693618d82ba1fdcd68f5b8352f6170e91f42d5f5cc8b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284957",
+      "conditionId": "0xc6d3cc3490867908a7dac86b07e093ac25ebe316bfe1d0b94e3819ca85db8a25",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284958",
+      "conditionId": "0x2006cc7bf2ede125408bf55f4c0347e81570622c30c454c6aa1c001d776c7c37",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

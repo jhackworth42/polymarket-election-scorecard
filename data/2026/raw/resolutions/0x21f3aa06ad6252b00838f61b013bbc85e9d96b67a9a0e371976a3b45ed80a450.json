@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "question_id": "0xb5a295791db347a1c36a261cd77479ba3f05f7744e5d151650f241b4cd16e60a",
+      "condition_id": "0x21f3aa06ad6252b00838f61b013bbc85e9d96b67a9a0e371976a3b45ed80a450",
+      "status": "resolved",
+      "extended_review": false,
+      "was_disputed": false,
+      "new_version_q": true,
+      "proposed_price": "1000000000000000000",
+      "reproposed_price": "69",
+      "price": "1000000000000000000",
+      "transaction_hash": "0x29f1be3e10235aece5c2b636ac21f82ea80cd47b0be5cc081bbbdab43a3d320f",
+      "log_index": "242",
+      "last_update_timestamp": "1793766769"
+    }
+  ]
+}

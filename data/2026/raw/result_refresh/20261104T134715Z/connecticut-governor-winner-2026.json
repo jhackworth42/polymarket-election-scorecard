@@ -1,0 +1,84 @@
+{
+  "id": "57159",
+  "slug": "connecticut-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629311",
+      "conditionId": "0x86ffa053e9aae00a47623b4806e35805df241e6ad28328727f01d29aadd4fe4f",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "629312",
+      "conditionId": "0xb8fffc8e9845c3b07ca737a9b1ec925bbe1ef5105c1255110329bdf78cedebf9",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629313",
+      "conditionId": "0xaa1c535674fd7b30cd74f5f330b7d58256499b038bae72e8fbc457c4c5db63d1",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629314",
+      "conditionId": "0xc19ea1a50b026e02581b750da23b9dbad4d61e6c40cbde88b6d3b1b129c19c45",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629315",
+      "conditionId": "0xbc0e132538c84fde1fef99445d24c86a0fb9455851129e5d7f6a2b4c8f5f4012",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629316",
+      "conditionId": "0xba44273369be52f406632b0eb72cd85bab84e90dbd042645dd44c6382ef2f8a6",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629317",
+      "conditionId": "0x34f97d002cda07f495d590d728b4eb8d6cf1cbf6063f4ddd93f9c7c789c17cd1",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629318",
+      "conditionId": "0xf71c9578647e1399d4cf6c407165d2af954ec0aa7d54c64a52b76bf5f3f28c67",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629319",
+      "conditionId": "0xce6ca5ffe72f8e521dd0355b7d38d3476aab6a59dc4768a26864d1caa7ed6a7b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629320",
+      "conditionId": "0x4ddcfafe6f85817e52dee9efce67b6eeeac45d216e6f6f6fa760d583b0516cbd",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629321",
+      "conditionId": "0x73bd6483b54d78f1869f39fc08a3917b9a3678c26d0a1acfe5caeae6676a7e85",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629322",
+      "conditionId": "0x219ee6971f539ee8a7368c6719f886d1c78aeb1d2d0f69e9ef627c75784cf83b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629323",
+      "conditionId": "0xe8baf4c4913f25380d8ac31c6ff2a3cdcbc31fe2a3678e04b6f1893f6ee46ace",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "90270",
+  "slug": "which-party-will-win-the-house-race-for-the-ca-22-seat",
+  "markets": [
+    {
+      "id": "703685",
+      "conditionId": "0xe83e55ee7c9cfda40e828fd11aef8b0261773a49553827376d3aac63b28d88dd",
+      "closed": false,
+      "outcomePrices": "[\"0.004\", \"0.996\"]"
+    },
+    {
+      "id": "703686",
+      "conditionId": "0x3fb5cd695a1a69d9bdcdc56473fe939b1f5f746fd93d95678c2aacfd02ecc8f1",
+      "closed": false,
+      "outcomePrices": "[\"0.9925\", \"0.0075\"]"
+    },
+    {
+      "id": "703687",
+      "conditionId": "0x0661513ba9e2641c3fb767a7fa4884bdfeb95b30131ce1e65066680db36fee2a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "703976",
+      "conditionId": "0x6cd3d0a8ad68731b4b67a022ae87325364b19e6f9fa924be9cb96da272310db6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "703977",
+      "conditionId": "0x1f7b01d9b4e9838bb567baa529509626e51adbde9cf30b915890e55d7558ff2c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "703978",
+      "conditionId": "0xc020bfb93842298a791101d5d7ba3915d4695f0c09e4745f4afc2b68f2135087",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "703979",
+      "conditionId": "0xec040aa951187dd66718001db1036e126f7a853ba53588033153dd09b5f19d85",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "703980",
+      "conditionId": "0x7e16981150bbf4896e90ba7f08ccf8757ae24aeb00b855fc0fe56eb9fd262a56",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}
