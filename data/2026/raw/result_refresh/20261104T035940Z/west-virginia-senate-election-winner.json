@@ -1,0 +1,84 @@
+{
+  "id": "57674",
+  "slug": "west-virginia-senate-election-winner",
+  "markets": [
+    {
+      "id": "630989",
+      "conditionId": "0xe109380d49786b25c8c20ca88bfbf5ffabbe0a91a25a9d8795312d5a9701f998",
+      "closed": false,
+      "outcomePrices": "[\"0.0045\", \"0.9955\"]"
+    },
+    {
+      "id": "630990",
+      "conditionId": "0x45603784c0d1f2dab989eee4771b16a64d8ae01eac147df2e56a1582def49aab",
+      "closed": false,
+      "outcomePrices": "[\"0.9905\", \"0.0095\"]"
+    },
+    {
+      "id": "630991",
+      "conditionId": "0x7e04466724706b0bfac2ca26b910bcd4ac632a1085a2b91541a878e17cec4252",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630992",
+      "conditionId": "0x1eef14e6fc42c819358cbe3c34b1ef068006fa974f2f911ea3f87fd63922facb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630993",
+      "conditionId": "0xf9e34bf2d14a1a77ec318990a82370f8507bd3fab34d2a75b0deda05e803b7a4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630994",
+      "conditionId": "0x6dc8b39cd101f199364a3857f1684b7a454f90605600627aca08f29c106aa4bb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630995",
+      "conditionId": "0x5f396c44472fb1590e33b808de4586808edffcbf60038c8d8ad35a6384847764",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630996",
+      "conditionId": "0x062624e42f208b9ce049c4d9cd81e91efc2cdbf14b1ac6003ad142a96ff67188",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630997",
+      "conditionId": "0x0dbec570181adc2e7f0105da212aec6301cc48fe7fadff00b03f7458ec678902",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630998",
+      "conditionId": "0x03c44fde54079931073fa7c41e001930b50a5e1987c9e158462363093b30a349",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630999",
+      "conditionId": "0xf1427335bbec7b182a039096907530cfe85625778ed7ae87eb13e1631ad7d68f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631000",
+      "conditionId": "0x1295cb2666e2661ba7c08e282910d6012ca9e9ee0f2b6e9c64a571ac0fdc6415",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631001",
+      "conditionId": "0xad02c971b5724b69f06c3643630dc3c37c3fb205facfaba4e1d622b4c7d02fe5",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

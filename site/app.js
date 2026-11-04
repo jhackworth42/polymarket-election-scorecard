@@ -56,16 +56,24 @@ function renderConfidence() {
 }
 function renderBrier() {
   const matched=verified().filter(race=>horizons.every(item=>scored(race,item.key)));
+  const series=[
+    {key:'contested',label:'Competitive',color:'#b82c38',races:matched.filter(race=>race.segment==='contested')},
+    {key:'clear',label:'Clearer',color:'#23558f',races:matched.filter(race=>race.segment==='clear')}
+  ].map(group=>({...group,values:group.races.length?horizons.map(item=>mean(group.races.map(race=>race.forecasts[item.key].brier))):[]}));
   $('brier-cohort').textContent=`${matched.length} matched verified races`;
-  if (!matched.length) { $('brier-chart').innerHTML='<div class="empty-state">The Brier line will appear when races with prices at all four checkpoints settle.</div>'; return; }
-  const values=horizons.map(item=>mean(matched.map(race=>race.forecasts[item.key].brier)));
-  const ceiling=Math.max(...values)*1.25 || .01, left=62, right=738, top=18, bottom=174;
+  $('brier-key').innerHTML=series.map(group=>`<span><i style="background:${group.color}"></i>${group.label} · ${group.races.length} races${group.values.length?` · six-hour Brier ${group.values.at(-1).toFixed(4)}`:' · awaiting results'}</span>`).join('');
+  if (!matched.length) { $('brier-chart').innerHTML='<div class="empty-state">The Brier lines will appear when races with prices at all four checkpoints settle.</div>'; return; }
+  const ceiling=Math.max(...series.flatMap(group=>group.values))*1.25 || .01, left=62, right=738, top=18, bottom=174;
   const x=i=>left+i*(right-left)/3, y=value=>bottom-value/ceiling*(bottom-top);
-  const path=values.map((v,i)=>`${i?'L':'M'} ${x(i)} ${y(v)}`).join(' ');
   const grid=[0,.5,1].map(frac=>{const yy=bottom-frac*(bottom-top);return `<line x1="${left}" y1="${yy}" x2="${right}" y2="${yy}" stroke="#d3dce4"/><text x="2" y="${yy+4}" class="axis-text">${(frac*ceiling).toFixed(4)}</text>`}).join('');
-  const marks=values.map((v,i)=>`<circle cx="${x(i)}" cy="${y(v)}" r="${horizons[i].key===horizon?6:4}" fill="${horizons[i].key===horizon?'#b82c38':'#23558f'}"/><text x="${x(i)}" y="${y(v)-12}" text-anchor="middle" class="point-text">${v.toFixed(4)}</text><text x="${x(i)}" y="214" text-anchor="middle" class="axis-text">${horizons[i].label}</text>`).join('');
-  $('brier-chart').innerHTML=`<svg viewBox="0 0 800 230" preserveAspectRatio="xMidYMid meet" aria-hidden="true">${grid}<path d="${path}" fill="none" stroke="#23558f" stroke-width="3"/>${marks}</svg>`;
-  $('brier-chart').setAttribute('aria-label',`Mean Brier error on ${matched.length} matched races: ${horizons.map((item,i)=>`${item.label} ${values[i].toFixed(4)}`).join(', ')}`);
+  const lines=series.filter(group=>group.values.length).map(group=>{
+    const path=group.values.map((v,i)=>`${i?'L':'M'} ${x(i)} ${y(v)}`).join(' ');
+    const dots=group.values.map((v,i)=>`<circle cx="${x(i)}" cy="${y(v)}" r="${horizons[i].key===horizon?5:3.5}" fill="${group.color}"/>`).join('');
+    return `<path d="${path}" fill="none" stroke="${group.color}" stroke-width="3"/>${dots}`;
+  }).join('');
+  const labels=horizons.map((item,i)=>`<text x="${x(i)}" y="214" text-anchor="middle" class="axis-text">${item.label}</text>`).join('');
+  $('brier-chart').innerHTML=`<svg viewBox="0 0 800 230" preserveAspectRatio="xMidYMid meet" aria-hidden="true">${grid}${lines}${labels}</svg>`;
+  $('brier-chart').setAttribute('aria-label',series.map(group=>`${group.label}: ${group.races.length} matched races${group.values.length?`, Brier scores ${group.values.map(value=>value.toFixed(4)).join(', ')}`:', awaiting results'}`).join('. '));
 }
 function renderBreakdown() {
   const groups=[['contested','Contested at 7 days','difficulty'],['clear','Clearer at 7 days','difficulty'],['senate','Senate','office'],['governor','Governor','office'],['house','House','office']];

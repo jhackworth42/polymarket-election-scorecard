@@ -1,0 +1,84 @@
+{
+  "id": "57226",
+  "slug": "wisconsin-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629720",
+      "conditionId": "0xfbd0a65112e26d9a2a68dc47f8a95c6c14d22650cb4837c5429b546726661b71",
+      "closed": false,
+      "outcomePrices": "[\"0.993\", \"0.007\"]"
+    },
+    {
+      "id": "629721",
+      "conditionId": "0xd66eadbd64b3e815e31c7994470b44fe15c7ef1146f78937d0cfaa4c04fcfda7",
+      "closed": false,
+      "outcomePrices": "[\"0.0085\", \"0.9915\"]"
+    },
+    {
+      "id": "629722",
+      "conditionId": "0x44a04613a81424e4d6dded59722e262628b49712f36e0fe5c9cc3152c4f1d03c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629723",
+      "conditionId": "0xf4c9e0b7b68aa2987e08152c7d63d7f0670196c49fb90994895cdc7f2460f8f9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629724",
+      "conditionId": "0x4d44fbe0b1265cf263dfd620ca02ee627cd8f7a960bd6335f6b6c7fe9ca2b78b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629725",
+      "conditionId": "0x7b05c55afd0623e70015f8241626ec8b90213ed390446428c425d0c5dc9691b4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629726",
+      "conditionId": "0xb08ed7ced953674204b170414720283a8a41feeb14efe97f85f8cb9614e25077",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629727",
+      "conditionId": "0xb6010b4093399f1a60da29b1dbf9912c6fb77cc9e33193718ed48a7e299f7e6a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629728",
+      "conditionId": "0xd192b7eb1b4bfcc23f3c24825651c6843850b8be28123c90f37be02965e4cac5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629729",
+      "conditionId": "0x37de01be41a6d1b26c5d5743aa0d0e16a048f567ac3c8bc1851101a2a40dda23",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629730",
+      "conditionId": "0xd0173008523f87335eb349545649fdb8567cd7b4f7ac448cef11679e71f05800",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629731",
+      "conditionId": "0xf996815fdff18c9167877bf08b469afde278339f36a3796596eb9bf22435f562",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629732",
+      "conditionId": "0xf77b3d9edf7559614694a82a7a221e77911fb9f27d64c150c8d7505c5e8f9369",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

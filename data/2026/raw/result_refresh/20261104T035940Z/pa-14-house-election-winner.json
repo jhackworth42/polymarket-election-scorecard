@@ -1,0 +1,54 @@
+{
+  "id": "191612",
+  "slug": "pa-14-house-election-winner",
+  "markets": [
+    {
+      "id": "1284631",
+      "conditionId": "0x4b998134512ba3eece156d53d2f76a716e561cbc77d23e577186d27f09ac4a9e",
+      "closed": false,
+      "outcomePrices": "[\"0.9985\", \"0.0015\"]"
+    },
+    {
+      "id": "1284632",
+      "conditionId": "0x76f52099cedfeb2f02c40ebdaf6f66abfd14babec83208f8d7158f2221bbd65a",
+      "closed": false,
+      "outcomePrices": "[\"0.003\", \"0.997\"]"
+    },
+    {
+      "id": "1284633",
+      "conditionId": "0x1827ab401213851a02c4a17397c8b057cadee30e5ab29420cf27244409f74706",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284634",
+      "conditionId": "0x6415d1211aa96be4a7db57090b5c03e70f361f8fb414b861cfd86bea55c312e9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284635",
+      "conditionId": "0x8060d05362ffbae120a52def13c35df77dd92307314b249c26813a567e989211",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284636",
+      "conditionId": "0x694ed32628a173da014864cd9599db4b9246b7082da2c95804073f030a14d7dc",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284637",
+      "conditionId": "0x25104b01a202473c273028afd664e88bd473123f46dab71a9004ebceaa97f604",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284638",
+      "conditionId": "0x003194caa06b2813241b04d471983f72e2868bcf9cda9d739a4abb594184c7fa",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

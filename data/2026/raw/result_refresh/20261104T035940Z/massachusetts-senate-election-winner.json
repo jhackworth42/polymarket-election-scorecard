@@ -1,0 +1,84 @@
+{
+  "id": "57655",
+  "slug": "massachusetts-senate-election-winner",
+  "markets": [
+    {
+      "id": "630790",
+      "conditionId": "0x6f56cdf896a8cdb2552661dd7b3d54dab6ef418d5be0d8a96dea3f16cbf31632",
+      "closed": false,
+      "outcomePrices": "[\"0.999\", \"0.001\"]"
+    },
+    {
+      "id": "630791",
+      "conditionId": "0xc07048f298bae3ec73447a92cdc2dfd2e44d10ae1164b6d50db68ec5ab4b2766",
+      "closed": false,
+      "outcomePrices": "[\"0.005\", \"0.995\"]"
+    },
+    {
+      "id": "630792",
+      "conditionId": "0x95a20159514b7336f53cf947751f7e265c3a69ecff39ffad716dffc3edcae67d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630793",
+      "conditionId": "0xd5d50de2ac7080f716a2efceaccfb83772c9d641ef8c2cf46a55a5791c3b66f8",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630794",
+      "conditionId": "0x4ed5c8574fb30e3d5d9a87abf442976c7f2de372a8150a3c9f0364209bcf8575",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630795",
+      "conditionId": "0x757c7cbcdd5a460fa33d14ab82664bcf5d9dfed14a716f8dee824529f5f310c8",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630796",
+      "conditionId": "0x0f2dc7642c645ea3853e7e9e0e7a8034d8a3ba4156129731f5f34edee993168f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630797",
+      "conditionId": "0x1c58b454bdee564da82d34ac3277ceb14335994e958ffd26ca2c830a344843e3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630798",
+      "conditionId": "0xe40d30cba980c69d385981203feff68fd156b81de97f6804c37c324113dd4da9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630799",
+      "conditionId": "0x9570d71b7c6ea0e3502dacf248a8a8746c6c84dc083a6dffaa7822e6ded60875",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630800",
+      "conditionId": "0x1d0fb644f8e775b7d7c221e1738104535185481284b90088ce5f988039067aae",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630801",
+      "conditionId": "0xc4e8dbccb749d324f490c44d7505d394b16e2edf92c77b67e08c15c620a309c0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630802",
+      "conditionId": "0x39e4db1ba1e594da95055874da7760cb6d0a1e0305521b3de3e094dd333c09dc",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

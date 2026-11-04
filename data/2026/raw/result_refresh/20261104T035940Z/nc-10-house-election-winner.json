@@ -1,0 +1,54 @@
+{
+  "id": "191538",
+  "slug": "nc-10-house-election-winner",
+  "markets": [
+    {
+      "id": "1284065",
+      "conditionId": "0xbaa1a893015b463da78209b0168a3e8720df4d8b1775ff639f4b41fa127283b2",
+      "closed": false,
+      "outcomePrices": "[\"0.936\", \"0.064\"]"
+    },
+    {
+      "id": "1284066",
+      "conditionId": "0x35bb31515ec28b0d32ad7605973baecb9a3e67588721167d32f4e1accf610aca",
+      "closed": false,
+      "outcomePrices": "[\"0.0525\", \"0.9475\"]"
+    },
+    {
+      "id": "1284067",
+      "conditionId": "0xf9f0b81e34069b7be9be457589f71569e057db9231cc1ba9b6a3031e23eca4df",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284068",
+      "conditionId": "0xcfee254b5cf60427d71ef58ba6b9c717aa666352f1cf60b87f73355d393c8296",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284069",
+      "conditionId": "0xe5112ebf471d7c214656dab4154e7542b248b4e600af8dfb4177aff5efd1b10b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284070",
+      "conditionId": "0x429fc22549e41fd50cff50c1b1954fc8971fdd34ec3b255d17185f3be7d364b2",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284071",
+      "conditionId": "0x54b2909f5aba7c92d9b930c54c6cebd63894a04c717db01859dc42eeb8fe6653",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284072",
+      "conditionId": "0x8aaf525b7b1efbab03ab1b3de665892fa5ba9082f6d6ba69ee1488d207fcca5c",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

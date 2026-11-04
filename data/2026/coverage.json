@@ -2157,7 +2157,7 @@
     "url": "https://polymarket.com/event/fl-17-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191415",
@@ -4452,7 +4452,7 @@
     "url": "https://polymarket.com/event/vt-al-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191674",

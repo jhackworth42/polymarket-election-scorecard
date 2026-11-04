@@ -1,0 +1,54 @@
+{
+  "id": "191420",
+  "slug": "fl-24-house-election-winner",
+  "markets": [
+    {
+      "id": "1283120",
+      "conditionId": "0xe85c0fe60b59c2c4de583bdb19b7f09ce2c5f16fb7e182913b4facba3a617d0c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283121",
+      "conditionId": "0xd841e73247a572b927c3a721f32021df04b09838fdec05d11e61cc675568a2a9",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1283122",
+      "conditionId": "0x0fcd288ef4956c87250253c8e2bc7581cf17ca9de2822682a66042d6b809b89e",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283123",
+      "conditionId": "0xc7048d8d820e67c170916c633585c427ed3bc0c406e85e1a01ffb92077bf88d3",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283124",
+      "conditionId": "0xdaf0f0919b59aba0de3c626d60c55ad02aa6636694feac6a3d0a9eab513925f9",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283125",
+      "conditionId": "0x7fbd2eeedc0cde520564c1926dd0ad7db427efdb4c3848dd8b6fcbbb128aab1d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283126",
+      "conditionId": "0xf9430595620c1f687fc24cf032666871fb1091de0406b541dac79539b87101d8",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283127",
+      "conditionId": "0xf530c88784cb8c1b72479ff1cd4e303b5a598e51384a2889d66cba50b2feb3df",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

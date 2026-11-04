@@ -1,0 +1,54 @@
+{
+  "id": "191684",
+  "slug": "wi-05-house-election-winner",
+  "markets": [
+    {
+      "id": "1285207",
+      "conditionId": "0xb4b73fad181afe8bce36e741bff0979694b0d68491243b2700931fe331004456",
+      "closed": false,
+      "outcomePrices": "[\"0.9975\", \"0.0025\"]"
+    },
+    {
+      "id": "1285208",
+      "conditionId": "0x44cd40c8dba4fefaa8f689b35107712657cdbca8824868db5acd761531679604",
+      "closed": false,
+      "outcomePrices": "[\"0.003\", \"0.997\"]"
+    },
+    {
+      "id": "1285209",
+      "conditionId": "0x18566c6a38dde20de2942aca5f482ccf5671b46a8ca32338e15a57b1db2c2278",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1285210",
+      "conditionId": "0x94db2f89a86622bf5edd7f25bec7604d8f3bbec87afcb7c32a274c1f15c6c5a5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1285211",
+      "conditionId": "0x37a9c943f900e82a5c5a8407dabd67d153049bbab38f9fa13ec6ac4a6cb8267c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1285212",
+      "conditionId": "0x73e87a9cfb3cfa207d0e4c0465c9dd746105108f68a4863299b72541ac8ca633",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1285213",
+      "conditionId": "0xe4626bff7e3d4676b209725b6b8091c1dd0d9ae20662776bab6e780eff5603a2",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1285214",
+      "conditionId": "0xdc2109c8cfe952e7f99dab1ce6f45788647a4dac818cc3b915852b2592f9ed70",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "57206",
+  "slug": "pennsylvania-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629614",
+      "conditionId": "0x58b1d112b4a3a2616da6a77b8d755cc478c1d6f71ed3dedaa5e1fd794e4b0e61",
+      "closed": false,
+      "outcomePrices": "[\"0.996\", \"0.004\"]"
+    },
+    {
+      "id": "629615",
+      "conditionId": "0xb3529e4cbcc5756ae7d5662ad1d6ddd8dd97b53bd459e2684af9bb8c4dbf582c",
+      "closed": false,
+      "outcomePrices": "[\"0.0045\", \"0.9955\"]"
+    },
+    {
+      "id": "629616",
+      "conditionId": "0xd78f8329dc2f923e3e3af5fe0bf28223329e22f1c5fdee8c57c6a3c0cde91764",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629617",
+      "conditionId": "0x5ce6b8d189a341bb8762e2657827a1dcd9dfccce503d48389249613bd54e385a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629618",
+      "conditionId": "0x74f4907d0e880836ce40515a732b1555df4356e2f37175240790204177898900",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629619",
+      "conditionId": "0xc853922c15f547e8625d6f44761867f9f66b0db594fadd14087d870aa7209c6f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629620",
+      "conditionId": "0x12b217ee3c2b68e0771ed1943aa026913ebc1600572b610b044d1950dea1014c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629621",
+      "conditionId": "0xbfbf18c41fa09f76164c6b2009d76515edc49a89239dc1850eff5b77f8f8602b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629622",
+      "conditionId": "0xb88c464ddfd09d423bd8ff7cbf7c5297d6316aa5a95f3491b98d903975c77666",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629623",
+      "conditionId": "0x5f8846dbe0a901eb010314c06ac87eaee363e3d658c8f190dde0b23e36f289f2",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629624",
+      "conditionId": "0x36ce76182f990eba5fc7f49dd0f00c715da231016eb7a60c9f6dac8ef1b8cf48",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629625",
+      "conditionId": "0x31aff51d695bb4b29cfc1cb648cfdf6e5484f3e024a196237e1e360625ba141a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629626",
+      "conditionId": "0x94acef6ecb0f340aed35152f2b40e7f74a3a8f15a170da95dc5e44fb42ba077a",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "57163",
+  "slug": "idaho-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629363",
+      "conditionId": "0x81cde924d7270bf4a45ba85b6d324bf26b7078a26def647277dacd3370176e24",
+      "closed": false,
+      "outcomePrices": "[\"0.017\", \"0.983\"]"
+    },
+    {
+      "id": "629364",
+      "conditionId": "0x60ca789c3914e542823bc01188d432a26d4a53fdc09f7dead731f9f9c603db94",
+      "closed": false,
+      "outcomePrices": "[\"0.986\", \"0.014\"]"
+    },
+    {
+      "id": "629365",
+      "conditionId": "0x9152de92fa36677569e40d08c683e0519e252659bf2523cd216ca78e91311ead",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629366",
+      "conditionId": "0xa6d72ff428d87d93adda9955d59f68861dc8ab1c4e45a5e2a83ea12c2f203182",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629367",
+      "conditionId": "0x86bc9af0f30220482bf1c4bd10b89e003074b63ec04c50d6140f90280039c1d1",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629368",
+      "conditionId": "0xf105028c5972da88cc1d49ad08159eacfb500b7429ec6c358494780b96c0d737",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629369",
+      "conditionId": "0xedcf117e93dde04fa56952c593f10d9dd16264c9e206ef976bfeac56167fc08f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629370",
+      "conditionId": "0x9a4b77c7a50d627fad08336b37eab13bb20395a5a80ccf596720e5aff82f878e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629371",
+      "conditionId": "0xcd2ac3b137e18ff5f32793ea53b44de94f55fe89459bf668f3d4cd9088c81702",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629372",
+      "conditionId": "0x082065bf6459e5085a3c790ba252f96df73e0c0d83eea42ab35dbac884935264",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629373",
+      "conditionId": "0xa1a9663ad5a29edaaa51d54924321667d77561ad167b6a57a937ff7ad1ccea20",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629374",
+      "conditionId": "0xeb1c5a50608354bbc883a581b2e1547029aa03f62e4a835acc0e8537d3987bb4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629375",
+      "conditionId": "0xd71d971b8e35f79afc5293f920920d189cdd59b30edc641ee0cd06a710eb4ec1",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

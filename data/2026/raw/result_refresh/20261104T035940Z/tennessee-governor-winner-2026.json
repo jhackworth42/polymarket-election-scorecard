@@ -1,0 +1,84 @@
+{
+  "id": "57210",
+  "slug": "tennessee-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629666",
+      "conditionId": "0x3b1d01d11565a800485bdb04958e28bab4369e3f2ebc2134d12d74bde5f3baa7",
+      "closed": false,
+      "outcomePrices": "[\"0.047\", \"0.953\"]"
+    },
+    {
+      "id": "629667",
+      "conditionId": "0xf9b998d7de887c1c905b1e1bd9ae38e32eda748c42bd958d3ba1cec9bf5ab79f",
+      "closed": false,
+      "outcomePrices": "[\"0.9545\", \"0.0455\"]"
+    },
+    {
+      "id": "629668",
+      "conditionId": "0x5d8e544a12fbeaf2121a173e66239412df06c498d7f727666d42ece700091c91",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629669",
+      "conditionId": "0x42ff67438d47e5cc2c3ceb613e07a20df38fe69171bc521330bcced31584fc33",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629670",
+      "conditionId": "0x5c6d1e9a80d228b207f2f5193cfc51f282563a104a57bff1e0be9f6302873b4c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629671",
+      "conditionId": "0xaeb99f2ee51be6f7302a0075424eda362b2fc84003c709478ab0eea05fe6c932",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629672",
+      "conditionId": "0xac046029e9de921433643c3ea5f6b37f19ef509dac86642bc5d13b760dbf8878",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629673",
+      "conditionId": "0x1c5823eb30b1694ea9586894628f772698d818d29f327fa85178e10d7a249bcd",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629674",
+      "conditionId": "0x512d43aecbeeadaa230f27fff0fd792bfdc14e725fdea601a64c78bf56c17ae3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629675",
+      "conditionId": "0xd9c8e8a11887763f23646d13fc1dabed2d54ad54df837e238dcde7a770ab56ee",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629676",
+      "conditionId": "0x905e6025dd33c05a1781c3d6969d463940a969295df5f8006c7fd09e8d564213",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629677",
+      "conditionId": "0x080e251a47219bf626aae2615695501cd553de1e24e1d1683b65ee0c336798c3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629678",
+      "conditionId": "0xf867e9d94a377424e9d47b78f37b2a10bc200d2b7cf9726d1608a7c8edb72b7b",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

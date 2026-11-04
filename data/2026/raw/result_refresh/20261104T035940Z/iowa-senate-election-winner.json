@@ -1,0 +1,84 @@
+{
+  "id": "57647",
+  "slug": "iowa-senate-election-winner",
+  "markets": [
+    {
+      "id": "630733",
+      "conditionId": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1",
+      "closed": false,
+      "outcomePrices": "[\"0.9785\", \"0.0215\"]"
+    },
+    {
+      "id": "630734",
+      "conditionId": "0x38a1025bfc56539ed1ff8fdd468283d55cf9002412decd61aa8d6c578c7d01a2",
+      "closed": false,
+      "outcomePrices": "[\"0.022\", \"0.978\"]"
+    },
+    {
+      "id": "630735",
+      "conditionId": "0x1e82774e6e69732143dd513ebad8ecb2caacc7707b6d6d98335ca23f57cb9d9f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630736",
+      "conditionId": "0xda31f70e9bd8391db8739403c50273440b685f28350ac299c2e6dec5ff0a1814",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630737",
+      "conditionId": "0x0c0f8238eee8060144a62036690961a8415dca8305a110d9808dcd338726f70a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630738",
+      "conditionId": "0x1e41cdbafb32489f4191031ec7dd41a9a777d996ca6a772eef6d8020749fb3b6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630739",
+      "conditionId": "0x91e70a6d57b331e8be89768ded05e1fd8c95deb646efb8368af00517ef0db3a5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630740",
+      "conditionId": "0x79c57c1e293cba9f3e80f962df2aaa9712d329c83840e1d32adf7c084a6c87a0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630741",
+      "conditionId": "0xef731c429c7c70f9d44ee8b3b7a113bf8c2dc6a72700f2cb0092e8534ba32bb7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630742",
+      "conditionId": "0xc0d54be05688c8164a3b779fb3b101b0c058be4d24ef9208c67418e8b9fff3cd",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630743",
+      "conditionId": "0xa8aee552c344fc2a2ff34a83a7f85504e90f38e971f995be3b620558ff3c083e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630744",
+      "conditionId": "0xe479648da3f331d1070d88100e30336eac091bc2b1f1259a6421849855221a20",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630745",
+      "conditionId": "0x74dba053211b2091371ce917f53bbc72769e101146317b6328d6aa665d1f0ac8",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

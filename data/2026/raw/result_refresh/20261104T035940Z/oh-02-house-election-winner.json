@@ -1,0 +1,54 @@
+{
+  "id": "191577",
+  "slug": "oh-02-house-election-winner",
+  "markets": [
+    {
+      "id": "1284378",
+      "conditionId": "0x472c321e3a00bbeb1cc64efaf1c5c02058dea60abf6d93020cace5db9235199e",
+      "closed": false,
+      "outcomePrices": "[\"0.991\", \"0.009\"]"
+    },
+    {
+      "id": "1284379",
+      "conditionId": "0x37853ccf17890fa7893b159cb91b717bef9b2a322ef87fb851a5849419cf9b3d",
+      "closed": false,
+      "outcomePrices": "[\"0.011\", \"0.989\"]"
+    },
+    {
+      "id": "1284380",
+      "conditionId": "0x968bbf4fc467e695f707c81cc27222539a205b5b1013723898b55b298d6119d0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284381",
+      "conditionId": "0x93991983e9979807f77f4f28ec9fa90b833a3e8c89a7efee87689050e25b678f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284382",
+      "conditionId": "0xa5b9133800efcd7f4eb59ee178772542c01c03b0f16b32a20bd4378f5d846b8a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284383",
+      "conditionId": "0x24a8c9c7602b308cad28642b3c6271618c0f43cc429f21e72ca260db4970bd94",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284384",
+      "conditionId": "0x70944c8baa177e24f6d64d604f45b3a2cb3262782dcbd9ac8d18d22e0383e344",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284385",
+      "conditionId": "0x9a6214aa04a915c603449ebfc1e452d413af242bbca7fbfa0202864f066d5783",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

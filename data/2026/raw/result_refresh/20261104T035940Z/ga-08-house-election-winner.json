@@ -1,0 +1,54 @@
+{
+  "id": "191432",
+  "slug": "ga-08-house-election-winner",
+  "markets": [
+    {
+      "id": "1283216",
+      "conditionId": "0x8e21de015351135e38afd07b97ce78a3c57b0664968880e9e88dd742c647a933",
+      "closed": false,
+      "outcomePrices": "[\"0.9905\", \"0.0095\"]"
+    },
+    {
+      "id": "1283217",
+      "conditionId": "0xec477177fc78c9f16ef4953be7e466c42482115b11fe934dd1350c67e1c7bbb1",
+      "closed": false,
+      "outcomePrices": "[\"0.003\", \"0.997\"]"
+    },
+    {
+      "id": "1283218",
+      "conditionId": "0x637af773f44ed9d04e49ccd630c33e8f93c408ff67375f32883030be7751e1eb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283219",
+      "conditionId": "0xaaced7eff05efafebdeefaa4d8d4370b37f1dbccfb54192223c57b7a7132822f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283220",
+      "conditionId": "0x7cea2a26ed194e6796bb868f7534fd6bdbcc284d799b2f27076b561921bcae58",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283221",
+      "conditionId": "0x7abf2654b3a459b66fd8c11e14f51622d226d88fa106cf7f6f630a6d52023f62",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283222",
+      "conditionId": "0x4e71b5c4d671497f9d018cb27e5978f20673fdde1f9d8119fcb2dc806d4d7e2c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283223",
+      "conditionId": "0x2259088dd7cc11822c6e75d5c1d9d9ec4b0ae52c390549a80fbc02700581475d",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}
