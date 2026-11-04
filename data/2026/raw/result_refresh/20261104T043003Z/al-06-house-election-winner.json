@@ -1,0 +1,54 @@
+{
+  "id": "190876",
+  "slug": "al-06-house-election-winner",
+  "markets": [
+    {
+      "id": "1280832",
+      "conditionId": "0x58fb93f71b1dfaa0ec84253e65ef911eda11dec6a28cc5df341b84300f782243",
+      "closed": false,
+      "outcomePrices": "[\"0.977\", \"0.023\"]"
+    },
+    {
+      "id": "1280833",
+      "conditionId": "0xe5be5a680ede1cf42c207688a878504277448d1bd845156d929e6828258598e8",
+      "closed": false,
+      "outcomePrices": "[\"0.022\", \"0.978\"]"
+    },
+    {
+      "id": "1280834",
+      "conditionId": "0x8781eec2e62bc5859601f6d815980559695a851b83c5e8542bef55f81f2f63f1",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280835",
+      "conditionId": "0x52423aec4af41aded7781e70a68ea0ee579216a6646cb62efdde964393272751",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280836",
+      "conditionId": "0xcaec86c601f3fbfbf15407f671de6d2ebc42820fbaf72d9367e5267005006d91",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280837",
+      "conditionId": "0x7d507c1efbeb8f512c583f97893160e46214e82fac326f33d20346934b8ff70d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280838",
+      "conditionId": "0x54bf40da336e6b31e0209a114f0d1bc9c9e1b3d5bb749fdb82aae35a28faed7c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280839",
+      "conditionId": "0x65207d6ba0151ac76bf9fff6f5ebb6f6d2230af64d1547acd2f7d1202401f6cb",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

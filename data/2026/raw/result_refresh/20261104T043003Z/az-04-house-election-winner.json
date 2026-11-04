@@ -1,0 +1,54 @@
+{
+  "id": "190884",
+  "slug": "az-04-house-election-winner",
+  "markets": [
+    {
+      "id": "1280889",
+      "conditionId": "0xb5464dc0eb3be267ae75a119dccc9f0504cf51e1491e25a5f02c11f132a151aa",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "1280890",
+      "conditionId": "0x987859b115c8e2d48d329b30405a4515369fcbe933895b4a1cffa8b3f098f80b",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "1280891",
+      "conditionId": "0x416480ce5c515879f0f166d76a287d12f65b7a7f27494982b1e91fa4c6b68def",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280892",
+      "conditionId": "0xbd292c89c92b674cf118e7a43feaa14ec79239c1d5d58d8efaa5bc1d41e8ea12",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280893",
+      "conditionId": "0x24fb1be82aff9424137fc2c58001c113d1ae3cb275157c5d9a8599f9fc0ecf0c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280894",
+      "conditionId": "0x7e6906fee46414e319443e9ad20290b96cb850bd58e702771333921503d51b2a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280895",
+      "conditionId": "0xf6c3d98693924d0eb280e24c0ed204d28e026e59147bc5ce511f17bad99d0fa5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1280899",
+      "conditionId": "0x6613596f7c3433ead5a206ac10e05c67eb8f3fc0de8bbb1e660c9ef116f7ac91",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

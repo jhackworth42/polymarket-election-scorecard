@@ -1,7 +1,7 @@
 {
   "edition": "2026",
   "label": "2026 midterms · election night",
-  "generated_at": "2026-11-04T04:27:00.544211+00:00",
+  "generated_at": "2026-11-04T04:30:14.494858+00:00",
   "method": {
     "unit": "one election-winner event",
     "probabilities": "traded candidate or party Yes prices normalized to sum to one; missing prices treated as zero for scoring",
@@ -40,49 +40,49 @@
   "summary": {
     "30": {
       "label": "30 days",
-      "n": 50,
+      "n": 51,
       "provisional_n": 0,
       "hit_rate": 1.0,
       "brier": 0.0057
     },
     "21": {
       "label": "21 days",
-      "n": 50,
+      "n": 51,
       "provisional_n": 0,
       "hit_rate": 1.0,
-      "brier": 0.0046
+      "brier": 0.0045
     },
     "14": {
       "label": "14 days",
-      "n": 50,
+      "n": 51,
       "provisional_n": 0,
       "hit_rate": 1.0,
       "brier": 0.0037
     },
     "7": {
       "label": "7 days",
-      "n": 50,
+      "n": 51,
       "provisional_n": 0,
       "hit_rate": 1.0,
-      "brier": 0.0053
+      "brier": 0.0052
     },
     "3": {
       "label": "3 days",
-      "n": 50,
+      "n": 51,
       "provisional_n": 0,
       "hit_rate": 1.0,
       "brier": 0.0035
     },
     "1": {
       "label": "1 day",
-      "n": 50,
+      "n": 51,
       "provisional_n": 0,
       "hit_rate": 1.0,
-      "brier": 0.003
+      "brier": 0.0029
     },
     "0": {
       "label": "Election morning",
-      "n": 50,
+      "n": 51,
       "provisional_n": 0,
       "hit_rate": 1.0,
       "brier": 0.0037
@@ -96,8 +96,8 @@
         "brier": 0.0962
       },
       "clear": {
-        "n": 48,
-        "hits": 48,
+        "n": 49,
+        "hits": 49,
         "brier": 0.002
       },
       "unclassified": {
@@ -113,8 +113,8 @@
         "brier": 0.0713
       },
       "clear": {
-        "n": 48,
-        "hits": 48,
+        "n": 49,
+        "hits": 49,
         "brier": 0.0018
       },
       "unclassified": {
@@ -130,8 +130,8 @@
         "brier": 0.0636
       },
       "clear": {
-        "n": 48,
-        "hits": 48,
+        "n": 49,
+        "hits": 49,
         "brier": 0.0012
       },
       "unclassified": {
@@ -147,8 +147,8 @@
         "brier": 0.0855
       },
       "clear": {
-        "n": 48,
-        "hits": 48,
+        "n": 49,
+        "hits": 49,
         "brier": 0.0019
       },
       "unclassified": {
@@ -164,8 +164,8 @@
         "brier": 0.0448
       },
       "clear": {
-        "n": 48,
-        "hits": 48,
+        "n": 49,
+        "hits": 49,
         "brier": 0.0018
       },
       "unclassified": {
@@ -181,8 +181,8 @@
         "brier": 0.0433
       },
       "clear": {
-        "n": 48,
-        "hits": 48,
+        "n": 49,
+        "hits": 49,
         "brier": 0.0013
       },
       "unclassified": {
@@ -198,9 +198,9 @@
         "brier": 0.0408
       },
       "clear": {
-        "n": 48,
-        "hits": 48,
-        "brier": 0.0022
+        "n": 49,
+        "hits": 49,
+        "brier": 0.0021
       },
       "unclassified": {
         "n": 0,
@@ -210,10 +210,10 @@
     }
   },
   "paired_30_to_1": {
-    "n": 50,
+    "n": 51,
     "brier_30": 0.0057,
-    "brier_1": 0.003,
-    "improvement_fraction": 0.4806,
+    "brier_1": 0.0029,
+    "improvement_fraction": 0.4834,
     "favorite_flips": 0
   },
   "timeline": {
@@ -223,7 +223,7 @@
         "brier": 0.0962
       },
       "clear": {
-        "n": 48,
+        "n": 49,
         "brier": 0.002
       }
     },
@@ -233,7 +233,7 @@
         "brier": 0.0713
       },
       "clear": {
-        "n": 48,
+        "n": 49,
         "brier": 0.0018
       }
     },
@@ -243,7 +243,7 @@
         "brier": 0.0636
       },
       "clear": {
-        "n": 48,
+        "n": 49,
         "brier": 0.0012
       }
     },
@@ -253,7 +253,7 @@
         "brier": 0.0855
       },
       "clear": {
-        "n": 48,
+        "n": 49,
         "brier": 0.0019
       }
     },
@@ -263,7 +263,7 @@
         "brier": 0.0448
       },
       "clear": {
-        "n": 48,
+        "n": 49,
         "brier": 0.0018
       }
     },
@@ -273,7 +273,7 @@
         "brier": 0.0433
       },
       "clear": {
-        "n": 48,
+        "n": 49,
         "brier": 0.0013
       }
     },
@@ -283,8 +283,8 @@
         "brier": 0.0408
       },
       "clear": {
-        "n": 48,
-        "brier": 0.0022
+        "n": 49,
+        "brier": 0.0021
       }
     }
   },
@@ -10740,7 +10740,7 @@
           "name": "Dan Sullivan",
           "question": "Will Dan Sullivan win the Alaska Senate race in 2026?",
           "condition_id": "0x741bb46008b72234857c5118c8365ab3c2f69dbf28b30b59de04f173b8a778de",
-          "volume": 1326513.793855
+          "volume": 1342945.17618
         },
         {
           "id": "634975",
@@ -10754,7 +10754,7 @@
           "name": "Mary Peltola",
           "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
           "condition_id": "0x19d2ff72e389d190c183e6b114817301d29eba651d67d75a38ee201a05188fd9",
-          "volume": 1917741.0494669997
+          "volume": 1945898.64254
         },
         {
           "id": "634977",
@@ -12595,14 +12595,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the CA-01 House seat?",
           "condition_id": "0x9fe728892ee2e64aebd74bed9faaff0a5c578405abff844bc0a61393178c98e7",
-          "volume": 12449.602976
+          "volume": 12479.582976000002
         },
         {
           "id": "1280933",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the CA-01 House seat?",
           "condition_id": "0xb54d34c4e90d8b52430f6f51413f2908b65d6cf8657a8cfad2e7f595dbd28de2",
-          "volume": 39750.195048
+          "volume": 39750.19504800001
         }
       ],
       "forecasts": {
@@ -13312,7 +13312,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the CA-03 House seat?",
           "condition_id": "0x5a6515660bccc68b13c5b5ee032a7bcf1abae3633d3faf26edc54e018d8477e1",
-          "volume": 26608.495646000003
+          "volume": 26608.495645999996
         }
       ],
       "forecasts": {
@@ -14370,14 +14370,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the CA-06 House seat?",
           "condition_id": "0xbafe8c88ec505ca10f7d06f1ccf006efe5329ff08acd5605088246fd8715a6c0",
-          "volume": 27324.740988
+          "volume": 27324.740988000005
         },
         {
           "id": "1280973",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the CA-06 House seat?",
           "condition_id": "0x903cbd11469e0948360f745ccbbaa9325bad2927c40f65a0f1796dd9fc54aec2",
-          "volume": 76790.65107
+          "volume": 76814.66107
         }
       ],
       "forecasts": {
@@ -40698,14 +40698,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the FL-05 House seat?",
           "condition_id": "0xed65948d4422d4609bc4f83a7e8f89483d4f19ae8f0153dd5018792902da0f96",
-          "volume": 11326.663717000001
+          "volume": 11326.663717
         },
         {
           "id": "1282985",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the FL-05 House seat?",
           "condition_id": "0x37c023f1bddf0373efca072c3448143b8071141006139bed966f219161abf3da",
-          "volume": 16319.189365
+          "volume": 16319.189365000002
         }
       ],
       "forecasts": {
@@ -43560,7 +43560,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the FL-13 House seat?",
           "condition_id": "0x89e54c86f437d7696d9789c5ff901dd5f3b35a5594f5aadf27af50bc6d2ca50e",
-          "volume": 91547.48626800002
+          "volume": 91547.486268
         }
       ],
       "forecasts": {
@@ -43911,14 +43911,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the FL-14 House seat?",
           "condition_id": "0xe3d41b3bb1f838d2dc30606cc70a1ae7eda2fc7ccf6ee2235586a6490950b8eb",
-          "volume": 87204.47874
+          "volume": 87204.47873999999
         },
         {
           "id": "1283049",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the FL-14 House seat?",
           "condition_id": "0xd339058f6879b22b649e9119e50f981baa0bfad6bd168e0e69e79667d43e8927",
-          "volume": 103883.40303199999
+          "volume": 103883.403032
         }
       ],
       "forecasts": {
@@ -45702,7 +45702,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the FL-19 House seat?",
           "condition_id": "0x8d908362c7ec7c05f88b28884c3ec02a1bfc154b521261a85717d5f236b3a9a4",
-          "volume": 29154.075787000005
+          "volume": 29154.075787
         }
       ],
       "forecasts": {
@@ -47489,7 +47489,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the FL-24 House seat?",
           "condition_id": "0xd841e73247a572b927c3a721f32021df04b09838fdec05d11e61cc675568a2a9",
-          "volume": 19339.400673999997
+          "volume": 19339.400674000004
         }
       ],
       "forecasts": {
@@ -49270,7 +49270,7 @@
           "name": "the Republicans",
           "question": "Will the Republicans win the Florida governor race in 2026?",
           "condition_id": "0xcceae66d81c60f90c9679ab531b865bd7e9f95cc54f7b0634a24095519b10d65",
-          "volume": 3907183.719736
+          "volume": 3915276.549736
         }
       ],
       "forecasts": {
@@ -51760,7 +51760,7 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the GA-06 House seat?",
           "condition_id": "0x20de30072f62e6d3dce79cd8453a878e9739f420656b835b18d609f1b59f26cc",
-          "volume": 18840.038811
+          "volume": 18840.038810999995
         },
         {
           "id": "1283201",
@@ -54961,14 +54961,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Georgia governor race in 2026?",
           "condition_id": "0x73a9911393e7bd2262904c4413d9614f68bb6290ddf7d88ed607f1562d08fb05",
-          "volume": 568896.7402729999
+          "volume": 568896.740273
         },
         {
           "id": "629338",
           "name": "the Republicans",
           "question": "Will the Republicans win the Georgia governor race in 2026?",
           "condition_id": "0x71c05b735300b6087ff5588bcc7e83fecf009293d794f613c63c92ea8a16fb2b",
-          "volume": 291795.627432
+          "volume": 291795.62743199995
         }
       ],
       "forecasts": {
@@ -55319,7 +55319,7 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Georgia Senate race in 2026?",
           "condition_id": "0x3c5b93b91196c8db64e63c424979da8cfbf44a4501afd70d2480ee28fbf306a2",
-          "volume": 477457.81417400006
+          "volume": 477457.814174
         },
         {
           "id": "630693",
@@ -66324,14 +66324,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the IN-05 House seat?",
           "condition_id": "0x3b4e5588525b157216ef93c7149e67f937f5dd386e2d88ab68949c27a6ff751e",
-          "volume": 92243.55275199999
+          "volume": 92249.86275199999
         },
         {
           "id": "1283473",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the IN-05 House seat?",
           "condition_id": "0x98f22f0ec396ec65364048a14c0b30f3a4f79065ab26581a516b5fa570253d51",
-          "volume": 116007.234495
+          "volume": 116007.23449499998
         }
       ],
       "forecasts": {
@@ -68899,7 +68899,7 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Illinois governor race in 2026?",
           "condition_id": "0xce462d7dd2fcb06b3eeb9718a1489349fe2ae0ee84f10c8e6c0a1d40cc967c48",
-          "volume": 36009.331678
+          "volume": 36009.331677999995
         },
         {
           "id": "629377",
@@ -74236,14 +74236,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Kansas Senate race in 2026?",
           "condition_id": "0x460d3942d385cdeda20519c0c5ad804ae48dc18efc9a82e1f1be87a29e69adb3",
-          "volume": 1778028.7145339998
+          "volume": 1785881.2475339998
         },
         {
           "id": "630747",
           "name": "the Republicans",
           "question": "Will the Republicans win the Kansas Senate race in 2026?",
           "condition_id": "0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743",
-          "volume": 1611152.147445
+          "volume": 1614890.947445
         }
       ],
       "forecasts": {
@@ -76728,7 +76728,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the LA-06 House seat?",
           "condition_id": "0x930eb05c4056cde07fdfe95901abbf061e351c17b435600b7036c06b933ba8f3",
-          "volume": 33893.329583
+          "volume": 33909.99625
         }
       ],
       "forecasts": {
@@ -86670,7 +86670,7 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the MI-08 House seat?",
           "condition_id": "0xa2234921e55582b6c5575028e01d4d6db1a205569533e7643eee923c5a72847c",
-          "volume": 17003.497585999998
+          "volume": 17003.497586
         },
         {
           "id": "942765",
@@ -89155,14 +89155,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the MN-02 House seat?",
           "condition_id": "0xd74edce8d6b32ad9a93eea0dc2350a78474f6bc3894b9196c04348b1a2e64af7",
-          "volume": 31906.755600999997
+          "volume": 31908.978934000002
         },
         {
           "id": "942820",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the MN-02 House seat?",
           "condition_id": "0x7319fceb8b5a315eae707028bd654463e48acec082565ef1abd3cc18b424ff6f",
-          "volume": 33573.665007999996
+          "volume": 33573.665008
         }
       ],
       "forecasts": {
@@ -96965,14 +96965,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Maine Senate race in 2026?",
           "condition_id": "0x66bbf6d55e0296278858b3147689f3df9259374f158f9f028b608baa322a639c",
-          "volume": 2904843.948769
+          "volume": 3021845.112643
         },
         {
           "id": "630773",
           "name": "the Republicans",
           "question": "Will the Republicans win the Maine Senate race in 2026?",
           "condition_id": "0x2c00cb09722a0f0501c5e49131b898ed57bb5c075db4dc2bcbc14908f45b8c48",
-          "volume": 2379938.9015230006
+          "volume": 2404947.230809
         }
       ],
       "forecasts": {
@@ -98394,14 +98394,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Michigan governor race in 2026?",
           "condition_id": "0x76cface9f6df604ff32447bce58656b7a72b6659324d089c73a13a99f06c8aae",
-          "volume": 406253.39425199997
+          "volume": 406253.394252
         },
         {
           "id": "629465",
           "name": "the Republicans",
           "question": "Will the Republicans win the Michigan governor race in 2026?",
           "condition_id": "0xeee75e18b53425c67035084fb8be5414331614ab4e5ec59574bc73e11817be93",
-          "volume": 538990.8532939999
+          "volume": 538990.853294
         },
         {
           "id": "629466",
@@ -99546,14 +99546,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Minnesota Senate race in 2026?",
           "condition_id": "0x44b642636473fb07f0c2319a1d25729a36134969076ffdbb8979cbfdda612b14",
-          "volume": 1084952.777032
+          "volume": 1095607.635852
         },
         {
           "id": "630819",
           "name": "the Republicans",
           "question": "Will the Republicans win the Minnesota Senate race in 2026?",
           "condition_id": "0xae1d21f8632f37e11493fef7307b4d09c6b27697be5c820806a840559b1b2e06",
-          "volume": 598603.8204620001
+          "volume": 605741.450003
         }
       ],
       "forecasts": {
@@ -100256,21 +100256,21 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Montana Senate race in 2026?",
           "condition_id": "0x1bbb01c67b1520c5db8e02c65b395176b7e2b43d16cc8f8810beb64d70f6e69b",
-          "volume": 82943.69973300002
+          "volume": 82943.699733
         },
         {
           "id": "630832",
           "name": "the Republicans",
           "question": "Will the Republicans win the Montana Senate race in 2026?",
           "condition_id": "0xd103195d48bf6183e28c4140bd374dd3e907e8f8d411374cb4d2d124ec4c216d",
-          "volume": 489812.56989300007
+          "volume": 501883.271819
         },
         {
           "id": "630833",
           "name": "an Independent",
           "question": "Will an Independent win the Montana Senate race in 2026?",
           "condition_id": "0x3b5260e993f1eb6e127dffa8ee40b29a30a7b7343ad1041c33c389e15810c565",
-          "volume": 189125.92215299996
+          "volume": 190212.613265
         }
       ],
       "forecasts": {
@@ -100698,14 +100698,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the NC-01 House seat?",
           "condition_id": "0x587f44f11f175ae5a67de2052bceec0a2eb9bb9b98c99f051103211211604606",
-          "volume": 50437.344735000006
+          "volume": 50937.344735000006
         },
         {
           "id": "943477",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the NC-01 House seat?",
           "condition_id": "0x2b94021bfae4d3742477c683eef5f901e26cdc07d42a3dea536a3092b290f177",
-          "volume": 59606.467281
+          "volume": 60106.467281000005
         }
       ],
       "forecasts": {
@@ -103538,14 +103538,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the NC-09 House seat?",
           "condition_id": "0x31727e0e298757e552661f62733cc401c6066b80a7d2607d2ac56b729eb15a00",
-          "volume": 221919.36278499998
+          "volume": 221919.362785
         },
         {
           "id": "1284058",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the NC-09 House seat?",
           "condition_id": "0xdc23b5a54616abf57d7f89f57a29dbacc0d836ab6f3994f5533c8c41ba929ebb",
-          "volume": 273880.058719
+          "volume": 273916.0540560001
         }
       ],
       "forecasts": {
@@ -104958,14 +104958,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the NC-13 House seat?",
           "condition_id": "0x0536145e60528ca32583b13961a328a679b868f9fc6a775c2845776d8aa70cbe",
-          "volume": 381678.84854900005
+          "volume": 381830.678549
         },
         {
           "id": "1284082",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the NC-13 House seat?",
           "condition_id": "0xf8a4a549f0937ec98b00be5f260f5688e85fe8d3bad51d2664106203f3e07e32",
-          "volume": 509199.3264610001
+          "volume": 509217.7464610001
         }
       ],
       "forecasts": {
@@ -109931,7 +109931,7 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the NJ-07 House seat?",
           "condition_id": "0x8e55594f3856badd772cbc1354b3c234848092dd030ee38f9b0de7c2ee82a232",
-          "volume": 33105.492594
+          "volume": 33105.492593999996
         },
         {
           "id": "942979",
@@ -111344,10 +111344,13 @@
       "url": "https://polymarket.com/event/nj-11-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 1,
+      "winner": "the Democratic Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xced523e333e21f9c50986ceae73d822ca1569d747cdb913d65ad62e72bb48e78"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1284178",
@@ -111366,7 +111369,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 0.995,
           "probabilities": [
@@ -111392,12 +111395,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.001616,
+          "winner_probability": 0.959799
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 0.993,
           "probabilities": [
@@ -111423,12 +111426,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.001464,
+          "winner_probability": 0.961732
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 0.992,
           "probabilities": [
@@ -111454,12 +111457,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.001391,
+          "winner_probability": 0.962702
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.979,
           "probabilities": [
@@ -111485,12 +111488,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000601,
+          "winner_probability": 0.975485
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 0.9765,
           "probabilities": [
@@ -111516,12 +111519,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000485,
+          "winner_probability": 0.977983
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 1.0,
           "probabilities": [
@@ -111547,12 +111550,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 4.2e-05,
+          "winner_probability": 0.9935
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 0.995,
           "probabilities": [
@@ -111578,12 +111581,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 4.3e-05,
+          "winner_probability": 0.993467
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 0.996,
           "probabilities": [
@@ -111609,12 +111612,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 4.3e-05,
+          "winner_probability": 0.993474
         },
         "six_hours": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T17:00:00+00:00",
           "raw_sum": 0.997,
           "probabilities": [
@@ -111640,12 +111643,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 5.7e-05,
+          "winner_probability": 0.992477
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 1.002,
           "probabilities": [
@@ -111671,9 +111674,9 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000168,
+          "winner_probability": 0.987026
         }
       },
       "movement": {
@@ -111687,8 +111690,8 @@
         "favorite_move_pp": -0.64,
         "biggest_mover_index": 0,
         "biggest_move_pp": 0.64,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.993474,
+        "winner_preclose_probability": 0.987026
       },
       "segment": "clear"
     },
@@ -113129,7 +113132,7 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the NV-01 House seat?",
           "condition_id": "0xaf681bb7e57ee20f081c575c293c61d956c95e3c08246d216c5df123bcc1ff7c",
-          "volume": 17762.555179000003
+          "volume": 17762.555179000006
         },
         {
           "id": "942886",
@@ -124141,14 +124144,14 @@
           "name": "the Republicans",
           "question": "Will the Republicans win the Nebraska Senate race in 2026?",
           "condition_id": "0x71e9f5312aac62bdc9b87fa8d171fa929eca6243d815298c4c7d61303f7d53dd",
-          "volume": 2096896.0492320003
+          "volume": 2151496.0482699997
         },
         {
           "id": "634893",
           "name": "an independent",
           "question": "Will an independent win the Nebraska Senate race in 2026?",
           "condition_id": "0x5554740293afa7aafd5fed10fd2de43a898e2884c1f98bd65185e703f371b9db",
-          "volume": 1522075.2073680004
+          "volume": 1572568.1695070001
         }
       ],
       "forecasts": {
@@ -124931,14 +124934,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the New Hampshire governor race in 2026?",
           "condition_id": "0x4900fd99a53dc19621b3de761cdd75401fcd5733d785b9840275fe14ccd7d74c",
-          "volume": 107854.57962499998
+          "volume": 107934.58762500001
         },
         {
           "id": "629519",
           "name": "the Republicans",
           "question": "Will the Republicans win the New Hampshire governor race in 2026?",
           "condition_id": "0x01175ab5a40ea7f54b7b0a0aaf3574232e3374091e0bad5a0b9603741ae5d85b",
-          "volume": 83975.69705999999
+          "volume": 83985.81847599999
         }
       ],
       "forecasts": {
@@ -125651,7 +125654,7 @@
           "name": "the Republicans",
           "question": "Will the Republicans win the New Jersey Senate race in 2026?",
           "condition_id": "0x378f6ce7b81670608a5a4f0fcf740e3dbb44c3e402e5b0beba49871a5c05b259",
-          "volume": 21266.972264
+          "volume": 21266.972263999996
         }
       ],
       "forecasts": {
@@ -137013,14 +137016,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Ohio Senate race in 2026?",
           "condition_id": "0x968a1a79e001d49fa3ee1429e3b95eb01797587740f86d4e6becf3ab1b275bfb",
-          "volume": 2427057.9089470003
+          "volume": 2504256.023942
         },
         {
           "id": "631058",
           "name": "the Republicans",
           "question": "Will the Republicans win the Ohio Senate race in 2026?",
           "condition_id": "0x771873c365f87bffd990644e4b688aebc1be7f18396d2eab64b996ff66e88669",
-          "volume": 1416516.555774
+          "volume": 1437416.665774
         }
       ],
       "forecasts": {
@@ -138788,14 +138791,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the PA-01 House seat?",
           "condition_id": "0x44c315e3dd57007aaed17213010288ad8b5507123b38e0496fd90fcceb3537f8",
-          "volume": 93953.396907
+          "volume": 93953.39690699999
         },
         {
           "id": "943749",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the PA-01 House seat?",
           "condition_id": "0x27a4dd39adf63849239f3b260b701e1ce1c3a08b8e3624b1dbc2c1268ea87537",
-          "volume": 91891.74975300001
+          "volume": 92150.26869299999
         }
       ],
       "forecasts": {
@@ -140925,7 +140928,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the PA-07 House seat?",
           "condition_id": "0x863ec10c7b201b57ff3ca07ddbc74c5c464bb9ac732d2e003786b8455658592a",
-          "volume": 38878.11458700001
+          "volume": 38902.254587
         }
       ],
       "forecasts": {
@@ -149886,14 +149889,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the South Carolina Senate race in 2026?",
           "condition_id": "0x4de72138204727d2821bff847d8158819ab5b591db1b5b263676126cbb3a0430",
-          "volume": 2210760.5710099996
+          "volume": 2211358.43101
         },
         {
           "id": "630925",
           "name": "the Republicans",
           "question": "Will the Republicans win the South Carolina Senate race in 2026?",
           "condition_id": "0x1c017cbb38a9d0ab233ebb265b25c78290317e6a2470657ca18a73a112397b55",
-          "volume": 1821233.5245639996
+          "volume": 1824233.5245639998
         }
       ],
       "forecasts": {
@@ -165241,14 +165244,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the TX-32 House seat?",
           "condition_id": "0x17d9797821f1a32321564af18ce9bb98ba79f269d6973c9af4c092a518a916ff",
-          "volume": 44931.571237
+          "volume": 44943.57685499999
         },
         {
           "id": "944230",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the TX-32 House seat?",
           "condition_id": "0x47c160ef68d32681a7b157f8769d56a39757b8855d007a0b3e76c74eed11bae9",
-          "volume": 19226.091021
+          "volume": 19352.869164000003
         }
       ],
       "forecasts": {
@@ -165954,14 +165957,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the TX-34 House seat?",
           "condition_id": "0x161a723df3fd981100c05256612c226c6f679dac4ee9b1d9fecb7364cb95bbcc",
-          "volume": 13374.063256000003
+          "volume": 13374.063256000001
         },
         {
           "id": "944238",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the TX-34 House seat?",
           "condition_id": "0x7018d32e315a69c0537fc42f8e574ee4a24b3babaae302cda79fb0c355e0df1a",
-          "volume": 24355.550939999997
+          "volume": 24355.55094
         }
       ],
       "forecasts": {
@@ -168794,14 +168797,14 @@
           "name": "the Democrats",
           "question": "Will the Democrats win the Texas Senate race in 2026?",
           "condition_id": "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417",
-          "volume": 9735650.661968002
+          "volume": 9912894.281968
         },
         {
           "id": "630964",
           "name": "the Republicans",
           "question": "Will the Republicans win the Texas Senate race in 2026?",
           "condition_id": "0x94521176f57d2ce81dde01e0b7699ca4279423042d37ed53908f0c8bfefe7e14",
-          "volume": 11696301.647504
+          "volume": 11705133.437504001
         }
       ],
       "forecasts": {
@@ -169156,7 +169159,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the UT-01 House seat?",
           "condition_id": "0x113d5feb11b89a44b3ae3ab162f0d2e30dff08ee72e9f7001c6cf30e485fe8d1",
-          "volume": 14204.005078999999
+          "volume": 14209.167291999998
         }
       ],
       "forecasts": {
@@ -170931,7 +170934,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the VA-02 House seat?",
           "condition_id": "0xc4362a042c364699d66cf44f69e2dac40a889ac9c83a92195084628c39257b32",
-          "volume": 32156.908354000003
+          "volume": 32156.908354
         }
       ],
       "forecasts": {
@@ -179104,14 +179107,14 @@
           "name": "the Republican Party",
           "question": "Will the Republican Party win the WI-01 House seat?",
           "condition_id": "0x5907a57bb422718865f59393fa0779374d6a62965cce0d50637411762867a8f4",
-          "volume": 18298.861537
+          "volume": 18414.801537000003
         },
         {
           "id": "944334",
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the WI-01 House seat?",
           "condition_id": "0x55c186d303a88f67eb790a5486e0d5430352ed3c018e9602af313b873ae7c6ae",
-          "volume": 19969.073663
+          "volume": 19969.073663000003
         }
       ],
       "forecasts": {
@@ -179821,7 +179824,7 @@
           "name": "the Democratic Party",
           "question": "Will the Democratic Party win the WI-03 House seat?",
           "condition_id": "0x5b1d46c7f29397ca3a713ccdae49131bafdd0ff7f217895c3e7042a72d27ce1a",
-          "volume": 19224.245307
+          "volume": 19224.245307000005
         }
       ],
       "forecasts": {

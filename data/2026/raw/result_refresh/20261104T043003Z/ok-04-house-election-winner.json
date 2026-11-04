@@ -1,0 +1,54 @@
+{
+  "id": "191596",
+  "slug": "ok-04-house-election-winner",
+  "markets": [
+    {
+      "id": "1284503",
+      "conditionId": "0x5dee120aa7885bce22d86f7da565a23699d7324c739c292073685d7558620587",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "1284504",
+      "conditionId": "0x3116a273e27b49b957e936a6a4b0cbc0c3bbccd1009e43fff348209cc0b219b1",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "1284505",
+      "conditionId": "0x8b55ed06f68f984e7b2fb2b07e20240df1075e89cc9f437c53064bf78de662b7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284506",
+      "conditionId": "0x5ab96d9d1d024adb84a939a04b910d8d694480fe3674b91217a484e901020ca4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284507",
+      "conditionId": "0x0bf7d7cfe8be1c732654a788dc11c690ced49c73fbb0e069fa75a071148d9cd7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284508",
+      "conditionId": "0xee1a47e960322f0370436d1dcf1c247b41230e2e0314d5f69e8016fcc28c3d4b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284509",
+      "conditionId": "0x155a3bf076d6678e5bd4937f970cb0739c0c832a25a4ff9a3ea98b471737c27a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284510",
+      "conditionId": "0x4762e53990f91255ecfbe900b20a568eb2f7337d6bb4417843631a2b2fbdf74e",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

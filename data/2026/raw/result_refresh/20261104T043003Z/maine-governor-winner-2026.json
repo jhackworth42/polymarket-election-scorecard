@@ -1,0 +1,84 @@
+{
+  "id": "57173",
+  "slug": "maine-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629425",
+      "conditionId": "0xd8ebecf28c4b6148a515c247e65230ae7990f5626ef8202841135b2b6963a9b9",
+      "closed": false,
+      "outcomePrices": "[\"0.996\", \"0.004\"]"
+    },
+    {
+      "id": "629426",
+      "conditionId": "0x9654f26388e982fb566059486d3af4ded2f80564ea32ec0af4b51e04f1c02a07",
+      "closed": false,
+      "outcomePrices": "[\"0.0045\", \"0.9955\"]"
+    },
+    {
+      "id": "629427",
+      "conditionId": "0xaf3c9cac81ad05ff4658c9c194cc9d7e2332943a0e766d541264e20b9e70df0c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629428",
+      "conditionId": "0x4f20fab9de49e159991b9cdf11b1e7431d9ca1d5d0937fb0e9b2bc3f4bdd7c72",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629429",
+      "conditionId": "0x41fe1642e0075a4189c87e7847d1d99211ce6c8bfc119f6e9b46ba09ed90eaff",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629430",
+      "conditionId": "0xa97a38cdae0d28a524990a4d2313662b4ad8d7dcc031b6c9b51f2f7778476bad",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629431",
+      "conditionId": "0x1e611676baa9c4925f48fd9441513161456a0081a9e1a2187d32047da35f5fa3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629432",
+      "conditionId": "0x4e18dc7cad284542e7e552b21d0f624e2a478e3403fa22c046e692df992abffd",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629433",
+      "conditionId": "0xda3a1ebc42d2fff649cd30882e044b79781864a12d9b017f49d0712a3e9f7c12",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629434",
+      "conditionId": "0xbe8077b87ddb7ea095f9818e9c60b2bebcd33ef7b1ef606ec858cec96b712d18",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629435",
+      "conditionId": "0x15a633311db5d39d0fdce2221f44bbc114b1aecc881674bf8319f61dc0f5fdd7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629436",
+      "conditionId": "0x917cbff78f94326f915cd5f62bc95dd7972dfab780b959ffd99222b7f030c370",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629437",
+      "conditionId": "0x1402d2bace3f4eeac7cc203e3803a9377c25853d3f46108d29259163e875bd3c",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

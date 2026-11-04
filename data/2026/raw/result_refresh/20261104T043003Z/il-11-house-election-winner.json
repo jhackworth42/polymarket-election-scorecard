@@ -1,0 +1,54 @@
+{
+  "id": "191455",
+  "slug": "il-11-house-election-winner",
+  "markets": [
+    {
+      "id": "1283400",
+      "conditionId": "0xa75419a2d3d62897b63ea249f090f8c798207a6163a799d0df7c9056290d77b0",
+      "closed": false,
+      "outcomePrices": "[\"0.0145\", \"0.9855\"]"
+    },
+    {
+      "id": "1283401",
+      "conditionId": "0x68e1f9096971d3f0cf9f78a4258d47402dafc81eab256963a5a62cfb023495d8",
+      "closed": false,
+      "outcomePrices": "[\"0.9855\", \"0.0145\"]"
+    },
+    {
+      "id": "1283402",
+      "conditionId": "0x9d4432b6ecc0e3b55f4d3dbafe59e668149881ef063f21ec341820f6cb41afa3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283403",
+      "conditionId": "0xde00720bcf8349d083248859b36acc3ff7ea620fc0c2eff0333d2295dbf9f2d5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283404",
+      "conditionId": "0x9565c983b5433c4949568ab2797366fa64eeac75592feb75a3f866436bb66e64",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283405",
+      "conditionId": "0x4a38bcc12a0e14f9b81dce214aafd87362787cbd72cd3a7ee28a5c36fe8b8ff6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283406",
+      "conditionId": "0x729367771175899ab46533ec9810f761489365cc9ab9deb1641ad5457c187e21",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283407",
+      "conditionId": "0x607193f353f7135fca81bc04890f1e09aec5c5cda818b47f3840cfeb08c00f27",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

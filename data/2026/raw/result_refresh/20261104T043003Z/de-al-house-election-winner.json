@@ -1,0 +1,54 @@
+{
+  "id": "191398",
+  "slug": "de-al-house-election-winner",
+  "markets": [
+    {
+      "id": "1282944",
+      "conditionId": "0x9544ff0ff20c38a16eb5b91efeaa1a53aac58aa6e4e73b9698a374aa34404a7f",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "1282945",
+      "conditionId": "0x178a852de1dbd4f5244ae3996a610b773d739086621e39832967afb255ab8e96",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "1282946",
+      "conditionId": "0x4fd459b6e9aa4e78ab6c8e4b50a8d5ccc80dd6371543fa8098cd9b9d69d5819a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1282947",
+      "conditionId": "0x60c31585a720f44f3102ecffd9e93886782f34a3da289951312eb813537ff64a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1282948",
+      "conditionId": "0x354cf8f4c0ffc4b8f784c3c1b5a2e19be47f63eb4e2934ddbc654a7e7564e5ba",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1282949",
+      "conditionId": "0x55ad543959b6d5ba4e1aadec49cc78b95113fa082506aa37e926fdd12e6f743f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1282950",
+      "conditionId": "0x58ab53ccbcc246026b22d7572ccfa386158581b40bdefb24873cf5b9738a0dfb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1282951",
+      "conditionId": "0x28c98e0ffa1364f432ca5cc0814e10b1e80ac018d2332b7a9379a3ecd58c4d91",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

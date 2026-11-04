@@ -1,0 +1,54 @@
+{
+  "id": "191616",
+  "slug": "ri-02-house-election-winner",
+  "markets": [
+    {
+      "id": "1284663",
+      "conditionId": "0x8a396117de0e09772a3c139fbd3b358f188ded5d6fca64057d440eb4f544f3ee",
+      "closed": false,
+      "outcomePrices": "[\"0.0075\", \"0.9925\"]"
+    },
+    {
+      "id": "1284664",
+      "conditionId": "0x77adadd9ca528f1f6bb51140ad728059a1f9ec8a10e22d9827ceb4cb57d402a5",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "1284665",
+      "conditionId": "0xf3b1184fd0522adae8d6743850fd4ac8c025daf3268b1a985212bf2d37b1cc65",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284666",
+      "conditionId": "0x9955bc3e5865b4a2a29e7939dbbaf585093c20fba0824c806014278cda310fdf",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284667",
+      "conditionId": "0xfa2ed64512153909675058f584bacc326c0e9edfe953a670b125c655abc09f39",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284668",
+      "conditionId": "0xa7ebf08bc28e670601e7e65532ceddfc2bcf8ec4fd04d6952e6b2cd23cbdbf2d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284669",
+      "conditionId": "0x8e3714a080f0b179302ac128e066b5b8dac94610748ec5b2a126b4f3466dcb37",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284670",
+      "conditionId": "0x18764554dd00e6171d1c81e10f81d1aeeb567f8e67c4f19e011a0807e3d2f396",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}
