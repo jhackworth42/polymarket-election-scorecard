@@ -1,0 +1,54 @@
+{
+  "id": "191523",
+  "slug": "mo-07-house-election-winner",
+  "markets": [
+    {
+      "id": "1283945",
+      "conditionId": "0x1f98ec58aa845d073cfb1f7f7bbe8bc5c5b45379df937bc77b728c26055205f6",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "1283946",
+      "conditionId": "0x4eb412112a449c3fc2337a22c84a79d30c6859e6f8990b1fc9579a239d19a36f",
+      "closed": false,
+      "outcomePrices": "[\"0.018\", \"0.982\"]"
+    },
+    {
+      "id": "1283947",
+      "conditionId": "0x0f9d183bca062e69a2d46bc45f6705ffe0ab1218625e7822d83685830713d928",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283948",
+      "conditionId": "0x9e9c63cc7bf2b2afaa0a8ba9703ba1cd32e0606c350bbab9f630fe5174245973",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283949",
+      "conditionId": "0xa4bebd707786705c5f5c2fb04e227b16526aebc879528dca04b74d59bc32548a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283950",
+      "conditionId": "0x0d485a23929fa72927b49320a80be0aad5c42e411a53d04e38e88069fb1993a3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283951",
+      "conditionId": "0x9c7fea8b4192ecf60576b12d4f29d12f52fcf5d7f1208f080b09aa9672f428f6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283952",
+      "conditionId": "0xb0c37cd11a6cf9c80a516bb1b96f2944805b45cde8ad7d888beaa57d3abea5f6",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "191436",
+  "slug": "ga-12-house-election-winner",
+  "markets": [
+    {
+      "id": "1283248",
+      "conditionId": "0xebe9cbc340bf815f03c029eb1985b866e8727051c587f45f56e5942f6eb5d0d8",
+      "closed": false,
+      "outcomePrices": "[\"0.987\", \"0.013\"]"
+    },
+    {
+      "id": "1283249",
+      "conditionId": "0xe0cfc4f75bc903d74f5502ffebf8767f38afb11ae6f828798ed3904ba7de8b87",
+      "closed": false,
+      "outcomePrices": "[\"0.009\", \"0.991\"]"
+    },
+    {
+      "id": "1283250",
+      "conditionId": "0xe010b496085db846c19e3f4cb6daddd7628c2908fbeb0b60771a4ebc5d7599ca",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283251",
+      "conditionId": "0x8e30665b7d919ab563cf0862b95c5ecde06caa0870782ec9284e0d1b3bfa5a80",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283252",
+      "conditionId": "0x06e5360259b34ba52c439ee2f5a034facb8f25023b19608f510aab1eab643850",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283253",
+      "conditionId": "0x5ea3c8d162d5ff69ce3bd87c13a83187e2d22a5c051434b0b9ce69dcd63e1de5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283254",
+      "conditionId": "0xb912874fed64731be09612fb3883ed461073cb2f4c2725e87d93b62f3785fefa",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283255",
+      "conditionId": "0x925bd898822dc3698841d4f0b903cd3cede58336809b06e46a6cfaeb9d3dd5f3",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

@@ -125,6 +125,8 @@ def intraday_cutoff(day: str, name: str, tz_name: str = "America/New_York") -> d
     local_day = datetime.fromisoformat(day)
     if name == "night_before":
         local = (local_day - timedelta(days=1)).replace(hour=23, minute=59, tzinfo=ZoneInfo(tz_name))
+    elif name == "six_hours":
+        local = local_day.replace(hour=12, minute=0, tzinfo=ZoneInfo(tz_name))
     elif name == "preclose":
         local = local_day.replace(hour=17, minute=0, tzinfo=ZoneInfo(tz_name))
     else:
@@ -135,7 +137,7 @@ def intraday_cutoff(day: str, name: str, tz_name: str = "America/New_York") -> d
 def event_cutoffs(day: str, config: dict) -> list[tuple[str, datetime]]:
     regular = [(str(horizon), cutoff_time(day, horizon, config["cutoff_hour_utc"]))
                for horizon in config["horizons_days"]]
-    intraday = [(name, intraday_cutoff(day, name)) for name in ("night_before", "preclose")]
+    intraday = [(name, intraday_cutoff(day, name)) for name in ("night_before", "six_hours", "preclose")]
     return regular + intraday
 
 
@@ -287,7 +289,7 @@ def main() -> None:
                     values.append(None)
                     continue
                 age = (cutoff.timestamp() - point["timestamp"]) / 3600
-                max_age = config.get("intraday_stale_hours_max", config["stale_hours_max"]) if horizon in ("night_before", "preclose") else config["stale_hours_max"]
+                max_age = config.get("intraday_stale_hours_max", config["stale_hours_max"]) if horizon in ("night_before", "six_hours", "preclose") else config["stale_hours_max"]
                 values.append(float(point["price"]) if 0 <= age <= max_age else None)
                 times.append({"market_id": m["id"], "observed_at": datetime.fromtimestamp(point["timestamp"], timezone.utc).isoformat(),
                               "age_hours": round(age, 2), "resolution_seconds": point.get("resolution_seconds")})
@@ -382,7 +384,7 @@ def main() -> None:
                    "brier": "0.5 × sum((probability - outcome)^2) across candidates", "cutoff_hour_utc": config["cutoff_hour_utc"],
                    "stale_hours_max": config["stale_hours_max"], "horizons_days": config["horizons_days"],
                    "intraday_stale_hours_max": config.get("intraday_stale_hours_max"),
-                   "intraday_cutoffs": {"timezone": "America/New_York", "night_before": "23:59 on the prior calendar day",
+                   "intraday_cutoffs": {"timezone": "America/New_York", "night_before": "23:59 on the prior calendar day", "six_hours": "12:00 on election day, six hours before the first U.S. general-election poll close",
                                         "preclose": "17:00 on election day, before first U.S. general-election poll close"}},
         "discovered_events": len(events), "included_races": len(races), "fetch_failures": len(failures),
         "category_counts": {name: sum(r["category"] == name for r in races) for name in sorted({r["category"] for r in races})},

@@ -1,0 +1,54 @@
+{
+  "id": "106096",
+  "slug": "mi-03-house-election-winner",
+  "markets": [
+    {
+      "id": "942701",
+      "conditionId": "0x5a9c199f5580fd145622bf822fdcab24c44f24cf3db997db3c6eaea3907578c1",
+      "closed": false,
+      "outcomePrices": "[\"0.0275\", \"0.9725\"]"
+    },
+    {
+      "id": "942702",
+      "conditionId": "0xf95a13ab7db445e3aa5e668fce91115b480cd7b628620e7b5a4bb39d8ad27c55",
+      "closed": false,
+      "outcomePrices": "[\"0.9755\", \"0.0245\"]"
+    },
+    {
+      "id": "942703",
+      "conditionId": "0x70d4abc90d86480c6bbaec2b97d20c37039304132dc26886038140d698d9ed13",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942704",
+      "conditionId": "0x3cd7cfe9f5e9b53427e0eb96056ef01d3767a156a40ee9f3ab1d929661ee2a92",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942705",
+      "conditionId": "0x4cf846f61591884f9134489f83c54fd69cf34c67116ba6ab7128996cf6a53f3d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942706",
+      "conditionId": "0xafab881bfb164205e92594ca0b54d183b7d5d810c9322475545dbcd2dc5bafb0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942707",
+      "conditionId": "0x1294a0f7bd98208b0669d4b6712ec887be7de4e04375b9868a6f141445d0607b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942708",
+      "conditionId": "0x9854bcde81fea79c05e3bcf2ef1e383b36804e112705e1b7c5826cb593193e83",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

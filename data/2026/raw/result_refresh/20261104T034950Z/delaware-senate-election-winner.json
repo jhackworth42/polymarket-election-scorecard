@@ -1,0 +1,84 @@
+{
+  "id": "57641",
+  "slug": "delaware-senate-election-winner",
+  "markets": [
+    {
+      "id": "630679",
+      "conditionId": "0xad23b96e7a01232f86955c2a719bd7b63f937e093a220bad52fbc8bd0664dedb",
+      "closed": false,
+      "outcomePrices": "[\"0.991\", \"0.009\"]"
+    },
+    {
+      "id": "630680",
+      "conditionId": "0xe70151207ba1c9696abc51293ff65c9d6e8cbb133af3b5430453d112977cd252",
+      "closed": false,
+      "outcomePrices": "[\"0.015\", \"0.985\"]"
+    },
+    {
+      "id": "630681",
+      "conditionId": "0x320ac9569528b5e75d5bbbccd4a05687c79e00e4d6fe1626eb0fea8d0094e425",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630682",
+      "conditionId": "0x184559ebf0a645d8c162be602d47ab5e7b43d85ce3a17a992e1ba340eabe9267",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630683",
+      "conditionId": "0x3584d25a263714270c64fbe1f4875c5646127b60f8a256fcac4c674f339d4c2d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630684",
+      "conditionId": "0x6845e28c52efbffe72e3490bb21c8b36d030643e45f162bac542f2bcf72d77ee",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630685",
+      "conditionId": "0x4f2676f871af62c37fcae0c5d57e799a9b29a9f503590fa586f879c69f3361c4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630686",
+      "conditionId": "0xa2b800a4cab4d9e2de5b7e4de9f0faf241ae33d2f5803f055b7eb648ec573ae0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630687",
+      "conditionId": "0xb25465f44c15b0dfd04c59d82a5ea5612beb69f8f72267051be7a6dd4e5adc9e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630688",
+      "conditionId": "0xd8218601713c8f443d2bd301d6cced23559871f7e632c4128cc37bedb7cdccb8",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630689",
+      "conditionId": "0x74c14895ad26163306547ccf5cc38b5a5cb5732fce50fb95922d772d29b2b121",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630690",
+      "conditionId": "0x4fe4831011ae05591793bf158ce513f247104ea27145a68fa1c0cab44e6823d3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630691",
+      "conditionId": "0x51ee3f975921f642fef61b0d0990dd5bd58870020a63c9b11e259901c0a501a9",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

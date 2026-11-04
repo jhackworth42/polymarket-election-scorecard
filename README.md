@@ -1,6 +1,6 @@
 # The Forecast File
 
-An open, reproducible scorecard for Polymarket election forecasts. The front page tracks **2026 midterm race-winner accuracy**, Monday-night confidence, Brier score, misses, and pre-close price movement as results are verified. A separate 2025 historical test demonstrates the completed workflow.
+An open, reproducible scorecard for Polymarket election forecasts. The front page tracks **2026 midterm race-winner accuracy** at 30 days, 7 days, 1 day, and six hours before the first poll closing. It shows Brier error over time, confidence calibration, misses, and pre-close price movement as results are verified. A separate 2025 historical test demonstrates the completed workflow.
 
 ## See it
 
@@ -68,11 +68,13 @@ These scores are labeled **provisional** until the winner's Polymarket resolutio
 
 - **T−1:** 11:59 p.m. America/New_York on the calendar day before each election.
 - **Pre-close:** 5:00 p.m. America/New_York on election day, before the first U.S. general-election poll closing.
+- **Six hours out:** noon America/New_York on election day, six hours before the first U.S. general-election poll closing. This is a fixed election-day cutoff, not six hours before each market's eventual settlement.
 - A race enters the movement analysis only when all its included outcome contracts have usable prices within one hour of both cutoffs. The event probabilities are normalized separately at each cutoff.
 - The confidence chart groups individual candidate or party outcomes into ten-point T−1 price bands. It reports the share whose absolute price change reached five percentage points by pre-close. Its denominator is outcome contracts, not independent races.
 - The largest-move ranking counts each race once, using the outcome with the largest absolute change. A leadership reversal means the highest-priced outcome changed between snapshots.
 - **Contested at T−7** means the highest-priced outcome was below 80% seven days before the election. This segment is fixed before results.
 - A price movement is not an election result. Accuracy, high-confidence misses, calibration, and Brier scores require a verified winner. The 2025 archive is the completed test; 2026 outcomes remain pending until settlement or a sourced provisional call.
+- The 2026 overview's Brier line uses the same verified races with usable prices at 30 days, 7 days, 1 day, and six hours out. The overall and contested/clearer breakdowns display their own denominators.
 - The 2025 historical API did not return prices within one hour of the intraday cutoffs, so its intraday movement fields are omitted rather than treating stale prices as Election Day observations.
 
 ## Test
@@ -82,3 +84,7 @@ python -m unittest discover -s tests -v
 ```
 
 The static site has no build dependencies. GitHub Actions deploys `site/` to GitHub Pages on pushes to `main`.
+
+## Polling comparison research
+
+A polling comparison should start with competitive Senate and governor races that have public, dated polls and unambiguous candidate matches. A poll's vote share is not a win probability, so it cannot be placed on the same calibration or Brier axis as a market price. A fair first comparison would ask whether the latest pre-cutoff poll average and the market selected the eventual winner, and how the polling margin compared with the final vote margin. Polls whose fieldwork or publication date falls after a market checkpoint must be excluded from that checkpoint. [VoteHub's polling API](https://votehub.com/polls/api/) is a candidate source under CC BY 4.0; coverage and race mapping need an audit before publishing a score.

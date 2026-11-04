@@ -1,0 +1,84 @@
+{
+  "id": "57207",
+  "slug": "rhode-island-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629627",
+      "conditionId": "0xc65ec2459a79fb749948503161d42e13c4cb8bb0b670f0dd1ce2c71d7950b459",
+      "closed": false,
+      "outcomePrices": "[\"0.989\", \"0.011\"]"
+    },
+    {
+      "id": "629628",
+      "conditionId": "0xc9e6a0be2fe2d015dc1cd9d75f4dc5b48dddee1a7043935ef5d1e981c55d5ffc",
+      "closed": false,
+      "outcomePrices": "[\"0.0045\", \"0.9955\"]"
+    },
+    {
+      "id": "629629",
+      "conditionId": "0x4ff66babd9440e4ca4097607aafa868bf734c5411463e14bffc5c330d7d0f524",
+      "closed": false,
+      "outcomePrices": "[\"0.0135\", \"0.9865\"]"
+    },
+    {
+      "id": "629630",
+      "conditionId": "0xda27f8703680b53875a0436403007614c679cae892d60d89a2a4418ca35b17bd",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629631",
+      "conditionId": "0xa346a5e61e735f2fbd7f13ce117f4d1f7144de67ace561256bf4495167b90761",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629632",
+      "conditionId": "0x4c6fefe3e5d8ca0895f6e7cddfa8244397a339f50e669c9d55c178bb6e5851c9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629633",
+      "conditionId": "0xa79cac5f84ffe28b6eabd14cdcc1a4edf785e5b941756feb7203d0708367962b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629634",
+      "conditionId": "0x71839267a2cd091584a4297537553c2d2221ee811659bf62c964bcc7c7b0b7c5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629635",
+      "conditionId": "0xfa84fca8e56e952f167e785851d1486191ddc29c017e994802dda97f3e47178d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629636",
+      "conditionId": "0xe2275f1e761532c267ea7a670f1e29b72f1fcccde0d8f803b55d1ce170c52686",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629637",
+      "conditionId": "0x4ebe82bb2275ab2d2f6b7701a4538a61287353924a900633a651b5857e952d54",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629638",
+      "conditionId": "0x276ef492a48c6300b7fcc69bcbde1e93c3317d602a6888748cff61e8e2c37b88",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629639",
+      "conditionId": "0x2a2f69a0965eb50c3a0a47411ad86c136a5b15747fbadebfef52d44f89fa8cc2",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

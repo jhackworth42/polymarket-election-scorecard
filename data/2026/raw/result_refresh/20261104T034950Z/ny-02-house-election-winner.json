@@ -1,0 +1,54 @@
+{
+  "id": "191558",
+  "slug": "ny-02-house-election-winner",
+  "markets": [
+    {
+      "id": "1284226",
+      "conditionId": "0x5d52fd8e215a7ac609d4af5da9dcf752e9e6b4fc2b47482c246d51c8aa8e9280",
+      "closed": false,
+      "outcomePrices": "[\"0.585\", \"0.415\"]"
+    },
+    {
+      "id": "1284227",
+      "conditionId": "0x266327863c1681bc8e3db27d2b1d0806032120e2029712cc38bbba9b5bca870b",
+      "closed": false,
+      "outcomePrices": "[\"0.43\", \"0.57\"]"
+    },
+    {
+      "id": "1284228",
+      "conditionId": "0x9ee99ccb524a25f7c0644b2f0daf40731a691940b63f1377b7c681e62f5b96a4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284229",
+      "conditionId": "0x2e64aafd30964da0f67adfb84f24d88df9283295305ac74a8a2acc6632f81924",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284230",
+      "conditionId": "0x9c5e7bb526bce63387f1912d3cfacc0bce6c131f364f0c02789eef75b9a2d877",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284231",
+      "conditionId": "0x0aa2bf00b739a34e6ec4886caaaabf2fa0c9c623e721605f82e02b5064062020",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284232",
+      "conditionId": "0x527b5c8582ab5d55a53356a135b93c96efebe463c3337f0a1c67eddc70750aeb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1284233",
+      "conditionId": "0xa8a765ae2f0c992caada32f498ceef66b4529f72247d16dee818147fa6cc378b",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

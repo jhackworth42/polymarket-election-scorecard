@@ -16,6 +16,7 @@ class PipelineTests(unittest.TestCase):
 
     def test_intraday_cutoffs_use_eastern_time_before_poll_close(self):
         self.assertEqual(intraday_cutoff("2026-11-03", "night_before").isoformat(), "2026-11-03T04:59:00+00:00")
+        self.assertEqual(intraday_cutoff("2026-11-03", "six_hours").isoformat(), "2026-11-03T17:00:00+00:00")
         self.assertEqual(intraday_cutoff("2026-11-03", "preclose").isoformat(), "2026-11-03T22:00:00+00:00")
         self.assertEqual(intraday_cutoff("2025-11-04", "night_before").isoformat(), "2025-11-04T04:59:00+00:00")
 
