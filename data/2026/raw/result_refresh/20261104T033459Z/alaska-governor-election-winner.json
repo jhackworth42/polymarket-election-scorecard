@@ -1,0 +1,246 @@
+{
+  "id": "59234",
+  "slug": "alaska-governor-election-winner",
+  "markets": [
+    {
+      "id": "635003",
+      "conditionId": "0xb2fddc90e11d6c55351bfbd5c01e67323f4d177f55f612274a90da92d1ae68db",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635004",
+      "conditionId": "0x8377be7973fda37582973f6533625ff035bd7ece986a9762d12b1cfb81baf057",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635005",
+      "conditionId": "0x807371dcb1fd0b3e3b406d8b2afa2f72285a896ae5198749a04b7d93c7b57529",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635006",
+      "conditionId": "0x90c810df015547545998cc0952258c102fac052861896acf6d58e17938cce0c7",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635007",
+      "conditionId": "0xe2edbfb83c9b0256b10c93e59f4677d942792ea014274d9c00dc72a38b3c2592",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635008",
+      "conditionId": "0x9e7789f9f3bb79883fab8c7c35db58a8834ef442a67d30c780cca57a5f251dc7",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635009",
+      "conditionId": "0x12923582cca8ff08ea1bb23e4e042b80e11fae9974d528d9f19249e5ad131f2a",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635010",
+      "conditionId": "0x6ff8d96a792130aa08cfb1e8e1488aa9d4eb4ada325d46af666bb6a8d0e2b0b0",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635011",
+      "conditionId": "0xbc9964ab2e4e4886796e86263769e34451476172200f99e378e74adc6e202663",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635012",
+      "conditionId": "0x9aba5bf074182d803c1b6a10814497875562ebb1c62483b36d2a305fc49e0792",
+      "closed": false,
+      "outcomePrices": "[\"0.05\", \"0.95\"]"
+    },
+    {
+      "id": "635013",
+      "conditionId": "0xe4016942ae2f6c1b349ff44253cec219c4e09a18b05ff44e16ba500fbfffac1e",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635014",
+      "conditionId": "0xb120cb1c26ad4568844f8e7ee7a91487d5cf4d246fd40410c1f3d4061bfd3587",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635015",
+      "conditionId": "0x74a5ea8aed0261817e6be4371a73a9647bf143857c62bc66211c2d9b97d091a5",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635016",
+      "conditionId": "0x43cedce4a6af0136d37d53408fc965388baee3145db6da72a5b5da8d2746ced3",
+      "closed": false,
+      "outcomePrices": "[\"0.9485\", \"0.0515\"]"
+    },
+    {
+      "id": "635017",
+      "conditionId": "0xb2d876d58365e2c4c8af6a84df51a5425c8a3084b6485d7f4a10af29ce8f49e4",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635018",
+      "conditionId": "0x0d87ce304cab9d63b941d93b7d8052d0b8c9033ef5383a2436ede5117f029dae",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635019",
+      "conditionId": "0xef25acd9423c7c1aeb1a85a2f2e295ce6bcee19abd84a8b99c7e84713434abf3",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635020",
+      "conditionId": "0x9ae7125f02766aec1a6b8fc3c0fa8a536a424d07b290f870eecfbac5bb3a8f3f",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635021",
+      "conditionId": "0x4fd145201e8036b8c040dd9797c4d79c8eb7f1053fef07920d8b2a7bdf6f8170",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635022",
+      "conditionId": "0x3742856e68e342615e2a4ffbbd53e47b631f2d7097ef0713e41fb2fa2bc9d901",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635023",
+      "conditionId": "0x13aa3adfac590cb337445b0a96faef834cc27d3a4d417c397b43b96a4d54e751",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635024",
+      "conditionId": "0x1aaa09e9174c89de226b4ed98bbf3992bd0b7abd287a32dc9d495ad1b0e9f9b0",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "635025",
+      "conditionId": "0xf5e3dc1fe001870867283a724556c80c25bf429f539d94a2f4e94eea89a9b9e7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635026",
+      "conditionId": "0x604d2791df6827eb05c31b75b1de6384e9cfabd3c787dffb40e8c17ea6ead3f3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635027",
+      "conditionId": "0x9a6adb659cf89636971a6b634e62505010bc877a637a223940512d5ca51b5da9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635028",
+      "conditionId": "0xfdd7d886351d1238a75b56ce398f81620f2b25dca3d61b7919864a2fcd1ab454",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635029",
+      "conditionId": "0x916c1bbed5d127943e25152327691203b2a6798867174ff3ab9068911de86a8f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635030",
+      "conditionId": "0xe4754e5d56226fb508c3fb47b86a1b83fac9507894672c01836bd6e26abdf849",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635031",
+      "conditionId": "0x0ede91a0342e4102f82bc87ef1cc949e3ec8d352028e9f55de711bd54197a634",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635032",
+      "conditionId": "0x4668ef3579244c90704c1cd992213e0c3160491b165b490eadf87b62379008f9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635033",
+      "conditionId": "0xae898af0367cfbdc68f498faf784b95c20c4afd7e71e7b2c675c815728ec6244",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635034",
+      "conditionId": "0x07655de01c9af47bafbc52e7ef34868f6bf8b27e32f3b7593b76b0c778bb4cb5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635035",
+      "conditionId": "0x927840c9f57d9c3afc764dfcea254ff0c350bb479cc0dbdd04be5284f8bdc456",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635036",
+      "conditionId": "0x116a3dc93bd432f049a00991db6ded8a0eb94e829d462973c7a2f3da5fc081ce",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635037",
+      "conditionId": "0x4d75c7ac1187e504ca412bd9a0fda55b46551ff2791e2766140af93e47f13d41",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635038",
+      "conditionId": "0x021356cb79341efed882b2196fce0889fdc793f4eefb29ad71df48351cf8ef14",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635039",
+      "conditionId": "0xc063b058e5b118df535a2254f707cd4addcc48f94a8c8a183b23bb7591b82487",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635040",
+      "conditionId": "0xfe901e04c93f31c73bd2dc55d5379365a203d170ae90c59f62f604817155bce3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635041",
+      "conditionId": "0x8307e8bd57e5011886fe1fe4edc61e04924e861838289f52770fe21bb8d4aa3e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "635042",
+      "conditionId": "0xf3f4c730987c21ddd77d3382f880b808175a7fc539632cc9fb2718cb42b97798",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

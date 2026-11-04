@@ -1,7 +1,7 @@
 {
   "edition": "2026",
   "label": "2026 midterms · election night",
-  "generated_at": "2026-11-04T02:09:09.392751+00:00",
+  "generated_at": "2026-11-04T03:40:11.178514+00:00",
   "method": {
     "unit": "one election-winner event",
     "probabilities": "traded candidate or party Yes prices normalized to sum to one; missing prices treated as zero for scoring",
@@ -39,52 +39,52 @@
   "summary": {
     "30": {
       "label": "30 days",
-      "n": 0,
+      "n": 9,
       "provisional_n": 0,
-      "hit_rate": null,
-      "brier": null
+      "hit_rate": 1.0,
+      "brier": 0.0008
     },
     "21": {
       "label": "21 days",
-      "n": 0,
+      "n": 9,
       "provisional_n": 0,
-      "hit_rate": null,
-      "brier": null
+      "hit_rate": 1.0,
+      "brier": 0.0007
     },
     "14": {
       "label": "14 days",
-      "n": 0,
+      "n": 9,
       "provisional_n": 0,
-      "hit_rate": null,
-      "brier": null
+      "hit_rate": 1.0,
+      "brier": 0.0007
     },
     "7": {
       "label": "7 days",
-      "n": 0,
+      "n": 9,
       "provisional_n": 0,
-      "hit_rate": null,
-      "brier": null
+      "hit_rate": 1.0,
+      "brier": 0.0006
     },
     "3": {
       "label": "3 days",
-      "n": 0,
+      "n": 9,
       "provisional_n": 0,
-      "hit_rate": null,
-      "brier": null
+      "hit_rate": 1.0,
+      "brier": 0.0004
     },
     "1": {
       "label": "1 day",
-      "n": 0,
+      "n": 9,
       "provisional_n": 0,
-      "hit_rate": null,
-      "brier": null
+      "hit_rate": 1.0,
+      "brier": 0.0002
     },
     "0": {
       "label": "Election morning",
-      "n": 0,
+      "n": 9,
       "provisional_n": 0,
-      "hit_rate": null,
-      "brier": null
+      "hit_rate": 1.0,
+      "brier": 0.0002
     }
   },
   "summary_by_segment": {
@@ -95,9 +95,9 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "hits": 0,
-        "brier": null
+        "n": 9,
+        "hits": 9,
+        "brier": 0.0008
       },
       "unclassified": {
         "n": 0,
@@ -112,9 +112,9 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "hits": 0,
-        "brier": null
+        "n": 9,
+        "hits": 9,
+        "brier": 0.0007
       },
       "unclassified": {
         "n": 0,
@@ -129,9 +129,9 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "hits": 0,
-        "brier": null
+        "n": 9,
+        "hits": 9,
+        "brier": 0.0007
       },
       "unclassified": {
         "n": 0,
@@ -146,9 +146,9 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "hits": 0,
-        "brier": null
+        "n": 9,
+        "hits": 9,
+        "brier": 0.0006
       },
       "unclassified": {
         "n": 0,
@@ -163,9 +163,9 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "hits": 0,
-        "brier": null
+        "n": 9,
+        "hits": 9,
+        "brier": 0.0004
       },
       "unclassified": {
         "n": 0,
@@ -180,9 +180,9 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "hits": 0,
-        "brier": null
+        "n": 9,
+        "hits": 9,
+        "brier": 0.0002
       },
       "unclassified": {
         "n": 0,
@@ -197,9 +197,9 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "hits": 0,
-        "brier": null
+        "n": 9,
+        "hits": 9,
+        "brier": 0.0002
       },
       "unclassified": {
         "n": 0,
@@ -209,10 +209,10 @@
     }
   },
   "paired_30_to_1": {
-    "n": 0,
-    "brier_30": null,
-    "brier_1": null,
-    "improvement_fraction": null,
+    "n": 9,
+    "brier_30": 0.0008,
+    "brier_1": 0.0002,
+    "improvement_fraction": 0.7467,
     "favorite_flips": 0
   },
   "timeline": {
@@ -222,8 +222,8 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "brier": null
+        "n": 9,
+        "brier": 0.0008
       }
     },
     "21": {
@@ -232,8 +232,8 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "brier": null
+        "n": 9,
+        "brier": 0.0007
       }
     },
     "14": {
@@ -242,8 +242,8 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "brier": null
+        "n": 9,
+        "brier": 0.0007
       }
     },
     "7": {
@@ -252,8 +252,8 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "brier": null
+        "n": 9,
+        "brier": 0.0006
       }
     },
     "3": {
@@ -262,8 +262,8 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "brier": null
+        "n": 9,
+        "brier": 0.0004
       }
     },
     "1": {
@@ -272,8 +272,8 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "brier": null
+        "n": 9,
+        "brier": 0.0002
       }
     },
     "0": {
@@ -282,8 +282,8 @@
         "brier": null
       },
       "clear": {
-        "n": 0,
-        "brier": null
+        "n": 9,
+        "brier": 0.0002
       }
     }
   },
@@ -38755,10 +38755,13 @@
       "url": "https://polymarket.com/event/fl-10-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 1,
+      "winner": "the Democratic Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x92af18b5a8e041263bdf14ba26de45aec9677fa539fb95cdb637168596703b01"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1283024",
@@ -38777,7 +38780,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 0.994,
           "probabilities": [
@@ -38803,12 +38806,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.001036,
+          "winner_probability": 0.967807
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 0.9955,
           "probabilities": [
@@ -38834,12 +38837,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000709,
+          "winner_probability": 0.97338
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 0.9895,
           "probabilities": [
@@ -38865,12 +38868,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000147,
+          "winner_probability": 0.987873
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.9915,
           "probabilities": [
@@ -38896,12 +38899,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000199,
+          "winner_probability": 0.98588
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 0.9905,
           "probabilities": [
@@ -38927,12 +38930,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000186,
+          "winner_probability": 0.986371
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 1.001,
           "probabilities": [
@@ -38958,12 +38961,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000169,
+          "winner_probability": 0.987013
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 0.999,
           "probabilities": [
@@ -38989,12 +38992,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 3e-05,
+          "winner_probability": 0.994494
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 0.9975,
           "probabilities": [
@@ -39020,12 +39023,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000101,
+          "winner_probability": 0.989975
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 0.9965,
           "probabilities": [
@@ -39051,9 +39054,9 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 3.6e-05,
+          "winner_probability": 0.993979
         }
       },
       "movement": {
@@ -39067,8 +39070,8 @@
         "favorite_move_pp": 0.4,
         "biggest_mover_index": 0,
         "biggest_move_pp": -0.4,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.989975,
+        "winner_preclose_probability": 0.993979
       },
       "segment": "clear"
     },
@@ -41671,10 +41674,13 @@
       "url": "https://polymarket.com/event/fl-19-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 0,
+      "winner": "the Republican Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xe12fee6c8935d79357ec59f4f94fc3f167c463597291fef3d723eb1b200fecbe"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1283088",
@@ -41693,7 +41699,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 0.995,
           "probabilities": [
@@ -41719,12 +41725,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.002525,
+          "winner_probability": 0.949749
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 1.0,
           "probabilities": [
@@ -41750,12 +41756,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.003025,
+          "winner_probability": 0.945
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 0.99,
           "probabilities": [
@@ -41781,12 +41787,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.002066,
+          "winner_probability": 0.954545
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.99,
           "probabilities": [
@@ -41812,12 +41818,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.002066,
+          "winner_probability": 0.954545
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 1.0085,
           "probabilities": [
@@ -41843,12 +41849,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000915,
+          "winner_probability": 0.969757
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 0.997,
           "probabilities": [
@@ -41874,12 +41880,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000706,
+          "winner_probability": 0.97342
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 1.0015,
           "probabilities": [
@@ -41905,12 +41911,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000505,
+          "winner_probability": 0.977534
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 1.001,
           "probabilities": [
@@ -41936,12 +41942,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.00036,
+          "winner_probability": 0.981019
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 0.996,
           "probabilities": [
@@ -41967,9 +41973,9 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000488,
+          "winner_probability": 0.977912
         }
       },
       "movement": {
@@ -41983,8 +41989,8 @@
         "favorite_move_pp": -0.31,
         "biggest_mover_index": 0,
         "biggest_move_pp": -0.31,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.981019,
+        "winner_preclose_probability": 0.977912
       },
       "segment": "clear"
     },
@@ -41995,10 +42001,13 @@
       "url": "https://polymarket.com/event/fl-20-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 1,
+      "winner": "the Democratic Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x19086f5229d7f8e30d5502ea460eb2c168251ee26def9ed3691b0b4e9321d35f"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1283096",
@@ -42017,7 +42026,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 0.98,
           "probabilities": [
@@ -42043,12 +42052,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000651,
+          "winner_probability": 0.97449
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 0.993,
           "probabilities": [
@@ -42074,12 +42083,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000112,
+          "winner_probability": 0.989426
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 0.9945,
           "probabilities": [
@@ -42105,12 +42114,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000184,
+          "winner_probability": 0.986425
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.9975,
           "probabilities": [
@@ -42136,12 +42145,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000257,
+          "winner_probability": 0.98396
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 0.9955,
           "probabilities": [
@@ -42167,12 +42176,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000631,
+          "winner_probability": 0.974887
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 0.9935,
           "probabilities": [
@@ -42198,12 +42207,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000276,
+          "winner_probability": 0.983392
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 0.9985,
           "probabilities": [
@@ -42229,12 +42238,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000257,
+          "winner_probability": 0.983976
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 0.999,
           "probabilities": [
@@ -42260,12 +42269,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000257,
+          "winner_probability": 0.983984
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 0.995,
           "probabilities": [
@@ -42291,9 +42300,9 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000259,
+          "winner_probability": 0.98392
         }
       },
       "movement": {
@@ -42307,8 +42316,8 @@
         "favorite_move_pp": -0.01,
         "biggest_mover_index": 0,
         "biggest_move_pp": 0.01,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.983984,
+        "winner_preclose_probability": 0.98392
       },
       "segment": "clear"
     },
@@ -43291,10 +43300,13 @@
       "url": "https://polymarket.com/event/fl-24-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 1,
+      "winner": "the Democratic Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xd841e73247a572b927c3a721f32021df04b09838fdec05d11e61cc675568a2a9"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1283120",
@@ -43313,7 +43325,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 0.983,
           "probabilities": [
@@ -43339,12 +43351,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000524,
+          "winner_probability": 0.977111
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 0.969,
           "probabilities": [
@@ -43370,12 +43382,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000256,
+          "winner_probability": 0.984004
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 0.972,
           "probabilities": [
@@ -43401,12 +43413,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000324,
+          "winner_probability": 0.981996
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.986,
           "probabilities": [
@@ -43432,12 +43444,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000926,
+          "winner_probability": 0.969574
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 0.997,
           "probabilities": [
@@ -43463,12 +43475,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000444,
+          "winner_probability": 0.978937
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 0.995,
           "probabilities": [
@@ -43494,12 +43506,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 3.1e-05,
+          "winner_probability": 0.994472
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 1.001,
           "probabilities": [
@@ -43525,12 +43537,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000169,
+          "winner_probability": 0.987013
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 0.999,
           "probabilities": [
@@ -43556,12 +43568,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000157,
+          "winner_probability": 0.987487
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 0.996,
           "probabilities": [
@@ -43587,9 +43599,9 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000133,
+          "winner_probability": 0.988454
         }
       },
       "movement": {
@@ -43603,8 +43615,8 @@
         "favorite_move_pp": 0.1,
         "biggest_mover_index": 0,
         "biggest_move_pp": -0.1,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.987487,
+        "winner_preclose_probability": 0.988454
       },
       "segment": "clear"
     },
@@ -46855,10 +46867,13 @@
       "url": "https://polymarket.com/event/ga-05-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 1,
+      "winner": "the Democratic Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x44ed7efb899fb00b5e06bd75766349bf9b24beeed57c0146c8fff7b9ef294227"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1283192",
@@ -46877,7 +46892,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 0.9885,
           "probabilities": [
@@ -46903,12 +46918,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.0,
+          "winner_probability": 0.999494
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 0.989,
           "probabilities": [
@@ -46934,12 +46949,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.0,
+          "winner_probability": 0.999494
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 0.985,
           "probabilities": [
@@ -46965,12 +46980,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.0,
+          "winner_probability": 0.999492
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.9885,
           "probabilities": [
@@ -46996,12 +47011,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.0,
+          "winner_probability": 0.999494
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 0.9885,
           "probabilities": [
@@ -47027,12 +47042,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 3.1e-05,
+          "winner_probability": 0.994436
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 0.993,
           "probabilities": [
@@ -47058,12 +47073,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.0,
+          "winner_probability": 0.999496
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 0.996,
           "probabilities": [
@@ -47089,12 +47104,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 3.6e-05,
+          "winner_probability": 0.993976
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 0.9965,
           "probabilities": [
@@ -47120,12 +47135,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 2.5e-05,
+          "winner_probability": 0.994982
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 1.0,
           "probabilities": [
@@ -47151,9 +47166,9 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 6e-06,
+          "winner_probability": 0.9975
         }
       },
       "movement": {
@@ -47167,8 +47182,8 @@
         "favorite_move_pp": 0.25,
         "biggest_mover_index": 0,
         "biggest_move_pp": -0.25,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.994982,
+        "winner_preclose_probability": 0.9975
       },
       "segment": "clear"
     },
@@ -49447,10 +49462,13 @@
       "url": "https://polymarket.com/event/ga-13-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 1,
+      "winner": "the Democratic Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0xe45a876d7a7c8a76121709e80cb26f603f4e4f7fb20c55aca1ffd73d7bdfe13c"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1283256",
@@ -49469,7 +49487,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 0.9935,
           "probabilities": [
@@ -49495,12 +49513,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000608,
+          "winner_probability": 0.97534
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 1.0025,
           "probabilities": [
@@ -49526,12 +49544,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000271,
+          "winner_probability": 0.983541
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 1.0005,
           "probabilities": [
@@ -49557,12 +49575,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.001443,
+          "winner_probability": 0.962019
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.9995,
           "probabilities": [
@@ -49588,12 +49606,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.00109,
+          "winner_probability": 0.966983
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 1.0035,
           "probabilities": [
@@ -49619,12 +49637,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000481,
+          "winner_probability": 0.978077
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 0.9995,
           "probabilities": [
@@ -49650,12 +49668,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.00021,
+          "winner_probability": 0.985493
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 1.0015,
           "probabilities": [
@@ -49681,12 +49699,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000255,
+          "winner_probability": 0.984024
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 1.0015,
           "probabilities": [
@@ -49712,12 +49730,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000255,
+          "winner_probability": 0.984024
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 0.999,
           "probabilities": [
@@ -49743,9 +49761,9 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000133,
+          "winner_probability": 0.988488
         }
       },
       "movement": {
@@ -49759,8 +49777,8 @@
         "favorite_move_pp": 0.45,
         "biggest_mover_index": 0,
         "biggest_move_pp": -0.45,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.984024,
+        "winner_preclose_probability": 0.988488
       },
       "segment": "clear"
     },
@@ -66050,10 +66068,13 @@
       "url": "https://polymarket.com/event/ky-03-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 1,
+      "winner": "the Democratic Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x6198e91c34693f62414f64fec7f1c1143ed78f35aab3a6a6641d8e69cb18ec9a"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1283560",
@@ -66072,7 +66093,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 0.9885,
           "probabilities": [
@@ -66098,12 +66119,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000614,
+          "winner_probability": 0.975215
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 0.99,
           "probabilities": [
@@ -66129,12 +66150,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000517,
+          "winner_probability": 0.977273
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 1.001,
           "probabilities": [
@@ -66160,12 +66181,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.00036,
+          "winner_probability": 0.981019
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.9895,
           "probabilities": [
@@ -66191,12 +66212,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000409,
+          "winner_probability": 0.979788
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 0.994,
           "probabilities": [
@@ -66222,12 +66243,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000346,
+          "winner_probability": 0.981388
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 0.996,
           "probabilities": [
@@ -66253,12 +66274,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000274,
+          "winner_probability": 0.983434
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 0.999,
           "probabilities": [
@@ -66284,12 +66305,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000307,
+          "winner_probability": 0.982482
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 0.9995,
           "probabilities": [
@@ -66315,12 +66336,12 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000343,
+          "winner_probability": 0.981491
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 0.9995,
           "probabilities": [
@@ -66346,9 +66367,9 @@
             }
           ],
           "leader_index": 1,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000144,
+          "winner_probability": 0.987994
         }
       },
       "movement": {
@@ -66362,8 +66383,8 @@
         "favorite_move_pp": 0.65,
         "biggest_mover_index": 0,
         "biggest_move_pp": -0.65,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.981491,
+        "winner_preclose_probability": 0.987994
       },
       "segment": "clear"
     },
@@ -66698,10 +66719,13 @@
       "url": "https://polymarket.com/event/ky-05-house-election-winner",
       "election_day": "2026-11-03",
       "category": "house",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 0,
+      "winner": "the Republican Party",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x7282c5b2ced91d830069f1dbb54feb75c3088b63035714a0b6d1ed35056e4745"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "1283576",
@@ -66720,7 +66744,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 1.0015,
           "probabilities": [
@@ -66746,12 +66770,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000927,
+          "winner_probability": 0.969546
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 1.001,
           "probabilities": [
@@ -66777,12 +66801,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.001022,
+          "winner_probability": 0.968032
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 1.0015,
           "probabilities": [
@@ -66808,12 +66832,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.001053,
+          "winner_probability": 0.967549
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 0.993,
           "probabilities": [
@@ -66839,12 +66863,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000347,
+          "winner_probability": 0.98137
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 0.996,
           "probabilities": [
@@ -66870,12 +66894,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000533,
+          "winner_probability": 0.976908
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 1.0055,
           "probabilities": [
@@ -66901,12 +66925,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000131,
+          "winner_probability": 0.988563
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 1.0,
           "probabilities": [
@@ -66932,12 +66956,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.00024,
+          "winner_probability": 0.9845
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 1.004,
           "probabilities": [
@@ -66963,12 +66987,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000155,
+          "winner_probability": 0.98755
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 0.996,
           "probabilities": [
@@ -66994,9 +67018,9 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000158,
+          "winner_probability": 0.98745
         }
       },
       "movement": {
@@ -67010,8 +67034,8 @@
         "favorite_move_pp": -0.01,
         "biggest_mover_index": 0,
         "biggest_move_pp": -0.01,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.98755,
+        "winner_preclose_probability": 0.98745
       },
       "segment": "clear"
     },
@@ -159757,10 +159781,13 @@
       "url": "https://polymarket.com/event/virginia-senate-election-winner",
       "election_day": "2026-11-03",
       "category": "senate",
-      "winner_index": null,
-      "winner": null,
-      "resolution": null,
-      "outcome_status": "pending",
+      "winner_index": 0,
+      "winner": "the Democrats",
+      "resolution": {
+        "verified": true,
+        "source": "https://data-api.polymarket.com/v2/resolutions?condition=0x6710d045eb7bceb5467d0e2cf1084f353ab9eff53f627d33589e8bcbe4851162"
+      },
+      "outcome_status": "settled",
       "candidates": [
         {
           "id": "630976",
@@ -159779,7 +159806,7 @@
       ],
       "forecasts": {
         "30": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-04T15:00:00+00:00",
           "raw_sum": 1.0015,
           "probabilities": [
@@ -159805,12 +159832,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000461,
+          "winner_probability": 0.978532
         },
         "21": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-13T15:00:00+00:00",
           "raw_sum": 0.9965,
           "probabilities": [
@@ -159836,12 +159863,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000345,
+          "winner_probability": 0.981435
         },
         "14": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-20T15:00:00+00:00",
           "raw_sum": 0.998,
           "probabilities": [
@@ -159867,12 +159894,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000382,
+          "winner_probability": 0.980461
         },
         "7": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-27T15:00:00+00:00",
           "raw_sum": 1.001,
           "probabilities": [
@@ -159898,12 +159925,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000272,
+          "winner_probability": 0.983516
         },
         "3": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-10-31T15:00:00+00:00",
           "raw_sum": 1.005,
           "probabilities": [
@@ -159929,12 +159956,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.000208,
+          "winner_probability": 0.985572
         },
         "1": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-02T15:00:00+00:00",
           "raw_sum": 1.0,
           "probabilities": [
@@ -159960,12 +159987,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 6.4e-05,
+          "winner_probability": 0.992
         },
         "0": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T15:00:00+00:00",
           "raw_sum": 0.9985,
           "probabilities": [
@@ -159991,12 +160018,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 7.2e-05,
+          "winner_probability": 0.991487
         },
         "night_before": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T04:59:00+00:00",
           "raw_sum": 1.0,
           "probabilities": [
@@ -160022,12 +160049,12 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 5.6e-05,
+          "winner_probability": 0.9925
         },
         "preclose": {
-          "status": "pending",
+          "status": "scored",
           "cutoff": "2026-11-03T22:00:00+00:00",
           "raw_sum": 0.999,
           "probabilities": [
@@ -160053,9 +160080,9 @@
             }
           ],
           "leader_index": 0,
-          "hit": null,
-          "brier": null,
-          "winner_probability": null
+          "hit": true,
+          "brier": 0.0001,
+          "winner_probability": 0.98999
         }
       },
       "movement": {
@@ -160069,8 +160096,8 @@
         "favorite_move_pp": -0.25,
         "biggest_mover_index": 0,
         "biggest_move_pp": -0.25,
-        "winner_night_before_probability": null,
-        "winner_preclose_probability": null
+        "winner_night_before_probability": 0.9925,
+        "winner_preclose_probability": 0.98999
       },
       "segment": "clear"
     },

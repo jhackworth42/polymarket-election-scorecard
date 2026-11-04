@@ -1,10 +1,10 @@
 # The Forecast File
 
-An open, reproducible scorecard for Polymarket election forecasts. The front page tracks **2026 midterm pre-result price movements**; a separate 2025 historical test demonstrates the accuracy workflow.
+An open, reproducible scorecard for Polymarket election forecasts. The front page tracks **2026 midterm race-winner accuracy**, Monday-night confidence, Brier score, misses, and pre-close price movement as results are verified. A separate 2025 historical test demonstrates the completed workflow.
 
 ## See it
 
-- [2026 movement overview](https://jhackworth42.github.io/polymarket-election-scorecard/)
+- [2026 results overview](https://jhackworth42.github.io/polymarket-election-scorecard/)
 - [Every 2026 race](https://jhackworth42.github.io/polymarket-election-scorecard/races.html)
 - [2025 historical scorecard](https://jhackworth42.github.io/polymarket-election-scorecard/2025.html)
 - [2026 scored data](data/2026/scorecard.json) and [coverage ledger](data/2026/coverage.json)

@@ -1,0 +1,54 @@
+{
+  "id": "106170",
+  "slug": "ny-17-house-election-winner",
+  "markets": [
+    {
+      "id": "943440",
+      "conditionId": "0x9256274410a5fa5d9332cdc42b6898cdc27186c79792bb3dbf609153a433bd05",
+      "closed": false,
+      "outcomePrices": "[\"0.13\", \"0.87\"]"
+    },
+    {
+      "id": "943441",
+      "conditionId": "0x9735676a9c6bc3ee63496bfbe27c5f222d02463c41aa7f7a4e3b645f79cfa29c",
+      "closed": false,
+      "outcomePrices": "[\"0.86\", \"0.14\"]"
+    },
+    {
+      "id": "943442",
+      "conditionId": "0x9e1f382b89be705c672e63590382da4a435452a5c57638e2ed780b3a95941371",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "943443",
+      "conditionId": "0x65e1137ecb9398e8a8d6d426885985f6667fef04fb5df1b5e7ea484df42d14b2",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "943444",
+      "conditionId": "0xc2e12ac65bd09ffaec573d46918f84c410f5741aa23903cbe933d185262ce75e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "943445",
+      "conditionId": "0x1637316470711166afc53b6f7128b3313388c3022cb7b894278c308f96f3d009",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "943446",
+      "conditionId": "0xeaea20d909096c694efaaf94fe5ea0e7e050978c1e65749c4add0a815fb15997",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "943447",
+      "conditionId": "0x7452395c5a9e3b3242943f65f54cfa26cf2e98c39bbdb8431d993c69cdef855e",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

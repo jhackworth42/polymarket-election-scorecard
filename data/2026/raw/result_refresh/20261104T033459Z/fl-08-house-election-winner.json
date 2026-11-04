@@ -1,0 +1,54 @@
+{
+  "id": "191406",
+  "slug": "fl-08-house-election-winner",
+  "markets": [
+    {
+      "id": "1283008",
+      "conditionId": "0x7718f92beb2d11047f978aa9a04c509221dfa3620556be3ef463ca9376d27347",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "1283009",
+      "conditionId": "0xb1e3dd37c62736a9b8d9ab6dee1b72723dbe2c0b1050e50ab0d5418c3328d84b",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "1283010",
+      "conditionId": "0xd34dc224374be37625bb1d2c5747f5202c0b059edb346690d5bcf197ee40014e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283011",
+      "conditionId": "0x3d670a502bc9f18049580ba4d6ce7d0a9d7dd5599489390e32a2dd8fe08cd9cb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283012",
+      "conditionId": "0xb1593ec8504edcde7c81a12c71937c2f74383b55c11ab6f7097ab9ecb222a64e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283013",
+      "conditionId": "0x4cd9477d7bc0f5afbaa49e3e5d2b1ab9a2d3c24a6b3486647e42caf64127d7dd",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283014",
+      "conditionId": "0x2a041a0ed7da5337f71dbf35088d6a559a1fe90231df3f9ab72791230e64b52e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283015",
+      "conditionId": "0x366dee2a655880b3700401d84197f4ebd5addc08dbbbb6368efb2cc859c3abd1",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

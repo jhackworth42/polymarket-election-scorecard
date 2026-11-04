@@ -1,0 +1,84 @@
+{
+  "id": "57670",
+  "slug": "south-dakota-senate-election-winner",
+  "markets": [
+    {
+      "id": "630937",
+      "conditionId": "0xf4f5714f7e70dda23fcbe21b9de67060cd6ab7a8a972686ff8495e45059ae531",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "630938",
+      "conditionId": "0xeec26e9d0efd895ba65bc3f1f0cbe99f66a56833682430dc266277a6c9e6e60f",
+      "closed": false,
+      "outcomePrices": "[\"0.9935\", \"0.0065\"]"
+    },
+    {
+      "id": "630939",
+      "conditionId": "0x68acb5646c4c275a600092285dbca2177903f9f74440744ae9c05771fb7accc5",
+      "closed": false,
+      "outcomePrices": "[\"0.006\", \"0.994\"]"
+    },
+    {
+      "id": "630940",
+      "conditionId": "0xdb02c30e0bf7901e61cf3a6d5faeeabfde804d1d33c5192af2b49a0457c8be37",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630941",
+      "conditionId": "0x1760290dbd7de5f3f1e85d2ffacfd8f64fc53d5130ae21a844488f3683c2809a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630942",
+      "conditionId": "0x88b9a5cb98cf4b67eeb6f02736e6bd04ef607d208a8b69e1e42f392707752aa5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630943",
+      "conditionId": "0x486ad4e5c85e81c47a6c8a6f913753d7f21b4395141210ffee3c697a4eac1541",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630944",
+      "conditionId": "0xbbb6e79b42ab7d4e255ec36b2b8c24b7cdeb6c13ff100f87967f0d11bac55500",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630945",
+      "conditionId": "0xb8bbdfca9372547cd7b46aac5effbb87a459a3658c1e0bcd37c7b31a7f9dd7e9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630946",
+      "conditionId": "0x557009e957d629f123970a7581c75b9b411851f287ca02c6f9b8126a96d97ba1",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630947",
+      "conditionId": "0xae895c69f3a80b9696635cb6491f91b640bd9ac549cc572c116ad3e805166dee",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630948",
+      "conditionId": "0xe34d8e6677c38517fe47ccd3ae93a385b57efd9db08a677c46b941fe21b3e64c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630949",
+      "conditionId": "0xd130229f8acd7c6d617b5f63c374671c4b2a2baf59af493b6862bbaca9a96a63",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

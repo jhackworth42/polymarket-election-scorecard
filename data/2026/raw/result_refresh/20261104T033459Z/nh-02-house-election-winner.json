@@ -1,0 +1,54 @@
+{
+  "id": "106130",
+  "slug": "nh-02-house-election-winner",
+  "markets": [
+    {
+      "id": "942927",
+      "conditionId": "0xd7ca73c54bdcaabbb500f0f496bac0d76450ea37001f793d39d6718ec35f8fe3",
+      "closed": false,
+      "outcomePrices": "[\"0.0265\", \"0.9735\"]"
+    },
+    {
+      "id": "942928",
+      "conditionId": "0x1790d20eab125a64b999fe78dd91eb8ed116a20d87dd782fad9f45a1f7b4dd58",
+      "closed": false,
+      "outcomePrices": "[\"0.972\", \"0.028\"]"
+    },
+    {
+      "id": "942929",
+      "conditionId": "0x1d546dbba6a9fb4204e55b3ed9c5dca4017bb4d1c1d6c45c600f64de4ba4b69e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942930",
+      "conditionId": "0x83d77120ee765d6f639bcfea0690b95cc3800cc209796ed6682b04f1f5f3a106",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942931",
+      "conditionId": "0x4f51043f24868e4b1667204d1b6ca0f1ea0ec61a25a4fec79ae06a7562dd4654",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942932",
+      "conditionId": "0xe5886c7aae42cf6d00136a408e6a1dbcae6c90f6d503ed9e24d0c55217a288e6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942933",
+      "conditionId": "0xf7fb0c0e718acf87c88d13a4233f7c2456a958b4a9561f0f2ae121b0147c00df",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "942934",
+      "conditionId": "0x232484e218327f7c752eadf33b6809d940fb1a06d5e4a3635c9a02c8d8026814",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

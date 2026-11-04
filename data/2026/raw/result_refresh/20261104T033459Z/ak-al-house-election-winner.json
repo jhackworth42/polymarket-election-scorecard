@@ -1,0 +1,54 @@
+{
+  "id": "190688",
+  "slug": "ak-al-house-election-winner",
+  "markets": [
+    {
+      "id": "1279604",
+      "conditionId": "0x909e3566fa0384f39020837073fe6e9fac5fe340b49998f284737c04fddd3212",
+      "closed": false,
+      "outcomePrices": "[\"0.625\", \"0.375\"]"
+    },
+    {
+      "id": "1279605",
+      "conditionId": "0x669ba3821baa39faef138f51fb0bc00dce395302cb56a432917b4d0bb459fc60",
+      "closed": false,
+      "outcomePrices": "[\"0.0065\", \"0.9935\"]"
+    },
+    {
+      "id": "1279606",
+      "conditionId": "0xac73b081c143fcae6e389db6f9f63cd1f763a5d17639f7268e57699ff745277f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1279607",
+      "conditionId": "0xc53f04f5df2f4ebbffe867bb7337fb1f14d490fe38b66699579fbcaa4f8f1ed5",
+      "closed": false,
+      "outcomePrices": "[\"0.333\", \"0.667\"]"
+    },
+    {
+      "id": "1279608",
+      "conditionId": "0x4b56676d9e669d990c17ab53fa056449ee37cd2cc6ee9b463acdb8325c349aca",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "1279609",
+      "conditionId": "0x285552cc7fb91513a6bbe8116bcf6b70e206e9fe93fceb1348a787c551367a69",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1279610",
+      "conditionId": "0xdd96420a0ac30fd1bcbbf78961f959369a3dda737686ab4c2b5f68e2fb0723b9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1279611",
+      "conditionId": "0x4405bd66b252aa80fd4b7805e1b4b73023a9291af9fed6e4a581ac3b3d64ae8c",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

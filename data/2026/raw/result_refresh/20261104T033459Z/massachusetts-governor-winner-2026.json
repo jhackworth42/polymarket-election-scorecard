@@ -1,0 +1,84 @@
+{
+  "id": "57175",
+  "slug": "massachusetts-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629451",
+      "conditionId": "0x479d1a77b118ac88cc0e7e5eb4659e4954d55cd87a84d7f2b22bf5c3a8333813",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "629452",
+      "conditionId": "0xcace1894a70b121e0172815c9a3b8d565ad015bdf75996963ea00969d91e5722",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "629453",
+      "conditionId": "0x1c8c0da5eebf66da02490ffeac5cb3d53d4f706c8482dac349f8bb267eb2b1b4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629454",
+      "conditionId": "0xc6757fce2d4479aeef9330dd23fd7853c1c334f4d4fdaa588fc19c65e92eb6c8",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629455",
+      "conditionId": "0xa6a088e93e7ad48c42b6e7bb4b3039663c843ff49156bfa121dbf7d2dd0053e7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629456",
+      "conditionId": "0xf4e0b16f53a004337bcac67a2fca6f8269471b3bcd3c8fa81c2c6e2200db95b9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629457",
+      "conditionId": "0x0d6a6b835ac3fb9b7c4c2aa71da64d24a78cf160b901e1a79aab6e348533a6d4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629458",
+      "conditionId": "0x9d30e9cfd1c01cee594ae3fe29b5d6a72553e9968956eeb91c324a79ad148b7b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629459",
+      "conditionId": "0x32191314fc8b32dd45b4eb186e69f8ec479c03e2965e6a56fec2bb6cd9a354c9",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629460",
+      "conditionId": "0xe66f195a763faba4ff5abc4d3e56ff1c830d01506a72125f343b943c6f766ac0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629461",
+      "conditionId": "0xd1444d1df2818d123f5cd00ceb70a65485118f6b467ac5ba4d16c1c219a324ee",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629462",
+      "conditionId": "0xec147f3fabb4d130f6f1d2a225d3bd5628c8544cdc543207cbb51f3f6a88cb9d",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629463",
+      "conditionId": "0xddd03c1f636de4cea835dc8a8ed770c917f683b47ebf090818d3e34e95291bc8",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

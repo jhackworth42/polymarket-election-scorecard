@@ -1,0 +1,84 @@
+{
+  "id": "57675",
+  "slug": "wyoming-senate-election-winner",
+  "markets": [
+    {
+      "id": "631002",
+      "conditionId": "0x4b025f45ecb861a81d74f472acd662f10553b18fa0ad71de7d5391bf2ba068ed",
+      "closed": false,
+      "outcomePrices": "[\"0.012\", \"0.988\"]"
+    },
+    {
+      "id": "631003",
+      "conditionId": "0xd2812e59bd6fed210509d41594231dbdd9fc3f0de0f8312c0b671e9d43c51b91",
+      "closed": false,
+      "outcomePrices": "[\"0.9885\", \"0.0115\"]"
+    },
+    {
+      "id": "631004",
+      "conditionId": "0x8f6081f21574994b9a64ba384a048a235909fdd276cd0524e8397724dd92e95f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631005",
+      "conditionId": "0x3003ba4c5c51798050e282833ee02a090ecdd50c2073d444f43f95949a6e8cd5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631006",
+      "conditionId": "0x1e1a6c43d1a184b458e39c5faa04db5352e9c858da4d31dd91fa8ad09531fd30",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631007",
+      "conditionId": "0x943d7f5ad8a9dc953454a1921299486e57dd5e46a747a9e815ac8674039e0a53",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631008",
+      "conditionId": "0x42ae1a34ab33d52c7b9cfb31e486ea9e7475a8267cbbf01f09a0b6375c9ffcaa",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631009",
+      "conditionId": "0x0edc99e02d0910a9bcaf9884c8d1771015e93d66e97c6188f9226c9f1195c4e0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631010",
+      "conditionId": "0x8bb3f0b9e8eb116b0c5cf2493ee8b7ba3cb43e462f86370a31b82cbf5968ca73",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631011",
+      "conditionId": "0x1b6e6aedf321025828b79c3aca60e8f0e20c3210a6ff7e823d849cf176a9207b",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631012",
+      "conditionId": "0x1483ff40d331d1dee6397d644623e4010f468a44eed4188298ed193426fd6e36",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631013",
+      "conditionId": "0xf5382ac4d9513f62c0a874e89512c84d2e12a9bf4c2d90bb9bf14e08624341e5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "631014",
+      "conditionId": "0xf04d5e25e26ced6c82fac13901278e2bce7aa316347bf971d389183ba27a4d45",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

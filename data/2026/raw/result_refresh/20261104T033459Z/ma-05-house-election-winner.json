@@ -1,0 +1,54 @@
+{
+  "id": "191489",
+  "slug": "ma-05-house-election-winner",
+  "markets": [
+    {
+      "id": "1283672",
+      "conditionId": "0xe4abc68005b0e9feb6315ca4b854a45c61c2c19fc3eccc4f2eab07dbd11c309d",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "1283673",
+      "conditionId": "0x6b76635a319a2dbbdb954b7ec7d7702e13ecc274ed0d15610661abf24a3ea53f",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "1283674",
+      "conditionId": "0xcf41f8613eeb1054cae7dce7b5cfe0fa248b1bfe99832a89f65f32b6e110e435",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283675",
+      "conditionId": "0x4c49523dbdcae80128aabc3f6abb42c5242cb4354243cc3b076a7e2b6f217d49",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283676",
+      "conditionId": "0xd208e2c5898c9ed58b084e737ff01c9e0385262af6a9be863730278b12358fd6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283677",
+      "conditionId": "0xbcc65aaacdf57063dfcbc89421673fa35f25220d3fd53762a54f564baf53b3ca",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283678",
+      "conditionId": "0xb4679d923acebbbef768e9523e0b0450174bb5d01ef4c820b061c76bb0791080",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283679",
+      "conditionId": "0x9c84a97c98452603b97eb97be863477710643ba0bf00c32e8437247d03c27d9e",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

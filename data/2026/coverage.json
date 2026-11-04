@@ -573,7 +573,7 @@
     "url": "https://polymarket.com/event/virginia-senate-election-winner",
     "market_count": 13,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "57674",
@@ -2103,7 +2103,7 @@
     "url": "https://polymarket.com/event/fl-10-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191409",
@@ -2175,7 +2175,7 @@
     "url": "https://polymarket.com/event/fl-19-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191417",
@@ -2184,7 +2184,7 @@
     "url": "https://polymarket.com/event/fl-20-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191418",
@@ -2211,7 +2211,7 @@
     "url": "https://polymarket.com/event/fl-24-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191421",
@@ -2292,7 +2292,7 @@
     "url": "https://polymarket.com/event/ga-05-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191430",
@@ -2364,7 +2364,7 @@
     "url": "https://polymarket.com/event/ga-13-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191438",
@@ -2706,7 +2706,7 @@
     "url": "https://polymarket.com/event/ky-03-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191476",
@@ -2724,7 +2724,7 @@
     "url": "https://polymarket.com/event/ky-05-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191478",

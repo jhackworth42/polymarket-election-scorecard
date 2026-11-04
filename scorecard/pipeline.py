@@ -191,6 +191,7 @@ def main() -> None:
     calls_path = outdir / "calls.json"
     calls = json.loads(calls_path.read_text()) if calls_path.exists() else {}
     refresh_dir = raw / "result_refresh" / datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    previous_refreshes = sorted((raw / "result_refresh").glob("*/"), reverse=True)
     for event in events:
         reason = event_decision(event, config)
         markets = [m for m in event.get("markets", []) if candidate_market(m)] if reason == "candidate" else []
@@ -203,7 +204,14 @@ def main() -> None:
                                 for market in current[0].get("markets", [])],
                 })
                 current_markets = {m["id"]: m for m in current[0].get("markets", [])}
-                markets = [current_markets.get(m["id"], m) for m in markets]
+                markets = [{**m, **current_markets.get(m["id"], {})} for m in markets]
+        elif reason == "candidate":
+            cached = next((directory / f"{event['slug']}.json" for directory in previous_refreshes
+                           if (directory / f"{event['slug']}.json").exists()), None)
+            if cached:
+                current = json.loads(cached.read_text())
+                current_markets = {m["id"]: m for m in current.get("markets", [])}
+                markets = [{**m, **current_markets.get(m["id"], {})} for m in markets]
         winner = winner_market(markets) if markets else None
         provisional = False
         if winner is None and event["slug"] in calls:

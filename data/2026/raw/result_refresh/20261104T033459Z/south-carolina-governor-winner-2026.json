@@ -1,0 +1,84 @@
+{
+  "id": "57208",
+  "slug": "south-carolina-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629640",
+      "conditionId": "0x9767768d75f0fde1ad998e52b83999315cd5f45152a143a0153366915513e0d2",
+      "closed": false,
+      "outcomePrices": "[\"0.0065\", \"0.9935\"]"
+    },
+    {
+      "id": "629641",
+      "conditionId": "0x1b7fa10e6b102c964bbd4a7cb0a4b7a341e17fcb9f8a2c8a5d6a3b30dfb5c394",
+      "closed": false,
+      "outcomePrices": "[\"0.989\", \"0.011\"]"
+    },
+    {
+      "id": "629642",
+      "conditionId": "0xbee9cdc190723a063eedb3e33a3709cd84894e3f730bc7b3877c88011ae95f54",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629643",
+      "conditionId": "0x00b86c3e0e398cba1a9a046762f16bf21ff246dd386c096aa8cd4f4ebfcc0b9a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629644",
+      "conditionId": "0xd78a98fd3a0c1bbefab2386c744dce514e8804ca3a6ac61908c4d221aec721c0",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629645",
+      "conditionId": "0x4ac6a9d1eea9510c89156e6bb72e4091c4bf6048953d68adcc232261ea0005bc",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629646",
+      "conditionId": "0x895a80b9ad0c4b573a08c9f1794d7906ff3470943242af53c00e8e6744deaf8c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629647",
+      "conditionId": "0x5f20415232f23ea01acb318d2af7e81610b4573dbfe892e9afc611d9d72b8efa",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629648",
+      "conditionId": "0x2d47c792c09dfef1ed81b03b24e2581a8ca8aeadc93233f8a3b40c9731baa991",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629649",
+      "conditionId": "0x2aeea467804da32370c1c0c7e24dbe66e62cdec824bc8483aede03cf75c65828",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629650",
+      "conditionId": "0xd5aea11c43a727fbabf1390aa57521cc1b83212d5e0027ec0d65e623bc04fe10",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629651",
+      "conditionId": "0x81b360708af155612880f3196d04001b7504e68ab6021da4e909fcda8e66e273",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629652",
+      "conditionId": "0xf75a5a53d0a559a1c23ed823c8295c351e53ee999348fd3500ea695f7b24b6a2",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "57668",
+  "slug": "rhode-island-senate-election-winner",
+  "markets": [
+    {
+      "id": "630911",
+      "conditionId": "0xe9b5814b6b770008d8ed384c45d41703e648d9dce3cdf3d2d15108431d4d865f",
+      "closed": false,
+      "outcomePrices": "[\"0.9995\", \"0.0005\"]"
+    },
+    {
+      "id": "630912",
+      "conditionId": "0xb6e955082987f030d073fce0f5f5d0e7373e31d88c1b5171504bccec5b62c998",
+      "closed": false,
+      "outcomePrices": "[\"0.0005\", \"0.9995\"]"
+    },
+    {
+      "id": "630913",
+      "conditionId": "0x7e57af16b37abb228239f4635606d3041357306be25c1ef7cd438456df2f462c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630914",
+      "conditionId": "0xb4c0e20022027e9348b48ee3c88bf3afa94bca5aef2f6b5208ea3198187ba8fb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630915",
+      "conditionId": "0xae7c521c3381f5c976a93dd7bf9b94ca5f2ee8399d5f4e25d96356103e847be4",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630916",
+      "conditionId": "0xdee426a39548310c7fa9689926af2b3599917b110f04e23c00dc8853858ded75",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630917",
+      "conditionId": "0x9508cad1cbd3c5b8c6600456f873746ad94198f8e31dcd2ff673711268f1ff11",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630918",
+      "conditionId": "0x8b49c3e7bd8232e047234f99d45a3a2de18d5c6c159c1d5311e316f98bc968dc",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630919",
+      "conditionId": "0x818de96a15ba09fb1e15ca5d4b37e0824a40aa4ec522e0caa54760de3ffa8379",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630920",
+      "conditionId": "0x54497c37dfe789f4f6a497741702d9400843cc60ef61768ae71758eb438c8416",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630921",
+      "conditionId": "0x97b9aaf49a47f81e4c36d26d8dfbfb484b8ddbaf8fd66e0caf47e2163fd328c7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630922",
+      "conditionId": "0xe7624ae2a206ccc15bf2e7d47d178ac1bfa699afc87d6fdd2752e62400400242",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "630923",
+      "conditionId": "0xf4b8e5d6660c68eaee196e8f3c083ff291f2787eef1d62b5cfdf8024e689d4ec",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

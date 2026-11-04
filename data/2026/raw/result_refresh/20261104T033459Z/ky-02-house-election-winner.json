@@ -1,0 +1,54 @@
+{
+  "id": "191474",
+  "slug": "ky-02-house-election-winner",
+  "markets": [
+    {
+      "id": "1283552",
+      "conditionId": "0x5b07d943062c4a5e912211bc438b4fcf06c6a0a04f957406fc2a364993f4d740",
+      "closed": false,
+      "outcomePrices": "[\"0.9895\", \"0.0105\"]"
+    },
+    {
+      "id": "1283553",
+      "conditionId": "0x120c277eaddec57a194d96d5ab9482790e2ca13037008d8d912a2be8c0b637cb",
+      "closed": false,
+      "outcomePrices": "[\"0.0145\", \"0.9855\"]"
+    },
+    {
+      "id": "1283554",
+      "conditionId": "0xdcd6ed652d3c24eeb19984e007100d9ba70ec98fa2b5b85c0ddc4c4e28102553",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283555",
+      "conditionId": "0x938e3437a1ea47adab114e56de18ee1391d8bd937b6f5f1ca2f6136cf3a73153",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283556",
+      "conditionId": "0x7176d1bd8546b58be0c534895af54cbcb1ee8c908f49bc643005193e80eabd65",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283557",
+      "conditionId": "0x0500ab125c8ff3911365a248631302bf3104e299c3f9da328612cf8fd9ee83eb",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283558",
+      "conditionId": "0xd12d8a570b148fd171bbcbce0ffa02b32af66840e35bc55a9d492369e2f626c6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283559",
+      "conditionId": "0xffb2c701dc97b0b71d2bb91b16741baf1a7d408fba57b7cc800cd6ea7ed80cb4",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "191479",
+  "slug": "la-01-house-election-winner",
+  "markets": [
+    {
+      "id": "1283592",
+      "conditionId": "0xdea233cc74c8a57a36f0318d7215a3da8afb35fa8175ec101e28d43f918ef679",
+      "closed": false,
+      "outcomePrices": "[\"0.971\", \"0.029\"]"
+    },
+    {
+      "id": "1283593",
+      "conditionId": "0xd5cc9481b31e8a4bec7d1154e7ca20eda7f6253935e117dd51458bd9dd9f0408",
+      "closed": false,
+      "outcomePrices": "[\"0.019\", \"0.981\"]"
+    },
+    {
+      "id": "1283594",
+      "conditionId": "0x0c4658a3714804cd1b2b221fb81bfa5104775ef9997dbc2ea3a5d6a07faba2f3",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283595",
+      "conditionId": "0xea98aa7855d2bffa6e8ff82587a04ec83634a769b8551cb8e9486a428d797136",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283596",
+      "conditionId": "0x3720bbfc4e58357e4602517b13d9e9a6330f06896975aef7ffda0d1ff8a3874a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283597",
+      "conditionId": "0x0c96c69f19ba2ead94b8947a5826ddf538830f16844df9a4383ea866cc18c75a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283598",
+      "conditionId": "0x006c635bec0f6c64d8ad65c20ff153e3834b24e7361af434a28a1aa45f2524d6",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "1283599",
+      "conditionId": "0xee67f9d677a5eb49a82824bb03f6338de28d33eb553ac569fc900e5e577b3aa8",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

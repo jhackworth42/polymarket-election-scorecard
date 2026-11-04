@@ -1,0 +1,84 @@
+{
+  "id": "57181",
+  "slug": "nevada-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629505",
+      "conditionId": "0x707eb5c6df23e32e0b770dd0ccd1245abb7fac0dcfd24d8b68dd99e5ca737180",
+      "closed": false,
+      "outcomePrices": "[\"0.9785\", \"0.0215\"]"
+    },
+    {
+      "id": "629506",
+      "conditionId": "0xb63fbd776203cada01a13bb21b3c52c500bcf904bdfc71627022db1f891f95c5",
+      "closed": false,
+      "outcomePrices": "[\"0.0215\", \"0.9785\"]"
+    },
+    {
+      "id": "629507",
+      "conditionId": "0x5fcfaa1074effa8ae8fdd29ec786dc1d8b2430dbbf006e3744e505cfb2710f18",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629508",
+      "conditionId": "0xdc8f87d34c1420512ce30c31255056f61485146115e061eb1a646505fe80cb7f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629509",
+      "conditionId": "0xfc2745ff189649884e9e696913b1120f97dbf0b44f0e94ad2da9d1305ad50794",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629510",
+      "conditionId": "0xbfa5385b37201b60bc1fce8ab3c1acd8f1e2ebe6bbab0343a7585af44586f738",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629511",
+      "conditionId": "0x97670a28722e9a9afbaf02b587e77e6fc6bd2d305113c4347cd01a7bbc5e433a",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629512",
+      "conditionId": "0x56badce2d772cae03ed8b54429895a3ad8f8dc019c5bb17f4fcc9f859269c0b7",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629513",
+      "conditionId": "0x2f5d36e97718d334ed073817fbb92ed92791eb25586c5c3c57158046aca125ad",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629514",
+      "conditionId": "0xa82618b75743574293d2f3c4cbb6702a91b01f6f632d0d0558d8ecf5ed5ffc03",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629515",
+      "conditionId": "0x77027b3c6746bff60664e425c76fa2221153104c582ea2487ecc502eacef4cba",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629516",
+      "conditionId": "0xc51d2a68209d08175fd057ab13a7eeb7e88c3fbe0cb617e46edf218b795a2a9f",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629517",
+      "conditionId": "0x3a76f15006e9a89fb4eaedf5840180838738b47be501491621150370e68deb6e",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "57222",
+  "slug": "texas-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629690",
+      "conditionId": "0x12b727031b38130d945b3e164386874360d9a32fdd7e3d00ed2adb13857e089b",
+      "closed": false,
+      "outcomePrices": "[\"0.9815\", \"0.0185\"]"
+    },
+    {
+      "id": "629691",
+      "conditionId": "0xcd953913ecd5bf5387092bf447fe13190871b2bc9436c85b0918b4767c3fa58a",
+      "closed": false,
+      "outcomePrices": "[\"0.0175\", \"0.9825\"]"
+    },
+    {
+      "id": "629692",
+      "conditionId": "0xb024591eda7cf92f544cf5ff2e34ff5c7f6cb79dd425affe853f906f7ffe9047",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629695",
+      "conditionId": "0x66f2c1cfbcc8f3472fb95104e870a1d2a5db442ce541b480a70fba6748e3e8c2",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629696",
+      "conditionId": "0xa7969d0850daf55216f2e76c82c2429bde2e6c89960b8954d4194e5026a4e033",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629697",
+      "conditionId": "0x9a6a2055bcc1d890e8eb0b9ecc2e64282cc038663b96a5251807c893c4548962",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629698",
+      "conditionId": "0x0a5df7f662b89f7f91a44a0ae384ad7c3c67559b9a072a8b769ff3fb16bc296c",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629699",
+      "conditionId": "0xa324aedef8250c9284a511b38f5fcc45b96ddb8ef8a641c38faf4ae269ec0d96",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629700",
+      "conditionId": "0xa09be429b8401468a4756cc6e1f7c5197eb6c46a18d41d9d8c65d5d0d36694f5",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629701",
+      "conditionId": "0xc11de8b5b7e523ebbd83ac5e370c436ec449781a9933133a1f925ca1f51042be",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629702",
+      "conditionId": "0xbfb620da929b67a7baa19fc2046e20992e59d1f0bf15b0395641b2bf4e7cac39",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629703",
+      "conditionId": "0xbcf639fe54d94ffa3e240425642cbde8c7172c95f3a2f4b1915d0c3e3b041e4e",
+      "closed": false,
+      "outcomePrices": null
+    },
+    {
+      "id": "629704",
+      "conditionId": "0xba221562bae92719d2e06a9e914fa046a69302574f332cb362b5ec2c305f0e4e",
+      "closed": false,
+      "outcomePrices": null
+    }
+  ]
+}
