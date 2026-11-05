@@ -1,0 +1,54 @@
+{
+  "id": "191683",
+  "slug": "wi-04-house-election-winner",
+  "markets": [
+    {
+      "id": "1285199",
+      "conditionId": "0xdc1c8fb5fcd98f1b11f1483b578f6e97efc3eb4ad7b0dd452b853d1a1841d0ca",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285200",
+      "conditionId": "0x93044c66437d2ba96ff7a6d7734a3c2750562b3a9365c2375b406c0ddad61c67",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1285201",
+      "conditionId": "0xc318acfa59a10f3192bd3dae208e4eaeda20d59a4549577b9c20e2030183b2cf",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285202",
+      "conditionId": "0x88c19c55b01d33ef90205d5ec1df65e5ef24d39cae9ae0757bceb5f9e9512b11",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285203",
+      "conditionId": "0xc43b6f4850eda10963c10b22eea7cac99da7d6bf5b97518820e6ede26a208c87",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285204",
+      "conditionId": "0x610be6c82405555a3244127a99e781a2601a9eeaa185bc35feddc8d744d37c84",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285205",
+      "conditionId": "0x83a7a3653a30edec5eb684ffb33774cc2a405e020d9a17db246c9638954103f1",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285206",
+      "conditionId": "0xe6547951eb2409cf3f4f760fd187766c3cb31e2bde40f9915ca355fd9d2e8557",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

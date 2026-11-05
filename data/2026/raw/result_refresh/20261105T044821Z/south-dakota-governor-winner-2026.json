@@ -1,0 +1,84 @@
+{
+  "id": "57209",
+  "slug": "south-dakota-governor-winner-2026",
+  "markets": [
+    {
+      "id": "629653",
+      "conditionId": "0xfc63bcdc71629dd77fba7e016021e4d9283d972d2a06f8552cbd25f87e5ce918",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629654",
+      "conditionId": "0x89e2bb6a985d0ca0c23b64dd396c11dd1c16ccd004e3ee34f575578b2152c762",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "629655",
+      "conditionId": "0xfefbb9b3e7dd523e2e4f12ccc33d20569539b22b7cfd4581198daa37f11418c0",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629656",
+      "conditionId": "0x700cf65c859c5e437ebbbbca6f0ee752fb5186a3cf557f40506b2e127376c19b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629657",
+      "conditionId": "0xf65f3e09e3d458ebc0f403f530d21d05ec478a72a6b924152fd7465ae40f0e6d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629658",
+      "conditionId": "0x7f48702bed599b59229894577fc0aae11bd12f77aa74b8617be28d81c292512b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629659",
+      "conditionId": "0x7205dd69682c92a8b0b8e1770040468d3a3b86da716cd894c7d7e48997323643",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629660",
+      "conditionId": "0x7d2464985bace6645422ec4b204acfa84867937fc8cd8e7189d29aa686fd41cf",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629661",
+      "conditionId": "0xe71a0849628e4f7119ef3b932d60726615d45d8f4a1d9a0a6c2367845ce4de21",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629662",
+      "conditionId": "0xcd1ff076cbfec156ea7b6a98a12d0ec7ebc144f622eeff736f3419c38432deb9",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629663",
+      "conditionId": "0x93ea8094b5802fe2dccd789abc450ddd6b04211a8a2e52d340f9aefe1cdb19eb",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629664",
+      "conditionId": "0x0a6e9609464ba1b1d4d2addc036c4fac497145645a0739a9283a6f19c827be33",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "629665",
+      "conditionId": "0x432e2cd763c60e9badc8a861d606b15ee0d01b48226ec350efa2bcae0a1b4dd4",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

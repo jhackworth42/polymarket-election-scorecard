@@ -1,0 +1,54 @@
+{
+  "id": "190874",
+  "slug": "al-04-house-election-winner",
+  "markets": [
+    {
+      "id": "1280816",
+      "conditionId": "0x15e7b9ff33e376f2c29065621fbce1d76a1dfba528ffbac4e9835b3a92ffb322",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1280817",
+      "conditionId": "0x44dda0b5cd2dc73641be824a4975e79b0dc2168bec5e2f0661756b0adb72e9a6",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280818",
+      "conditionId": "0xb79da65658583881ee0bf8b495a7434c2d741d3bea6de3c7f68d45e458f3d535",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280819",
+      "conditionId": "0x6f6035d205cf00242b40780067cee4b8199b9509d28742ddd518fd89669ea33b",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280820",
+      "conditionId": "0x0c9b8e4eac1cdf14874f381c2a3ec1b8e3abd55daf11672d110b2730cdd48a3f",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280821",
+      "conditionId": "0xe5bc5ac36018ad7a2348cfe6e07500109a10022509335e5a5ce88e09dad8dc38",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280822",
+      "conditionId": "0xc729b5fa156d78413fc01489adc9da5e9147d9071631dc79c3ee634fe68bc5af",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280823",
+      "conditionId": "0x2218dfb67f704874431862e195165465ba55648b47b97cfd9eb452cda91c057a",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

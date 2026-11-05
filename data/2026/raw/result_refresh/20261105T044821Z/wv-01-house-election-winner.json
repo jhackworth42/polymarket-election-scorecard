@@ -1,0 +1,54 @@
+{
+  "id": "191688",
+  "slug": "wv-01-house-election-winner",
+  "markets": [
+    {
+      "id": "1285239",
+      "conditionId": "0xef5c254927f991fe8834d80e509f1f7131d931bb5c9d5c86906b9c039842a8bc",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1285240",
+      "conditionId": "0xa37afc19faa48cac35c83b22814e603a01e2eeadf1ca08f8249830ed01c33644",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285241",
+      "conditionId": "0x93ae852b1b43922661e43a00fbb83a5be28fd6f7f26c157fbee9cfa23a181001",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285242",
+      "conditionId": "0x426684a381b5e8c64a42ca4b4cd49c176fe6e9851f3cdfbbac7a8104c85cf1a4",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285243",
+      "conditionId": "0xdfe16ebaa877ee7e8a6797b510cdc2043d63cf86cae007204efa93063eee52fb",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285244",
+      "conditionId": "0x2aaf678266bb036c36f1228a170d58a06cc0e38b4448f14cd6f36bbf5a1f8a9a",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285245",
+      "conditionId": "0x21e21f4779dd09927a6ad322d4f846d14ce111d88ddf52009bc1787d15a06f70",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285247",
+      "conditionId": "0x37d567ae5fb2b30fffa97ec425444b331e4d59bb262980bd30d6574577c994eb",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

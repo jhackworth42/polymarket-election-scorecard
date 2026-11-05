@@ -1,0 +1,84 @@
+{
+  "id": "57667",
+  "slug": "oregon-senate-election-winner",
+  "markets": [
+    {
+      "id": "630898",
+      "conditionId": "0x4d8d13e33bec0960ea72b2631464f34fb7b96044eb86c16f65c069d118a5bdbc",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "630899",
+      "conditionId": "0xafd1395ea679b3083729751de28c04b1d0bceb685a243ce55b2c1da7a1351376",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630900",
+      "conditionId": "0x4e9ac49d63fe41fb4c73949fa087c076cdb1b119fb3b8381bf063cff0c3befc2",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630901",
+      "conditionId": "0x80c8ca7bf01e996fadae9e788215a993402eb59494e67dc4fbf40422c8431632",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630902",
+      "conditionId": "0x7c5434dfe96f06640cffbcb7666f654e2dd39a13e53c9c1deb182a154eeb02f3",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630903",
+      "conditionId": "0x2a539e0f6dbfe4794ffc146c8b5c44916ea508b2ba8ef93fc97263efd17c841d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630904",
+      "conditionId": "0xf06a74ad56f73515a67d4e39326ad4bbdea3076835523a5a4a2d6af4169c0331",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630905",
+      "conditionId": "0xee53f8799a784642f9c83b9c87f80f39b8b2c82b208dada4a46c474a9048e907",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630906",
+      "conditionId": "0x9e66074857e307dd7b170f0ac0c67165025aac6947077bd797198e46b069c742",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630907",
+      "conditionId": "0xf7e665fa821d65dd3700cd16feeb51baf5f5cad6a10ab7a897c2601cfad988d5",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630908",
+      "conditionId": "0x78f793b124f29f804bcf52ac12cc168561d3cb2a9e6a12a95dfec18b6229b66d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630909",
+      "conditionId": "0xf49331c945b7e3ac4fdd6c2076605868bcad108df30b65c63adea705184a33bd",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "630910",
+      "conditionId": "0xa0b1d1e7b59e5941edf3a37d258b7d813bb0fdc3d352458e852d86becffbe494",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

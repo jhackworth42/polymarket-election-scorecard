@@ -672,7 +672,7 @@
     "url": "https://polymarket.com/event/which-party-will-win-the-house-race-for-the-ca-22-seat",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "90272",
@@ -744,7 +744,7 @@
     "url": "https://polymarket.com/event/ca-13-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106058",
@@ -843,7 +843,7 @@
     "url": "https://polymarket.com/event/mi-04-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106102",
@@ -852,7 +852,7 @@
     "url": "https://polymarket.com/event/mi-07-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106104",
@@ -870,7 +870,7 @@
     "url": "https://polymarket.com/event/mi-10-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106107",
@@ -996,7 +996,7 @@
     "url": "https://polymarket.com/event/ny-03-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106169",
@@ -1005,7 +1005,7 @@
     "url": "https://polymarket.com/event/ny-04-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106170",
@@ -1158,7 +1158,7 @@
     "url": "https://polymarket.com/event/tx-09-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106219",
@@ -1194,7 +1194,7 @@
     "url": "https://polymarket.com/event/tx-32-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106223",
@@ -1284,7 +1284,7 @@
     "url": "https://polymarket.com/event/wa-03-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "106241",
@@ -1761,7 +1761,7 @@
     "url": "https://polymarket.com/event/ca-34-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "190922",
@@ -1869,7 +1869,7 @@
     "url": "https://polymarket.com/event/ca-47-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191383",
@@ -3318,7 +3318,7 @@
     "url": "https://polymarket.com/event/ne-01-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191544",
@@ -3768,7 +3768,7 @@
     "url": "https://polymarket.com/event/ok-05-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191598",
@@ -4110,7 +4110,7 @@
     "url": "https://polymarket.com/event/tx-02-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191636",
@@ -4137,7 +4137,7 @@
     "url": "https://polymarket.com/event/tx-05-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191639",
@@ -4263,7 +4263,7 @@
     "url": "https://polymarket.com/event/tx-22-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191653",
@@ -4308,7 +4308,7 @@
     "url": "https://polymarket.com/event/tx-27-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191658",
@@ -4371,7 +4371,7 @@
     "url": "https://polymarket.com/event/tx-38-house-election-winner",
     "market_count": 8,
     "candidate_count": 2,
-    "decision": "included: pending"
+    "decision": "included"
   },
   {
     "event_id": "191665",

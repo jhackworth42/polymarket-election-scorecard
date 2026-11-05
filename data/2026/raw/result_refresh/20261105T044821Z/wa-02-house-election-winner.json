@@ -1,0 +1,54 @@
+{
+  "id": "191675",
+  "slug": "wa-02-house-election-winner",
+  "markets": [
+    {
+      "id": "1285135",
+      "conditionId": "0x90f15a7d54cc507dabd869d0c92b870449703437eac9c7814518c81f46f6ab7a",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285136",
+      "conditionId": "0x9442a1c06ed27a0deb2d54674da8eb4c98a63bfb397a88f9d795ee0966905474",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1285137",
+      "conditionId": "0x6d883453ac2671cf5d6491873fc2fa599cc8bd5cbb4148021e568d06df3ee18c",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285138",
+      "conditionId": "0x4ac1686bdf111851805d45112a8d1d4f116abedc8c3c76372b42c3f1597d0f62",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285139",
+      "conditionId": "0x78ed8608ca6ae67d8778650a3e45755b1158627fdbce3d881d5e930acbfe2dce",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285140",
+      "conditionId": "0xa6ee00ac0b9de0fc0af8c218482af1670059376d1f905ba4395064b1c3aae098",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285141",
+      "conditionId": "0xf5ff9d725ed5467fb4a28e7dc9ef374da8bfceef5d6e65d6f52631aab1f87416",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1285142",
+      "conditionId": "0x189c4151ddf0b0076aedddb5b67dd1cb2e5a563461dcb2e8c18a6b8cf1c3c487",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

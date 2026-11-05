@@ -1,0 +1,54 @@
+{
+  "id": "191490",
+  "slug": "ma-06-house-election-winner",
+  "markets": [
+    {
+      "id": "1283680",
+      "conditionId": "0xc8220b220047a723a8fdefb56c5b2463ef98b0f8d7da2b2f69f493047db0b9b4",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283681",
+      "conditionId": "0x1e60eebcbfee337f45b6dc36e71c53a4df39c5d05686b6d6e2894a8085fd2727",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1283682",
+      "conditionId": "0x5d00b85a86811b2c7d4b0a93bf1cde9f0105600c16d15492dbcbe5252c408608",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283683",
+      "conditionId": "0x885c4fb48c6ba2b0e9365e606bef9ff98c56d02f09ffd838fb21cd5e50a4c273",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283684",
+      "conditionId": "0x116e3fde5488bb1bdf6a1a792bdc01cf991cd1bdbafad689d66808ad5d26c0bf",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283685",
+      "conditionId": "0x363110f5f0007c222bdaceb4c09cc67e4765c0b76f5fcc581a60d24f9b7f53b6",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283686",
+      "conditionId": "0x681aa59c84250aab21ba9e4b9334904c8a70f0df0df7e70968a960e3cd8d0bb0",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1283687",
+      "conditionId": "0x34f48279acaf3d9f62725d0494e708e080e6a297e137e435db936dbb555ccbf7",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}

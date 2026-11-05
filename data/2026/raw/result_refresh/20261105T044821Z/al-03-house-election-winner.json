@@ -1,0 +1,54 @@
+{
+  "id": "190873",
+  "slug": "al-03-house-election-winner",
+  "markets": [
+    {
+      "id": "1280808",
+      "conditionId": "0x1b3ae1da4a1715ab44dd02e4ffc69b2433404520240e3a6f302038a5af8556a4",
+      "closed": true,
+      "outcomePrices": "[\"1\", \"0\"]"
+    },
+    {
+      "id": "1280809",
+      "conditionId": "0x7aad958d00112086e5addedce612f7983008b73fb774a3080587ea606c5c4c09",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280810",
+      "conditionId": "0x4f9c8ce2c4f490a0386aef2b7e4af30b6c9ffef75a99c1791709463c347d42bb",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280811",
+      "conditionId": "0x57274a5bdaba58863e1548ac100f124d6e2c641dcc1e80a9b5d6ce03456bc77a",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280812",
+      "conditionId": "0x7e699b033e0d9606b072aa353de0eea9124b159f2bc40fd91452928f288b0255",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280813",
+      "conditionId": "0x020fdba8ac1f2e602149f8476ce9110a9f06fcab37765f1f13b76d2f11d99eea",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280814",
+      "conditionId": "0xc84c5961a285002dec431914812ea9f7051a45636137df2de2eeb77d4b0ab22d",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    },
+    {
+      "id": "1280815",
+      "conditionId": "0x8c96a650510e21f2a10293036b4381d28204ecf51fc98fc229bd9ad0f8ff9f40",
+      "closed": true,
+      "outcomePrices": "[\"0\", \"1\"]"
+    }
+  ]
+}
